@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 07047393-d9d5-4686-952a-e5b55e75d5c3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 137.16 36.83) (size 86.36 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 112d807c-3471-405b-a950-cec871c9359e)
+    (property "Sheetname" "VCO2" (at 137.16 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VCO2.kicad_sch" (at 137.16 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 45.72 96.52) (size 38.1 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid da6756ce-4aab-446d-9318-b5790d028b73)
+    (property "Sheetname" "VCO-connect" (at 45.72 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "vco-connect.kicad_sch" (at 45.72 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 31.75 35.56) (size 59.69 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fd825903-0522-4fe0-9de2-27683c18edc1)
+    (property "Sheetname" "VCO1" (at 31.75 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VCO1.kicad_sch" (at 31.75 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
