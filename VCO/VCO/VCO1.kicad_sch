@@ -3264,8 +3264,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3dce8d95-fb52-4934-964b-c2a8f875b145))
-    (pin "3" (uuid cd1f0877-96d8-4ad5-a88f-0b63045a9e29))
     (pin "2" (uuid 7ff83742-70f7-4ad6-8613-853855774e19))
+    (pin "3" (uuid cd1f0877-96d8-4ad5-a88f-0b63045a9e29))
     (instances
       (project "VCO"
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
