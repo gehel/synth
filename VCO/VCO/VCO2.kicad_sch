@@ -2770,7 +2770,7 @@
   )
 
   (symbol (lib_id "Connector-github:AudioJack2") (at 22.86 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 1f83726e-5c68-488a-97de-a8913eaa173b)
     (property "Reference" "J4" (at 22.225 162.56 0)
       (effects (font (size 1.27 1.27)))
@@ -2881,7 +2881,7 @@
   )
 
   (symbol (lib_id "Connector-github:AudioJack2") (at 22.86 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 294dfffa-6a89-4cf5-9e65-a2f27ed348db)
     (property "Reference" "J3" (at 22.225 148.59 0)
       (effects (font (size 1.27 1.27)))
@@ -3490,7 +3490,7 @@
   )
 
   (symbol (lib_id "Connector-github:AudioJack2") (at 21.59 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 685d91f3-bd97-4683-b0ac-31adcb4b16df)
     (property "Reference" "J2" (at 20.955 134.62 0)
       (effects (font (size 1.27 1.27)))
@@ -3718,7 +3718,7 @@
   )
 
   (symbol (lib_id "Connector-github:AudioJack2") (at 59.69 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 77b7b8e1-7ca2-4d27-8397-efeea14233df)
     (property "Reference" "J11" (at 59.055 168.91 0)
       (effects (font (size 1.27 1.27)))
@@ -4253,7 +4253,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 262.89 99.06 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board no) (dnp no)
     (uuid a57ca81c-3791-4032-ab45-c81ea8b4d2c9)
     (property "Reference" "RV1" (at 260.35 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5383,7 +5383,7 @@
   )
 
   (symbol (lib_id "Connector-github:AudioJack2") (at 22.86 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid f25617c6-4c38-4491-bf83-44247c1e1b03)
     (property "Reference" "J4" (at 22.225 176.53 0)
       (effects (font (size 1.27 1.27)))
