@@ -1,0 +1,6 @@
+*-backups
+gerber*
+fp-info-cache
+utils/.idea/
+utils/venv/
+
