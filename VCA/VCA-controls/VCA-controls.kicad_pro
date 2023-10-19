@@ -48,13 +48,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,15 +165,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -405,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "VCA.kicad_pro",
+    "filename": "VCA-controls.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -422,7 +409,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -482,16 +469,8 @@
   },
   "sheets": [
     [
-      "a331be11-cf92-4101-a082-e20022c8dee2",
+      "15179b98-c1d2-4058-8278-7d0a105c4a36",
       ""
-    ],
-    [
-      "78630fe1-16e6-4d86-9877-c925f2ea7ff4",
-      "decoupling_caps"
-    ],
-    [
-      "105b1da3-69f9-4444-a8b7-56e3901da034",
-      "connections"
     ]
   ],
   "text_variables": {}
