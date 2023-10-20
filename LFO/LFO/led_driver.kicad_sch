@@ -444,7 +444,7 @@
     (property "Value" "2N3904" (at 176.53 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 176.53 78.105 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder" (at 176.53 78.105 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" (at 171.45 76.2 0)
