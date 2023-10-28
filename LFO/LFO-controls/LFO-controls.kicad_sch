@@ -634,8 +634,14 @@
     )
   )
 
+  (junction (at 245.11 83.82) (diameter 0) (color 0 0 0 0)
+    (uuid 990d9f0d-37e1-40c5-b23f-bb194920b45e)
+  )
   (junction (at 194.31 83.82) (diameter 0) (color 0 0 0 0)
     (uuid b9977095-3d8e-4de0-92fc-0e0e2e25d47b)
+  )
+  (junction (at 219.71 83.82) (diameter 0) (color 0 0 0 0)
+    (uuid ed6311d1-780f-4ad3-852d-dc0921516fc8)
   )
 
   (wire (pts (xy 92.71 53.34) (xy 95.25 53.34))
@@ -670,6 +676,10 @@
     (stroke (width 0) (type default))
     (uuid 2605042f-0bfc-4dc7-8c33-93ec3afea56c)
   )
+  (wire (pts (xy 219.71 83.82) (xy 219.71 73.66))
+    (stroke (width 0) (type default))
+    (uuid 2c5b3e62-b777-4db2-967d-0ba5e0e038fd)
+  )
   (wire (pts (xy 33.02 119.38) (xy 33.02 120.65))
     (stroke (width 0) (type default))
     (uuid 2f01a7e5-951d-4d89-95b5-2c260e4bf3f8)
@@ -677,6 +687,10 @@
   (wire (pts (xy 54.61 92.71) (xy 57.15 92.71))
     (stroke (width 0) (type default))
     (uuid 32a6e5da-a6aa-4394-8b4c-8efe2b596c50)
+  )
+  (wire (pts (xy 245.11 83.82) (xy 245.11 87.63))
+    (stroke (width 0) (type default))
+    (uuid 32ffd5a7-1b48-4e62-a93d-b61b1cd1ae3e)
   )
   (wire (pts (xy 36.83 54.61) (xy 39.37 54.61))
     (stroke (width 0) (type default))
@@ -710,6 +724,10 @@
     (stroke (width 0) (type default))
     (uuid 5a615861-9f66-4034-8a34-1c5aeb420a97)
   )
+  (wire (pts (xy 245.11 83.82) (xy 245.11 73.66))
+    (stroke (width 0) (type default))
+    (uuid 5ad71978-73d3-49f4-bbf3-9726bf259153)
+  )
   (wire (pts (xy 142.24 44.45) (xy 144.78 44.45))
     (stroke (width 0) (type default))
     (uuid 5defde99-ffa1-4e9c-ae53-5d8aa31bb514)
@@ -730,6 +748,10 @@
     (stroke (width 0) (type default))
     (uuid 6672b833-7386-4069-a7db-8ab8ed8e266a)
   )
+  (wire (pts (xy 245.11 73.66) (xy 236.22 73.66))
+    (stroke (width 0) (type default))
+    (uuid 6b36939d-e50f-4d5e-a23c-bb028b5a1cf5)
+  )
   (wire (pts (xy 166.37 106.68) (xy 163.83 106.68))
     (stroke (width 0) (type default))
     (uuid 71abb7a3-da06-4f34-880f-182c33172072)
@@ -741,6 +763,10 @@
   (wire (pts (xy 54.61 80.01) (xy 55.88 80.01))
     (stroke (width 0) (type default))
     (uuid 7d33357a-627a-4cb3-9f72-b930ad0bcd11)
+  )
+  (wire (pts (xy 219.71 83.82) (xy 219.71 87.63))
+    (stroke (width 0) (type default))
+    (uuid 7df9e6fa-f039-470d-b72d-28d794140e7e)
   )
   (wire (pts (xy 104.14 139.7) (xy 106.68 139.7))
     (stroke (width 0) (type default))
@@ -798,6 +824,10 @@
     (stroke (width 0) (type default))
     (uuid a8b4bf11-124f-4387-99bb-f366fe213566)
   )
+  (wire (pts (xy 219.71 73.66) (xy 210.82 73.66))
+    (stroke (width 0) (type default))
+    (uuid a901d853-6cbd-4b5b-8905-c8fcb89e261d)
+  )
   (wire (pts (xy 54.61 116.84) (xy 57.15 116.84))
     (stroke (width 0) (type default))
     (uuid ad3ab07d-1ff7-48a0-be63-6a8bd2875bbf)
@@ -817,6 +847,10 @@
   (wire (pts (xy 194.31 83.82) (xy 194.31 73.66))
     (stroke (width 0) (type default))
     (uuid b4f93db7-dda4-488e-b9e5-e3f44ef97f0b)
+  )
+  (wire (pts (xy 210.82 83.82) (xy 219.71 83.82))
+    (stroke (width 0) (type default))
+    (uuid b82d53fb-dc88-4e44-900b-5d12e58bc34b)
   )
   (wire (pts (xy 54.61 77.47) (xy 57.15 77.47))
     (stroke (width 0) (type default))
@@ -861,6 +895,10 @@
   (wire (pts (xy 54.61 105.41) (xy 55.88 105.41))
     (stroke (width 0) (type default))
     (uuid e7d5f985-d605-4cd1-a709-138f9f0ace41)
+  )
+  (wire (pts (xy 236.22 83.82) (xy 245.11 83.82))
+    (stroke (width 0) (type default))
+    (uuid eaa7e89f-0dc7-45fc-80bb-205380eb7753)
   )
   (wire (pts (xy 34.29 92.71) (xy 34.29 95.25))
     (stroke (width 0) (type default))
@@ -1531,6 +1569,41 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 233.68 83.82 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 487d5cf3-6da7-4a6a-936a-3cc8cbd1dc63)
+    (property "Reference" "H6" (at 232.41 77.47 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MountingHole_Pad" (at 232.41 80.01 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 233.68 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 233.68 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 91d2d023-10aa-4081-b973-751d543eb3e6))
+    (instances
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:LED") (at 138.43 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49d4b127-ee8e-4628-9525-60d6f498406f)
@@ -1643,6 +1716,41 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 208.28 83.82 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 588eb43a-e795-4f2d-93ea-89e4b40344bc)
+    (property "Reference" "H4" (at 207.01 77.47 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MountingHole_Pad" (at 207.01 80.01 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 208.28 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 208.28 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 996ead93-eee7-4ca6-b958-8c8bc78d1f12))
+    (instances
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 111.76 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f671686-c4fa-4b7c-b741-1696d5133b00)
@@ -1749,6 +1857,41 @@
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
           (reference "#PWR060") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 233.68 73.66 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6609e2c1-3529-46ca-8a7e-f8db5b31eea7)
+    (property "Reference" "H5" (at 232.41 67.31 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MountingHole_Pad" (at 232.41 69.85 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 233.68 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 233.68 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 28b3be2f-3ac1-4632-892e-c0a6999a8bfe))
+    (instances
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -2043,6 +2186,111 @@
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
           (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 245.11 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a8af2ba9-df27-4c80-a8da-82469f2ea962)
+    (property "Reference" "#PWR017" (at 245.11 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 245.11 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 245.11 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 245.11 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cf5d9e7f-493b-4b73-be6e-fd14881985bb))
+    (instances
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 219.71 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a9a90678-1d98-47f3-9f4d-c70225f3582d)
+    (property "Reference" "#PWR016" (at 219.71 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 219.71 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 219.71 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 219.71 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 855d141a-0e99-4c84-b2f8-fa70fe2e4920))
+    (instances
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 208.28 73.66 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c9b103ea-217e-4598-a543-5fadcc4f4237)
+    (property "Reference" "H3" (at 207.01 67.31 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MountingHole_Pad" (at 207.01 69.85 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (at 208.28 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 208.28 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 29492c12-1ff6-4685-aca8-5a703d4f18b3))
+    (instances
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "H1") (unit 1)
         )
       )
     )
