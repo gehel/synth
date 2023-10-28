@@ -3,4 +3,5 @@ gerber*
 fp-info-cache
 utils/.idea/
 utils/venv/
+production_files
 
