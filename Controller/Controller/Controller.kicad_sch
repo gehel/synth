@@ -2473,7 +2473,7 @@
   (symbol (lib_id "Amplifier_Operational:TL072") (at 80.01 59.69 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07322207-dd9e-4179-854d-993d71f32a99)
-    (property "Reference" "U2" (at 78.74 58.42 0)
+    (property "Reference" "U3" (at 78.74 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL072" (at 78.74 60.96 0)
@@ -2496,7 +2496,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U2") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -2538,7 +2538,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R48") (unit 1)
+          (reference "R19") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -2550,7 +2550,7 @@
   (symbol (lib_id "power:GND") (at 73.66 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09e9d2ba-2684-46fa-80ce-3b375a771e27)
-    (property "Reference" "#PWR025" (at 73.66 139.7 0)
+    (property "Reference" "#PWR013" (at 73.66 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 138.43 0)
@@ -2566,7 +2566,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2581,7 +2581,7 @@
     (property "Value" "1N914" (at 200.66 115.3697 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 200.66 114.935 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 200.66 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 200.66 119.38 0)
@@ -2610,7 +2610,7 @@
     (property "Reference" "C3" (at 44.45 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100nF" (at 44.45 177.8 0)
+    (property "Value" "4.7nF" (at 44.45 177.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" (at 39.6748 172.72 0)
@@ -2643,7 +2643,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C24") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2652,7 +2652,7 @@
   (symbol (lib_id "power:-12V") (at 229.87 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0df75a38-90bd-4e29-97c6-b35fb23af9a7)
-    (property "Reference" "#PWR040" (at 229.87 162.56 0)
+    (property "Reference" "#PWR033" (at 229.87 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 229.87 165.1 0)
@@ -2668,7 +2668,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -2713,7 +2713,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C21") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2722,7 +2722,7 @@
   (symbol (lib_id "power:GND") (at 119.38 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15803cc7-727a-4fe9-b371-bb2147ee256f)
-    (property "Reference" "#PWR030" (at 119.38 139.7 0)
+    (property "Reference" "#PWR021" (at 119.38 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 138.43 0)
@@ -2738,7 +2738,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2780,7 +2780,7 @@
           (reference "C14") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C26") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2822,7 +2822,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R42") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -2870,7 +2870,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C17") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2912,7 +2912,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R56") (unit 1)
+          (reference "R24") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -2927,7 +2927,7 @@
     (property "Reference" "R1" (at 71.12 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1M" (at 71.12 179.07 90)
+    (property "Value" "100K" (at 71.12 179.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 71.12 181.102 90)
@@ -2957,7 +2957,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R52") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -2969,7 +2969,7 @@
   (symbol (lib_id "power:+12V") (at 229.87 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ffa43e4-24b7-4b77-9f7c-9fedff04d6f6)
-    (property "Reference" "#PWR041" (at 229.87 146.05 0)
+    (property "Reference" "#PWR032" (at 229.87 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 229.87 137.16 0)
@@ -2985,7 +2985,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3027,7 +3027,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R59") (unit 1)
+          (reference "R25") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -3075,7 +3075,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C19") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3117,7 +3117,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R43") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -3129,7 +3129,7 @@
   (symbol (lib_id "power:GND") (at 16.51 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2330d6e6-bd0a-4950-98d9-09cb32342062)
-    (property "Reference" "#PWR035" (at 16.51 196.85 0)
+    (property "Reference" "#PWR01" (at 16.51 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 195.58 0)
@@ -3145,7 +3145,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3187,7 +3187,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R49") (unit 1)
+          (reference "R18") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -3232,7 +3232,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R50") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -3277,7 +3277,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R61") (unit 1)
+          (reference "R28") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -3289,7 +3289,7 @@
   (symbol (lib_id "Device:Opamp_Quad") (at 158.75 45.72 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 396e21b4-13f6-4207-be07-2613d0929b0b)
-    (property "Reference" "U3" (at 158.75 35.56 0)
+    (property "Reference" "U4" (at 158.75 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LF444" (at 158.75 38.1 0)
@@ -3318,7 +3318,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U3") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -3327,7 +3327,7 @@
   (symbol (lib_id "power:-12V") (at 36.83 190.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b51bfc3-f470-4390-8a80-fcad66976f8a)
-    (property "Reference" "#PWR034" (at 36.83 193.04 0)
+    (property "Reference" "#PWR07" (at 36.83 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 36.83 195.58 0)
@@ -3343,7 +3343,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3352,7 +3352,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 62.23 167.64 0) (mirror x) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 439c82a3-5292-4523-943d-aee2f37d40fd)
-    (property "Reference" "U5" (at 62.23 177.8 0)
+    (property "Reference" "U1" (at 62.23 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 62.23 175.26 0)
@@ -3381,7 +3381,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U5") (unit 4)
+          (reference "U1") (unit 4)
         )
       )
     )
@@ -3390,7 +3390,7 @@
   (symbol (lib_id "power:GND") (at 95.25 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4864e79a-ac1c-4b55-b6b0-76a22c321e5c)
-    (property "Reference" "#PWR038" (at 95.25 198.12 0)
+    (property "Reference" "#PWR019" (at 95.25 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 196.85 0)
@@ -3406,7 +3406,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3415,7 +3415,7 @@
   (symbol (lib_id "power:GND") (at 76.2 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 495f790e-9e09-45e6-b2e0-0e14a03c2ec1)
-    (property "Reference" "#PWR037" (at 76.2 199.39 0)
+    (property "Reference" "#PWR014" (at 76.2 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 198.12 0)
@@ -3431,7 +3431,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3440,7 +3440,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 29.21 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5111fbc5-4428-47ce-b49a-581ec1b20895)
-    (property "Reference" "U5" (at 29.21 157.48 0)
+    (property "Reference" "U1" (at 29.21 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 29.21 160.02 0)
@@ -3469,7 +3469,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U5") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3514,7 +3514,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C23") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3523,7 +3523,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 143.51 167.64 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56f79225-d749-40df-9ea4-8e3fdc71af92)
-    (property "Reference" "U5" (at 143.51 157.48 0)
+    (property "Reference" "U1" (at 143.51 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 143.51 160.02 0)
@@ -3552,7 +3552,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U5") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -3561,7 +3561,7 @@
   (symbol (lib_id "Amplifier_Operational:TL072") (at 232.41 151.13 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 579bd109-9497-451f-9010-60581b3bc8e1)
-    (property "Reference" "U6" (at 231.14 149.86 0)
+    (property "Reference" "U5" (at 231.14 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL072" (at 231.14 152.4 0)
@@ -3584,7 +3584,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U6") (unit 3)
+          (reference "U5") (unit 3)
         )
       )
     )
@@ -3626,7 +3626,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R55") (unit 1)
+          (reference "R17") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -3638,7 +3638,7 @@
   (symbol (lib_id "power:GND") (at 50.8 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d945644-40fd-4054-86c4-9814c3fc3fba)
-    (property "Reference" "#PWR023" (at 50.8 102.87 0)
+    (property "Reference" "#PWR010" (at 50.8 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 101.6 0)
@@ -3654,7 +3654,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3666,7 +3666,7 @@
     (property "Reference" "R1" (at 111.76 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 111.76 90.17 90)
+    (property "Value" "100k" (at 111.76 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 111.76 92.202 90)
@@ -3696,7 +3696,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R46") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -3708,7 +3708,7 @@
   (symbol (lib_id "power:GND") (at 63.5 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fb7af89-e1b7-4ff1-82ef-6f034fd12937)
-    (property "Reference" "#PWR024" (at 63.5 139.7 0)
+    (property "Reference" "#PWR012" (at 63.5 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 138.43 0)
@@ -3724,7 +3724,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3733,7 +3733,7 @@
   (symbol (lib_id "Amplifier_Operational:TL072") (at 232.41 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64d599d2-d50f-4627-bcd1-e80fba51164e)
-    (property "Reference" "U6" (at 232.41 140.97 0)
+    (property "Reference" "U5" (at 232.41 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL072" (at 232.41 143.51 0)
@@ -3756,7 +3756,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3801,7 +3801,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C25") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3810,7 +3810,7 @@
   (symbol (lib_id "power:GND") (at 44.45 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d0b8a13-6b6b-4924-b4c8-fa670a638631)
-    (property "Reference" "#PWR036" (at 44.45 198.12 0)
+    (property "Reference" "#PWR09" (at 44.45 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 196.85 0)
@@ -3826,7 +3826,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3835,7 +3835,7 @@
   (symbol (lib_id "power:GND") (at 55.88 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d6fc6f1-9bca-4e57-840c-6e559cc0074a)
-    (property "Reference" "#PWR013" (at 55.88 82.55 0)
+    (property "Reference" "#PWR011" (at 55.88 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 81.28 0)
@@ -3851,7 +3851,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3896,7 +3896,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C18") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3905,7 +3905,7 @@
   (symbol (lib_id "power:-12V") (at 77.47 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e947cf6-9d50-422a-b9f9-779f241b8af3)
-    (property "Reference" "#PWR014" (at 77.47 72.39 0)
+    (property "Reference" "#PWR016" (at 77.47 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 77.47 74.93 0)
@@ -3921,7 +3921,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3930,7 +3930,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 69.85 104.14 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f34c9cc-e8b1-4753-a7ef-9919e7e66051)
-    (property "Reference" "U4" (at 69.85 93.98 0)
+    (property "Reference" "U2" (at 69.85 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 69.85 96.52 0)
@@ -3959,7 +3959,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U4") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -4001,7 +4001,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R41") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4013,7 +4013,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 101.6 167.64 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fde9617-dad0-4105-8426-d341dd291569)
-    (property "Reference" "U5" (at 101.6 157.48 0)
+    (property "Reference" "U1" (at 101.6 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 101.6 160.02 0)
@@ -4042,7 +4042,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U5") (unit 3)
+          (reference "U1") (unit 3)
         )
       )
     )
@@ -4084,7 +4084,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R57") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4129,7 +4129,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R54") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4141,7 +4141,7 @@
   (symbol (lib_id "power:GND") (at 161.29 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7582d085-3ea3-4a56-841c-bec0c962fb87)
-    (property "Reference" "#PWR016" (at 161.29 96.52 0)
+    (property "Reference" "#PWR027" (at 161.29 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 95.25 0)
@@ -4157,7 +4157,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4198,7 +4198,7 @@
   (symbol (lib_id "power:-12V") (at 218.44 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a32d92f-86e4-463b-a1f1-8b1afe17d0aa)
-    (property "Reference" "#PWR019" (at 218.44 90.17 0)
+    (property "Reference" "#PWR031" (at 218.44 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 218.44 92.71 0)
@@ -4214,7 +4214,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4223,7 +4223,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 128.27 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7aebe430-f635-4cf7-830b-9e9b4b2b2f72)
-    (property "Reference" "U4" (at 128.27 93.98 0)
+    (property "Reference" "U2" (at 128.27 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 128.27 96.52 0)
@@ -4252,7 +4252,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -4261,13 +4261,13 @@
   (symbol (lib_id "Diode:1N914") (at 33.02 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7af20067-9b75-44d3-a5c9-f5b796298fae)
-    (property "Reference" "D1" (at 33.02 57.15 0)
+    (property "Reference" "D2" (at 33.02 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 33.02 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 33.02 59.055 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 33.02 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 33.02 63.5 0)
@@ -4284,7 +4284,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -4293,7 +4293,7 @@
   (symbol (lib_id "power:+12V") (at 26.67 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c799ad8-a11a-43c1-8003-107635dbcee6)
-    (property "Reference" "#PWR033" (at 26.67 162.56 0)
+    (property "Reference" "#PWR05" (at 26.67 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 26.67 153.67 0)
@@ -4309,7 +4309,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4318,7 +4318,7 @@
   (symbol (lib_id "power:-12V") (at 26.67 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f2d8817-7dc1-42d4-bfa5-85d8f39bd610)
-    (property "Reference" "#PWR032" (at 26.67 179.07 0)
+    (property "Reference" "#PWR06" (at 26.67 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 26.67 181.61 0)
@@ -4334,7 +4334,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4349,7 +4349,7 @@
     (property "Value" "1N914" (at 55.88 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 55.88 117.475 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 55.88 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 55.88 121.92 0)
@@ -4408,7 +4408,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R39") (unit 1)
+          (reference "R2") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4426,7 +4426,7 @@
     (property "Value" "1N914" (at 64.77 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 64.77 163.195 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 64.77 163.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 64.77 158.75 0)
@@ -4512,7 +4512,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R36") (unit 1)
+          (reference "R22") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4524,7 +4524,7 @@
   (symbol (lib_id "Amplifier_Operational:TL072") (at 105.41 59.69 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ec40b27-9281-4fad-9c6f-8fd63f77f522)
-    (property "Reference" "U2" (at 105.41 49.53 0)
+    (property "Reference" "U3" (at 105.41 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL072" (at 105.41 52.07 0)
@@ -4547,7 +4547,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U2") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -4556,7 +4556,7 @@
   (symbol (lib_id "power:-12V") (at 125.73 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93cf01a9-e77c-4e2e-954b-ba4916f191c1)
-    (property "Reference" "#PWR031" (at 125.73 115.57 0)
+    (property "Reference" "#PWR024" (at 125.73 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 125.73 118.11 0)
@@ -4572,7 +4572,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4581,13 +4581,13 @@
   (symbol (lib_id "Diode:1N914") (at 115.57 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 958588aa-3091-4a0b-93e4-b99726d1d05e)
-    (property "Reference" "D9" (at 115.57 152.4 0)
+    (property "Reference" "D8" (at 115.57 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 115.57 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 115.57 163.195 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 115.57 163.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 115.57 158.75 0)
@@ -4604,7 +4604,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -4613,7 +4613,7 @@
   (symbol (lib_id "power:GND") (at 269.24 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9799e8ec-89cd-47c5-8fc7-e1c080d23b91)
-    (property "Reference" "#PWR043" (at 269.24 152.4 0)
+    (property "Reference" "#PWR035" (at 269.24 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 151.13 0)
@@ -4629,7 +4629,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4638,7 +4638,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 128.27 104.14 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97ab2215-7c74-4b53-943a-fae670ce7847)
-    (property "Reference" "U4" (at 127 102.87 0)
+    (property "Reference" "U2" (at 127 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL074" (at 127 105.41 0)
@@ -4667,7 +4667,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U4") (unit 5)
+          (reference "U2") (unit 5)
         )
       )
     )
@@ -4712,7 +4712,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C20") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -4754,7 +4754,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R47") (unit 1)
+          (reference "R16") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4799,7 +4799,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R35") (unit 1)
+          (reference "R21") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4811,7 +4811,7 @@
   (symbol (lib_id "power:GND") (at 86.36 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b385f9f-982e-4d8f-b55a-122fa00588e9)
-    (property "Reference" "#PWR026" (at 86.36 139.7 0)
+    (property "Reference" "#PWR017" (at 86.36 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 138.43 0)
@@ -4827,7 +4827,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4836,7 +4836,7 @@
   (symbol (lib_id "power:GND") (at 26.67 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a00f998f-0942-4607-81dd-b7f0a92b3fd7)
-    (property "Reference" "#PWR011" (at 26.67 72.39 0)
+    (property "Reference" "#PWR04" (at 26.67 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 71.12 0)
@@ -4852,7 +4852,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4867,7 +4867,7 @@
     (property "Value" "1N914" (at 93.98 186.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 86.995 185.42 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 86.995 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 91.44 185.42 0)
@@ -4893,7 +4893,7 @@
   (symbol (lib_id "power:+12V") (at 218.44 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5e1467f-edf4-4b35-9cf8-137b9d7f36cc)
-    (property "Reference" "#PWR020" (at 218.44 73.66 0)
+    (property "Reference" "#PWR030" (at 218.44 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 218.44 64.77 0)
@@ -4909,7 +4909,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4921,7 +4921,7 @@
     (property "Reference" "R1" (at 50.8 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1M" (at 50.8 185.42 0)
+    (property "Value" "300K" (at 50.8 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 46.482 184.15 90)
@@ -4951,7 +4951,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R51") (unit 1)
+          (reference "R6") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -4963,7 +4963,7 @@
   (symbol (lib_id "power:GND") (at 22.86 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7f4fd7c-eb91-401d-af18-51baa0dbab16)
-    (property "Reference" "#PWR021" (at 22.86 119.38 0)
+    (property "Reference" "#PWR02" (at 22.86 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 118.11 0)
@@ -4979,7 +4979,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4988,7 +4988,7 @@
   (symbol (lib_id "power:GND") (at 215.9 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acc6266d-adbd-43c9-8a62-fb5d7723ab61)
-    (property "Reference" "#PWR044" (at 215.9 127 0)
+    (property "Reference" "#PWR029" (at 215.9 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 125.73 0)
@@ -5004,7 +5004,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5046,7 +5046,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R37") (unit 1)
+          (reference "R20") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5091,7 +5091,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R40") (unit 1)
+          (reference "R4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5103,7 +5103,7 @@
   (symbol (lib_id "power:GND") (at 121.92 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5ed493b-5656-4241-a811-de0d20765748)
-    (property "Reference" "#PWR039" (at 121.92 198.12 0)
+    (property "Reference" "#PWR022" (at 121.92 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 196.85 0)
@@ -5119,7 +5119,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5161,7 +5161,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R45") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5173,7 +5173,7 @@
   (symbol (lib_id "Device:Opamp_Quad") (at 220.98 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7748f48-ef4a-4c4e-ae15-86c2fee94c18)
-    (property "Reference" "U3" (at 220.98 68.58 0)
+    (property "Reference" "U4" (at 220.98 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LF444" (at 220.98 71.12 0)
@@ -5202,7 +5202,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -5211,7 +5211,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 29.21 167.64 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7ec2459-2c8e-4a6a-9802-4234b14c5187)
-    (property "Reference" "U5" (at 27.94 166.37 0)
+    (property "Reference" "U1" (at 27.94 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL074" (at 27.94 168.91 0)
@@ -5240,7 +5240,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U5") (unit 5)
+          (reference "U1") (unit 5)
         )
       )
     )
@@ -5275,7 +5275,7 @@
   (symbol (lib_id "Amplifier_Operational:TL072") (at 80.01 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be351b73-9306-49ea-aba8-ff3b8fc13285)
-    (property "Reference" "U2" (at 80.01 49.53 0)
+    (property "Reference" "U3" (at 80.01 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL072" (at 80.01 52.07 0)
@@ -5298,7 +5298,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -5332,7 +5332,7 @@
   (symbol (lib_id "Device:Opamp_Quad") (at 220.98 58.42 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfe3c0fc-f920-4440-b176-3752c8751d8e)
-    (property "Reference" "U3" (at 220.98 48.26 0)
+    (property "Reference" "U4" (at 220.98 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LF444" (at 220.98 50.8 0)
@@ -5361,7 +5361,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U3") (unit 4)
+          (reference "U4") (unit 4)
         )
       )
     )
@@ -5370,7 +5370,7 @@
   (symbol (lib_id "Amplifier_Operational:TL072") (at 196.85 151.13 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c53b1a65-993b-48d8-b597-12d49bad0fb4)
-    (property "Reference" "U6" (at 196.85 140.97 0)
+    (property "Reference" "U5" (at 196.85 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL072" (at 196.85 143.51 0)
@@ -5393,7 +5393,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U6") (unit 2)
+          (reference "U5") (unit 2)
         )
       )
     )
@@ -5435,7 +5435,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R58") (unit 1)
+          (reference "R26") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5447,7 +5447,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 96.52 104.14 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cad61da2-ea9c-485d-8a4b-1d057f33931c)
-    (property "Reference" "U4" (at 96.52 93.98 0)
+    (property "Reference" "U2" (at 96.52 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 96.52 96.52 0)
@@ -5476,7 +5476,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U4") (unit 4)
+          (reference "U2") (unit 4)
         )
       )
     )
@@ -5485,13 +5485,13 @@
   (symbol (lib_id "Diode:1N914") (at 21.59 189.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d01fe768-ad9f-4a9c-be84-677926639bd0)
-    (property "Reference" "D5" (at 21.59 182.88 0)
+    (property "Reference" "D1" (at 21.59 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 21.59 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 21.59 184.785 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 21.59 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 21.59 189.23 0)
@@ -5508,7 +5508,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "D5") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -5520,7 +5520,7 @@
     (property "Reference" "R1" (at 81.28 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1M" (at 81.28 179.07 90)
+    (property "Value" "100K" (at 81.28 179.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 81.28 181.102 90)
@@ -5550,7 +5550,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R53") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5588,7 +5588,7 @@
   (symbol (lib_id "Device:Opamp_Quad") (at 220.98 78.74 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbf25dc6-a11e-45a8-9841-80653db8525a)
-    (property "Reference" "U3" (at 219.71 77.47 0)
+    (property "Reference" "U4" (at 219.71 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LF444" (at 219.71 80.01 0)
@@ -5617,7 +5617,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U3") (unit 5)
+          (reference "U4") (unit 5)
         )
       )
     )
@@ -5626,7 +5626,7 @@
   (symbol (lib_id "power:-12V") (at 38.1 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc17e39a-15d5-4028-bf60-aaf67aa72059)
-    (property "Reference" "#PWR012" (at 38.1 78.74 0)
+    (property "Reference" "#PWR08" (at 38.1 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 38.1 81.28 0)
@@ -5642,7 +5642,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5684,7 +5684,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R34") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5696,7 +5696,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 39.37 104.14 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de319666-4a2a-4d0e-ae62-42d428fa7724)
-    (property "Reference" "U4" (at 39.37 93.98 0)
+    (property "Reference" "U2" (at 39.37 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 39.37 96.52 0)
@@ -5725,7 +5725,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U4") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -5767,7 +5767,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R44") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5779,7 +5779,7 @@
   (symbol (lib_id "Device:Q_NJFET_DSG") (at 143.51 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2757b47-600a-44d8-887c-943f996c3841)
-    (property "Reference" "Q3" (at 144.78 69.85 0)
+    (property "Reference" "Q1" (at 144.78 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N5457" (at 142.24 69.85 0)
@@ -5797,7 +5797,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "Q3") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -5806,13 +5806,13 @@
   (symbol (lib_id "Diode:1N914") (at 115.57 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e75fe464-c662-4ebb-ba95-aa9ad015063a)
-    (property "Reference" "D8" (at 115.57 161.29 0)
+    (property "Reference" "D9" (at 115.57 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 115.57 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 115.57 172.085 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 115.57 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 115.57 167.64 0)
@@ -5829,7 +5829,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "D8") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -5838,13 +5838,13 @@
   (symbol (lib_id "Diode:1N914") (at 43.18 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e90de5c3-25ee-4651-99a7-c7abc0985c56)
-    (property "Reference" "D2" (at 43.18 57.15 0)
+    (property "Reference" "D3" (at 43.18 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 43.18 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 43.18 59.055 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 43.18 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 43.18 63.5 0)
@@ -5861,7 +5861,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -5870,7 +5870,7 @@
   (symbol (lib_id "power:GND") (at 246.38 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eab2a2cc-c909-4287-8363-6ce4d8753628)
-    (property "Reference" "#PWR045" (at 246.38 128.27 0)
+    (property "Reference" "#PWR034" (at 246.38 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 127 0)
@@ -5886,7 +5886,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5928,7 +5928,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R60") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5973,7 +5973,7 @@
           (reference "R5") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "R38") (unit 1)
+          (reference "R1") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
           (reference "R31") (unit 1)
@@ -5991,7 +5991,7 @@
     (property "Value" "1N914" (at 231.14 116.6397 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 231.14 116.205 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 231.14 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 231.14 120.65 0)
@@ -6017,7 +6017,7 @@
   (symbol (lib_id "power:GND") (at 195.58 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0f8b39d-84d1-4687-bf13-0af7aaa71f0c)
-    (property "Reference" "#PWR018" (at 195.58 93.98 0)
+    (property "Reference" "#PWR028" (at 195.58 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 92.71 0)
@@ -6033,7 +6033,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -6042,7 +6042,7 @@
   (symbol (lib_id "power:GND") (at 107.95 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f405e31e-cad1-4e00-a004-e7c0b65b0043)
-    (property "Reference" "#PWR029" (at 107.95 139.7 0)
+    (property "Reference" "#PWR020" (at 107.95 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 138.43 0)
@@ -6058,7 +6058,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -6067,7 +6067,7 @@
   (symbol (lib_id "power:+12V") (at 125.73 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f47c2f7c-aedd-40cb-b948-96760bdfe7b5)
-    (property "Reference" "#PWR028" (at 125.73 99.06 0)
+    (property "Reference" "#PWR023" (at 125.73 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 125.73 90.17 0)
@@ -6083,7 +6083,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -6092,7 +6092,7 @@
   (symbol (lib_id "power:GND") (at 22.86 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5c5031a-3fc3-4c16-aa37-f01fc1c341f5)
-    (property "Reference" "#PWR022" (at 22.86 138.43 0)
+    (property "Reference" "#PWR03" (at 22.86 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 137.16 0)
@@ -6108,7 +6108,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -6117,7 +6117,7 @@
   (symbol (lib_id "Device:Opamp_Quad") (at 134.62 45.72 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7e6d064-48c2-4ee8-8986-23f2f91b634d)
-    (property "Reference" "U3" (at 134.62 35.56 0)
+    (property "Reference" "U4" (at 134.62 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LF444" (at 134.62 38.1 0)
@@ -6146,7 +6146,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "U3") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
     )
@@ -6155,7 +6155,7 @@
   (symbol (lib_id "power:-12V") (at 151.13 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9866153-7266-473a-9b1b-e6f7e086d331)
-    (property "Reference" "#PWR017" (at 151.13 87.63 0)
+    (property "Reference" "#PWR026" (at 151.13 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 151.13 90.17 0)
@@ -6171,7 +6171,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -6180,7 +6180,7 @@
   (symbol (lib_id "power:+12V") (at 132.08 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9df8d8a-f0a0-4741-bf86-315681699705)
-    (property "Reference" "#PWR027" (at 132.08 125.73 0)
+    (property "Reference" "#PWR025" (at 132.08 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 132.08 116.84 0)
@@ -6196,7 +6196,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -6205,7 +6205,7 @@
   (symbol (lib_id "power:+12V") (at 86.36 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid faedbfac-c722-4b2c-b35c-5933d189af61)
-    (property "Reference" "#PWR042" (at 86.36 184.15 0)
+    (property "Reference" "#PWR018" (at 86.36 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 86.36 175.26 0)
@@ -6221,7 +6221,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -6266,7 +6266,7 @@
           (reference "C4") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "C22") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -6275,13 +6275,13 @@
   (symbol (lib_id "Diode:1N914") (at 55.88 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc9715dc-dcf5-463f-85fb-dcba612373f1)
-    (property "Reference" "D3" (at 55.88 125.73 0)
+    (property "Reference" "D5" (at 55.88 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 55.88 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 55.88 127.635 0)
+    (property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal" (at 55.88 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf" (at 55.88 132.08 0)
@@ -6298,7 +6298,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294"
-          (reference "D3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )

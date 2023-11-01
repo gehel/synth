@@ -1113,7 +1113,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R2") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -1152,7 +1152,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R7") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -1191,7 +1191,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R19") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1230,7 +1230,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R17") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -1269,7 +1269,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R8") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -1308,7 +1308,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R5") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -1347,7 +1347,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R21") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1386,7 +1386,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R23") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1425,7 +1425,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R18") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -1464,7 +1464,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R27") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -1503,7 +1503,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R10") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -1512,7 +1512,7 @@
   (symbol (lib_id "power:GND") (at 38.1 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62013e0f-6a16-482f-84c8-e4d435561baa)
-    (property "Reference" "#PWR01" (at 38.1 57.15 0)
+    (property "Reference" "#PWR039" (at 38.1 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 55.88 0)
@@ -1528,7 +1528,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1567,7 +1567,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R13") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -1606,7 +1606,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R22") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1645,7 +1645,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R14") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -1684,7 +1684,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R4") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -1723,7 +1723,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R3") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -1762,7 +1762,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R28") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -1801,7 +1801,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R26") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1840,7 +1840,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R9") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -1879,7 +1879,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R12") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1918,7 +1918,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R11") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -1957,7 +1957,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R20") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -1996,7 +1996,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R24") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -2035,7 +2035,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R16") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -2074,7 +2074,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R15") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -2113,7 +2113,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R25") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -2152,7 +2152,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R1") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2191,7 +2191,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/e8efb6b8-71ed-41bf-9985-4cb8b61718e9"
-          (reference "R6") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )

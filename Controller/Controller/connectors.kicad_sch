@@ -477,6 +477,10 @@
     (stroke (width 0) (type default))
     (uuid b866f7c6-607c-4206-87b1-be20a1047570)
   )
+  (wire (pts (xy 132.08 86.36) (xy 134.62 86.36))
+    (stroke (width 0) (type default))
+    (uuid c4b759e2-e639-4e05-bf8c-a2a8722ff7d6)
+  )
   (wire (pts (xy 60.96 64.77) (xy 63.5 64.77))
     (stroke (width 0) (type default))
     (uuid cc090a12-3124-490f-b1e1-0a18676163da)
@@ -484,6 +488,10 @@
   (wire (pts (xy 69.85 57.15) (xy 69.85 59.69))
     (stroke (width 0) (type default))
     (uuid d66a685b-187f-4cd5-b0dd-e0032c119ce8)
+  )
+  (wire (pts (xy 132.08 92.71) (xy 134.62 92.71))
+    (stroke (width 0) (type default))
+    (uuid d883d11a-ea5c-4368-9d6c-141e37a76e6f)
   )
   (wire (pts (xy 48.26 54.61) (xy 39.37 54.61))
     (stroke (width 0) (type default))
@@ -541,6 +549,20 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 96057415-7c89-4b8e-bf61-9e8428728fc3)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 98.8567 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ISRC" (shape input) (at 132.08 92.71 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9ea16844-e50f-422a-abfa-22e9416f6ff2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 124.7405 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "KBUS" (shape input) (at 132.08 86.36 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b5a4d637-feec-4882-ae42-bf175704e0a6)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 124.0148 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -606,7 +628,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07fc3f4b-f2a0-47a7-bf34-2254dfbb2907)
-    (property "Reference" "J4" (at 112.395 71.12 0)
+    (property "Reference" "J5" (at 112.395 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 112.395 73.66 0)
@@ -622,7 +644,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -631,7 +653,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ca71afc-9b57-4c9e-97f3-02bd70c3b6a1)
-    (property "Reference" "J5" (at 112.395 77.47 0)
+    (property "Reference" "J6" (at 112.395 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 112.395 80.01 0)
@@ -647,7 +669,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -656,7 +678,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cf05ca4-d0dc-428e-9466-08d3c4421760)
-    (property "Reference" "J9" (at 139.065 66.04 0)
+    (property "Reference" "J10" (at 139.065 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 139.065 68.58 0)
@@ -672,7 +694,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -681,7 +703,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15a1897b-5371-45c0-afad-41256b979f94)
-    (property "Reference" "J2" (at 112.395 58.42 0)
+    (property "Reference" "J3" (at 112.395 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 112.395 60.96 0)
@@ -697,7 +719,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -706,7 +728,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 278c1dc5-c585-463f-b998-aaf34c81a143)
-    (property "Reference" "J8" (at 139.065 58.42 0)
+    (property "Reference" "J9" (at 139.065 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 139.065 60.96 0)
@@ -722,7 +744,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -731,7 +753,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 57.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ca7a350-7858-49da-a6b8-3934e358ec3e)
-    (property "Reference" "J1" (at 112.395 52.07 0)
+    (property "Reference" "J2" (at 112.395 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 112.395 54.61 0)
@@ -747,7 +769,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -756,7 +778,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 77.47 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51dab302-f18d-414e-89df-8e7c57f6d669)
-    (property "Reference" "J10" (at 139.065 72.39 0)
+    (property "Reference" "J11" (at 139.065 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 139.065 74.93 0)
@@ -772,7 +794,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J10") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -819,7 +841,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J11") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -858,7 +880,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c358a42-fe24-4717-b08b-6868601918ef)
-    (property "Reference" "J3" (at 112.395 64.77 0)
+    (property "Reference" "J4" (at 112.395 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 112.395 67.31 0)
@@ -874,7 +896,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -883,7 +905,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 749275b7-01d3-49ca-894c-a12acd7791a8)
-    (property "Reference" "J6" (at 112.395 83.82 0)
+    (property "Reference" "J7" (at 112.395 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 112.395 86.36 0)
@@ -899,7 +921,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J6") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -978,7 +1000,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 57.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b2e7a8c-6a50-4c2e-bcae-9038a75e8f71)
-    (property "Reference" "J7" (at 139.065 52.07 0)
+    (property "Reference" "J8" (at 139.065 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 139.065 54.61 0)
@@ -994,7 +1016,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
-          (reference "J7") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1065,6 +1087,31 @@
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
           (reference "#PWR047") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 92.71 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b3c8f4b0-fca3-4335-99b1-75d18c5c8ee2)
+    (property "Reference" "J13" (at 139.065 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 139.065 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm" (at 139.7 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 44a00396-d245-4061-94a6-d733b6bf51ec))
+    (instances
+      (project "Controller"
+        (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1160,6 +1207,31 @@
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
           (reference "#PWR049") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 86.36 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ddf4bff2-95cb-4905-b4ee-8e9032e6086a)
+    (property "Reference" "J12" (at 139.065 81.28 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 139.065 83.82 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm" (at 139.7 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d753733c-e635-40d7-8ed8-319e2c498670))
+    (instances
+      (project "Controller"
+        (path "/b5c21429-18c0-47ae-89de-455f61426294/f268aaba-7e68-4611-9dc6-9a9f8a0df7b4"
+          (reference "J12") (unit 1)
         )
       )
     )

@@ -563,7 +563,7 @@
   (symbol (lib_id "power:+12V") (at 63.5 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36d89c8d-81f8-43bd-8a6a-21a5c1858f19)
-    (property "Reference" "#PWR03" (at 63.5 49.53 0)
+    (property "Reference" "#PWR036" (at 63.5 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 63.5 40.64 0)
@@ -579,7 +579,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -588,7 +588,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 60.96 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e805d76-7abe-4f82-80a0-020c4c279917)
-    (property "Reference" "#FLG02" (at 59.055 73.66 0)
+    (property "Reference" "#FLG03" (at 59.055 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 57.15 73.66 90)
@@ -604,7 +604,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -646,7 +646,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C5") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -688,7 +688,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C8") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -730,7 +730,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C11") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -739,7 +739,7 @@
   (symbol (lib_id "power:GND") (at 152.4 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d8278f3-f06a-4603-b90e-4a179f3b0dcb)
-    (property "Reference" "#PWR02" (at 152.4 69.85 0)
+    (property "Reference" "#PWR038" (at 152.4 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 68.58 0)
@@ -755,7 +755,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -822,7 +822,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C10") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -864,7 +864,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C4") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -906,7 +906,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C3") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -915,7 +915,7 @@
   (symbol (lib_id "power:-12V") (at 63.5 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4c3d4a5-7168-45e1-990b-c013e9315c10)
-    (property "Reference" "#PWR04" (at 63.5 78.74 0)
+    (property "Reference" "#PWR037" (at 63.5 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 63.5 81.28 0)
@@ -931,7 +931,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -970,7 +970,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C14") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1012,7 +1012,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C1") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1054,7 +1054,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C6") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -1093,7 +1093,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C9") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1135,7 +1135,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C13") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1177,7 +1177,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C7") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1186,7 +1186,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 60.96 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea27ba28-0880-499a-ade1-b2356d3bbc9b)
-    (property "Reference" "#FLG03" (at 59.055 60.96 0)
+    (property "Reference" "#FLG02" (at 59.055 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 57.15 60.96 90)
@@ -1202,7 +1202,7 @@
     (instances
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1244,7 +1244,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C2") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1286,7 +1286,7 @@
       )
       (project "Controller"
         (path "/b5c21429-18c0-47ae-89de-455f61426294/97ce8df5-aba2-47cf-9ec3-ef84addd7c4f"
-          (reference "C12") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
