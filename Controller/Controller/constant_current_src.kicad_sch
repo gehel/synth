@@ -763,7 +763,7 @@
           (reference "RV1") (unit 1)
         )
         (path "/b5c21429-18c0-47ae-89de-455f61426294/aaef5559-a153-4b79-b8bb-f81d78ba04d1"
-          (reference "BIASB1") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
