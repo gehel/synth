@@ -296,7 +296,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 078ead59-7344-46ee-a007-7c93701cf222)
-    (at 77 84.05 90)
+    (at 60 80 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -384,7 +384,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 0a408629-9fe6-462c-8241-1ef54d60e3cc)
-    (at 96 84)
+    (at 79 79.95)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step14")
     (property "ki_description" "Switch, single pole double throw")
@@ -427,7 +427,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 0b8dd34b-4798-4bf8-b20f-024ab4b88d86)
-    (at 108.5 50.05)
+    (at 97.904 34.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -550,7 +550,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 0ff15190-1df0-48fa-a874-e7dbdd761bec)
-    (at 95 35.05)
+    (at 84.404 19.21)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step6")
     (property "ki_description" "Switch, single pole double throw")
@@ -593,7 +593,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 10776a82-b1f2-4e3f-9536-f69742947dc8)
-    (at 122.1 65)
+    (at 111.504 49.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -667,7 +667,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 14522ddb-f48a-4f9b-9776-98f48580413c)
-    (at 82.5 84.05)
+    (at 65.5 80)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step13")
     (property "ki_description" "Switch, single pole double throw")
@@ -710,7 +710,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 17d8dc25-0a9f-4c34-86cb-1819ef29d081)
-    (at 110 114)
+    (at 93 110)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -984,7 +984,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 1b2c823f-2c5e-4d3a-85ba-a4a069d4db03)
-    (at 63 84.05 90)
+    (at 46 80 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -1072,7 +1072,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 210179e5-57c6-43a8-bfac-ec1012583b2c)
-    (at 104.5 84.05 90)
+    (at 87.5 80 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -1160,7 +1160,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 24852871-babd-4e86-9090-c80045a5eb8b)
-    (at 80.225 25.55)
+    (at 70.904 8.21 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -1169,11 +1169,11 @@
     (property "ki_keywords" "LED diode")
     (path "/219118e8-0d4c-4af9-9eaa-664aa5b564ae/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D11" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D11" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9159b68f-5724-47ea-8681-8eb117f017d3)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7a5c2ff7-531c-4981-b6ba-16284cf1664f)
     )
@@ -1203,9 +1203,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 12e23cc6-dec5-4c74-b6e8-fcd2f3cff091))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp c52a58f0-e402-44f6-8a0f-885073bb05d0))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 2fdcc147-0158-4bf9-8483-02157133224a))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 20 "S5") (pinfunction "A") (pintype "passive") (tstamp 600b4ada-c721-4fc9-ba59-c0f0c4662434))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -1216,7 +1216,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 269deae5-f355-4d3a-8909-cbced3a1adb9)
-    (at 41.1 84.05)
+    (at 24.1 80)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step10")
     (property "ki_description" "Switch, single pole double throw")
@@ -1347,7 +1347,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 30c4e4cc-6cd6-49a7-b6ab-90bca12b3b60)
-    (at 116.6 35.05 90)
+    (at 106.004 19.21 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -1435,7 +1435,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 352fe82b-3ef1-480c-abc5-eeb522d644f3)
-    (at 21.9 35.05 90)
+    (at 3.5 20 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -1523,7 +1523,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 35ad6488-2138-4ff8-b802-394da35f0c6e)
-    (at 53.225 25.55)
+    (at 41 9 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -1532,11 +1532,11 @@
     (property "ki_keywords" "LED diode")
     (path "/53101723-5797-4314-a5ae-0b6811121254/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D7" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D7" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7f353281-983e-4f92-a2a8-9f4aa2949208)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3a9bf708-c944-4991-a0e0-1e5c02d433c0)
     )
@@ -1566,9 +1566,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9d008374-5197-4ff1-9a57-9643fcd297e1))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 85bd8718-f021-4967-adb4-f7193ee85322))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp df533ad9-f3ac-46b2-9f00-e283b5931338))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 16 "S3") (pinfunction "A") (pintype "passive") (tstamp 6672ad0f-ac48-4d57-b7f1-8b8f67197e7e))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -1705,7 +1705,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 395d43cd-ee8b-4133-b9a8-f88f4be14493)
-    (at 96 99)
+    (at 79 94.95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -1779,7 +1779,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 39a62682-48ef-4ffe-a963-5cf1e234d2c7)
-    (at 39.725 25.55)
+    (at 25 9 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -1788,11 +1788,11 @@
     (property "ki_keywords" "LED diode")
     (path "/42b0cf15-1ba8-48b5-9f50-5416dd963e68/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D5" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D5" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 608d50b2-908e-4111-9515-b1e370dd8d0d)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dd7e7cc2-8663-48ec-92b5-58e1f9cbe4c4)
     )
@@ -1822,9 +1822,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp acbea3bb-a166-48fc-ba55-7439b3d67eeb))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp e78f90b0-ddff-4d6d-a5d2-95b3afa9db79))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 6533bd37-8c51-4a49-b5b6-97daa1e7414d))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 14 "S2") (pinfunction "A") (pintype "passive") (tstamp cfe72d81-9186-4bdc-adfc-bed21aa77c67))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -1835,7 +1835,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 3bd4af8a-ece3-4969-871f-144f1f526c4c)
-    (at 103 35.05 90)
+    (at 92.404 19.21 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -1923,7 +1923,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 3ed4bc42-6438-4dc7-8363-0cc0bad72e97)
-    (at 41 65)
+    (at 23 50)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -2079,7 +2079,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 4ca335d1-143e-431f-a6ff-68d39b5b3e61)
-    (at 123.5 84.05)
+    (at 106.5 80)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step15")
     (property "ki_description" "Switch, single pole double throw")
@@ -2248,7 +2248,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 56061a4e-f508-47cd-b091-cf4703d1f0a0)
-    (at 41.1 99.05)
+    (at 24.1 95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -2322,7 +2322,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 576ff1ea-d48f-4f8b-87e1-4583b81a7f31)
-    (at 68.5 84.05)
+    (at 51.5 80)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step12")
     (property "ki_description" "Switch, single pole double throw")
@@ -2365,7 +2365,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 5827c094-c62a-43c3-8b85-2f1ab307e0d3)
-    (at 95 50.05)
+    (at 84.404 34.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -2521,7 +2521,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 5ca20d71-5a20-4142-b056-b5ffd5080151)
-    (at 82.5 114)
+    (at 65.5 110)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -2595,7 +2595,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 5cc5fc3c-28b2-4779-82af-c85e25a0258e)
-    (at 122.225 74.55)
+    (at 106.5 69 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -2604,11 +2604,11 @@
     (property "ki_keywords" "LED diode")
     (path "/d770d6a1-b2b6-41ae-bc3d-cd908c237402/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D33" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D33" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5121a50a-9918-426f-8f88-ab6a72c37d5f)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ba64a2af-40b6-47c3-95b5-6ca80378c224)
     )
@@ -2638,9 +2638,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8bf164c0-f8ab-43de-a532-68fe50fd7a24))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp b21534f2-950b-4bdf-b543-d03f05caf8d2))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 3e89af7f-3355-4656-8d36-6bb89fe84550))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 83 "S16") (pinfunction "A") (pintype "passive") (tstamp d66d9c14-c843-407f-92bf-896453a18fad))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -2815,7 +2815,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 64007f70-529e-453a-98ef-2dba68a9f44d)
-    (at 54.5 65)
+    (at 41 50)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -2889,7 +2889,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 654b06fa-b7ee-40b2-b905-3cc9eee3f00d)
-    (at 49.5 84.05 90)
+    (at 32.5 80 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -2977,7 +2977,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 6ce33a2e-8920-4d2f-bf14-65a8919f2e42)
-    (at 110 99.05)
+    (at 93 95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -3051,7 +3051,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 6f541dc1-6ade-4680-95aa-6215d90f138c)
-    (at 81.5 65)
+    (at 70.904 49.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -3125,7 +3125,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 6ffcddd1-1539-4ce8-a958-983e121250b3)
-    (at 68 35.05)
+    (at 57.404 19.21)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step4")
     (property "ki_description" "Switch, single pole double throw")
@@ -3168,7 +3168,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 71512432-cc15-4006-b09e-b1d3ffeaeb29)
-    (at 107.225 25.55)
+    (at 97.904 8.21 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -3177,11 +3177,11 @@
     (property "ki_keywords" "LED diode")
     (path "/ebbf3d9b-4c9a-4e22-bb34-f9afecb9e9ba/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D15" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D15" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a25f30c7-f5f9-4dd0-bcb5-f8118f616dd3)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b3c2c0ef-ecaf-497f-a041-6d2c8afcbb68)
     )
@@ -3211,9 +3211,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8832218d-848c-4035-a0ee-c6ea37e34ae6))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 94763d92-156e-486d-895e-ded319929cbe))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp d58ba0dd-2c9b-47a4-92e6-2b22b65d906d))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 24 "S7") (pinfunction "A") (pintype "passive") (tstamp f24d21d9-7a9b-41b6-ad9e-231441462ab3))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3224,7 +3224,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 747b1583-24ba-41cd-ad5c-72b3417cfc52)
-    (at 21.9 84.05 90)
+    (at 4.9 80 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -3247,12 +3247,12 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c9726362-4a39-4a4e-a4d5-f6efc3067dbe)
     )
-    (fp_text user "${REFERENCE}" (at 4.11 0 90) (layer "F.Fab")
-        (effects (font (size 0.8 0.8) (thickness 0.12)))
+    (fp_text user "${REFERENCE}" (at 0 -1.8 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e0757f5-1fb5-4c95-a25f-0e3b7a946c15)
     )
-    (fp_text user "K" (at 0 -1.8 90) (layer "F.Fab")
-        (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text user "K" (at 4.11 0 90) (layer "F.Fab")
+        (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp af6c5ac7-6577-4460-9172-4ec8de4759ed)
     )
     (fp_line (start 1.04 0) (end 1.69 0)
@@ -3312,7 +3312,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 74e4ee0b-0263-4052-9367-b37ddddb358e)
-    (at 26.125 74.55)
+    (at 10.4 69 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -3321,11 +3321,11 @@
     (property "ki_keywords" "LED diode")
     (path "/c4f5c5e7-033d-4f7e-9071-ee6dcfab4327/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D19" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D19" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 305e291a-a299-4190-87c4-fd68b48f2b8e)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5b988d34-72a1-4cca-a4ea-a27934c4eeab)
     )
@@ -3355,9 +3355,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 798d4e9c-5d28-4098-a566-5ee7e20efb12))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 41d4d0b6-709f-4ac5-9e2b-aaa900f7f070))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 00704219-7e7f-4896-9c7b-daac56b13a13))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 28 "S9") (pinfunction "A") (pintype "passive") (tstamp 1a5afc32-b46d-4eb4-9cb0-7b090ea3120a))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3368,7 +3368,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 754f5ff0-cd07-4943-a609-6f9cacca071e)
-    (at 93.725 25.55)
+    (at 84.404 8.21 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -3377,11 +3377,11 @@
     (property "ki_keywords" "LED diode")
     (path "/05e85de7-7976-41b2-b99e-570227db2349/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D13" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D13" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c940cd3-3f0a-4f46-8761-381a015bfe6d)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2a7eb4a3-11ec-4949-b756-64d14daef09b)
     )
@@ -3411,9 +3411,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e055a324-95d5-44a2-a00e-0b331c37b781))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 07a02f1e-b770-4880-8b76-54171f0c43ec))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp b9652c2f-0d40-42c7-8d35-caf464d6b035))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 22 "S6") (pinfunction "A") (pintype "passive") (tstamp fc27a413-74fe-4c18-8617-e84b86b29aee))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3424,7 +3424,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 75ff69ac-157d-49e9-9b28-d7e1dfed9130)
-    (at 81.5 50.05)
+    (at 70.904 34.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -3498,7 +3498,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 7dfa6cd5-5bf0-4b29-b136-42857649b25e)
-    (at 66.725 25.55)
+    (at 57.404 8.21 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -3507,11 +3507,11 @@
     (property "ki_keywords" "LED diode")
     (path "/b332fec8-c2d4-45a7-891c-c0d3bfa046d7/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D9" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D9" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3bf9b3d6-b555-4940-8e70-3a8e78511440)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63504479-c7c5-49fc-8f68-d962845c2d4a)
     )
@@ -3541,9 +3541,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 06ca18ed-dbf3-4450-a8ba-64516509fa82))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 1368f50a-99c0-4f3b-9a87-6e1e9d5de3a0))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 8dde5a99-c2b3-4af9-847c-ee6d0f2bcc84))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 18 "S4") (pinfunction "A") (pintype "passive") (tstamp e56d241c-0160-4abf-914e-64892b7db94e))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3554,7 +3554,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 7e96e105-afa5-4e47-99d2-6b3a097babb4)
-    (at 67.225 74.55)
+    (at 51.5 69 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -3563,11 +3563,11 @@
     (property "ki_keywords" "LED diode")
     (path "/8eae250f-f2e1-46cb-8b20-913cfdb4ab21/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D25" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D25" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f1ec775d-e7d1-4c12-acfe-ddf95e049ece)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 98aaa614-abc8-4448-8b4b-b9e583f56a99)
     )
@@ -3597,9 +3597,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a0877e9b-e68b-4535-921e-12eb5bbdf441))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 6902958f-c014-47b3-943b-4afbb16d0f47))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp b08d7893-df82-4073-be4b-9531c3a744dc))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 34 "S12") (pinfunction "A") (pintype "passive") (tstamp 2ab85038-dc0e-4258-9dda-785a2be80577))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3610,7 +3610,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 84aadb94-9532-4b48-b2dc-70f766a87e02)
-    (at 41.1 114)
+    (at 24.1 110)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -3684,7 +3684,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 8765e7ca-f94e-4fbe-b0de-54c050344af4)
-    (at 95 65)
+    (at 84.404 49.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -3758,7 +3758,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 888878b7-04ad-49d4-bd7c-f45d0d27d6b4)
-    (at 123.5 114)
+    (at 106.5 110)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -3832,7 +3832,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 8d5389da-0d04-4fdd-80f4-e595a1c24e69)
-    (at 62.5 35.05 90)
+    (at 51.904 19.21 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -3920,7 +3920,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 8f705f17-0874-4223-8df4-1c8b822cb1c8)
-    (at 39.825 74.55)
+    (at 24.1 69 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -3929,11 +3929,11 @@
     (property "ki_keywords" "LED diode")
     (path "/aa30ec04-d0ae-4d45-bef1-b8dcd6691dbc/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D21" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D21" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c09222a0-286c-4109-b216-a70ec2c5b0c3)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc634677-be66-4e16-9f62-463082e08279)
     )
@@ -3963,9 +3963,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 80fa3bb9-5832-4c4a-bf77-a4952f027c91))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp a426322d-1ca2-4cc7-8a26-4b182e27476a))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 70ea011f-f5eb-4122-8045-d5c4267c7d9f))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 30 "S10") (pinfunction "A") (pintype "passive") (tstamp d4bd170a-871b-4554-a9fc-8cb7ef0a3913))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -3976,7 +3976,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 937b0951-2771-4d90-b293-27b709530be6)
-    (at 53.725 74.55)
+    (at 38 69 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -3985,11 +3985,11 @@
     (property "ki_keywords" "LED diode")
     (path "/949c7440-3343-4ad4-ab00-0fef90373f09/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D23" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D23" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b66954a-233b-4cd4-b60d-8d7973772fcd)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8dd1188c-4f64-4885-a2d3-9816198bfb33)
     )
@@ -4019,9 +4019,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp bde03f1b-0b20-43cf-8fe5-22341cc29ef7))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp acbc9980-06d7-4ee0-9a4f-dc38bd2967ad))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 85dc8907-ae51-4516-bb5a-fbc70d7e828b))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 32 "S11") (pinfunction "A") (pintype "passive") (tstamp 8cc2725b-f390-481c-8394-8ee83cbed985))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -4032,7 +4032,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp 980c6954-280c-4bf5-b070-d206a33ccda8)
-    (at 94.725 74.5)
+    (at 79 68.95 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -4041,11 +4041,11 @@
     (property "ki_keywords" "LED diode")
     (path "/d54d0b29-e3f4-4c7b-9944-56c416fa3781/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D29" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D29" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6a548980-a012-4a0f-84db-97f288203d03)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e532d17-88ef-48d1-b391-980e2636c211)
     )
@@ -4075,9 +4075,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 87a3d71d-c3ea-48e3-90d9-c5097737b9bd))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 9dea7ab4-a405-46c1-a387-678d6cdbe3c7))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 57805b6f-a0b9-4b32-becf-14ffd6ee7f85))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 79 "S14") (pinfunction "A") (pintype "passive") (tstamp fbe2d151-8026-4d20-8a11-9e7f6593ad07))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -4088,7 +4088,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 99f3c91c-8e6e-4c13-8b96-584282aa77a5)
-    (at 27.4 84.05)
+    (at 10.4 80)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step9")
     (property "ki_description" "Switch, single pole double throw")
@@ -4131,7 +4131,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 9a110aec-2182-41ca-b065-236ddc77d083)
-    (at 81.5 35.05)
+    (at 70.904 19.21)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step5")
     (property "ki_description" "Switch, single pole double throw")
@@ -4174,7 +4174,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp 9fedd4fd-8c16-4a6c-871f-5dd0571432d7)
-    (at 54.5 50.05)
+    (at 41 35)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -4322,7 +4322,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp a498371e-6bd0-4c18-8fc3-ded5d5c958dd)
-    (at 108.5 35.05)
+    (at 97.904 19.21)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step7")
     (property "ki_description" "Switch, single pole double throw")
@@ -4365,7 +4365,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp a69fe617-1b24-4dcb-b58f-7f3ac3cbfde0)
-    (at 90.5 84 90)
+    (at 73.5 79.95 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -4453,7 +4453,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp a7b2738f-4452-4aaa-b61d-c8d19f06aab9)
-    (at 68 65)
+    (at 57 50)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -4653,7 +4653,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp afdf8b15-5bd0-4e69-9523-8544f3cd2c5b)
-    (at 123.5 99.05)
+    (at 106.5 95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -4727,7 +4727,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp b1f7963e-14f8-4df2-86e4-fd054d6b442d)
-    (at 27.4 35.05)
+    (at 9 20)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step1")
     (property "ki_description" "Switch, single pole double throw")
@@ -4770,7 +4770,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp b2172fd9-6969-4d82-9986-cbfefa2b9ad3)
-    (at 49 35.05 90)
+    (at 35.5 20 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -4858,7 +4858,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp b62c15f9-8316-4a7f-a5b3-82fa8f299c91)
-    (at 122.1 35.05)
+    (at 111.504 19.21)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step8")
     (property "ki_description" "Switch, single pole double throw")
@@ -4901,7 +4901,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp b653365f-a6e6-4ba8-a218-94e66207a257)
-    (at 122.1 50.05)
+    (at 111.504 34.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -4975,7 +4975,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp b87aca56-3c81-4bd7-860a-7fb6a917ed1f)
-    (at 76 35.05 90)
+    (at 65.404 19.21 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -5063,7 +5063,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp b8ff527b-86ff-40d5-a015-48ec5608fe43)
-    (at 82.5 99.05)
+    (at 65.5 95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -5137,7 +5137,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp b99c7f2f-96a9-4d25-b9d4-559da9479cfe)
-    (at 35.5 35.05 90)
+    (at 19.5 20 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -5225,7 +5225,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp bfd171bc-a6bf-4291-94b0-8bd53a19b157)
-    (at 120.825 25.55)
+    (at 111.504 8.21 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -5234,11 +5234,11 @@
     (property "ki_keywords" "LED diode")
     (path "/4545a4ff-4eb6-4333-983e-1a79de480be7/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D17" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D17" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 913a6473-0daf-4d3d-8d18-60bb4995491d)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ba7a97bb-53ce-4024-9972-06425a5dc773)
     )
@@ -5268,9 +5268,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 94afbb50-a1be-4509-ad60-57fe8b86a85e))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 94aec55a-9416-431a-9aaf-ac48bdf988b7))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 0e39c94b-b3a8-4663-943d-0c0719b7ab9c))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 26 "S8") (pinfunction "A") (pintype "passive") (tstamp 45f703c5-ef49-48f0-9b54-3b992594fe95))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -5281,7 +5281,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp c4488ce0-5841-4a2d-a05e-42606a472e6d)
-    (at 27.4 99.05)
+    (at 10.4 95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -5355,7 +5355,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp c4981442-e6f3-4bce-9bd9-8d8040da83eb)
-    (at 108.5 65)
+    (at 97.904 49.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -5429,7 +5429,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp c5d8984f-78d8-45d4-a0b0-3142aa1adaef)
-    (at 108.725 74.55)
+    (at 93 69 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -5438,11 +5438,11 @@
     (property "ki_keywords" "LED diode")
     (path "/92d14863-e14e-4f82-a3ce-7c25c4c36499/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D31" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D31" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 698f09b2-cf13-4e5a-acc3-8ce096023e31)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 877b5d04-e81d-4f70-acdd-e4521a691f97)
     )
@@ -5472,9 +5472,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 503c552f-da11-421d-9031-01783075306e))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp cca22125-1d1c-493e-be05-9ed8da02d85d))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 4c57fa88-7c5c-4b56-9cb7-9c004e8b02b9))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 81 "S15") (pinfunction "A") (pintype "passive") (tstamp dc00dbcd-6ed6-4cea-84e4-8900ba82eb5c))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -5485,7 +5485,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp c6175587-2a8b-4a26-a424-07dce1fcb938)
-    (at 81.225 74.55)
+    (at 65.5 69 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -5494,11 +5494,11 @@
     (property "ki_keywords" "LED diode")
     (path "/88e0ef38-6b82-45a5-977f-06e9f447cd44/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D27" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D27" (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c53fed0-7239-4d91-8a7a-65cf380fac9d)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f4565cd-d3dc-43b7-bd1c-60fa65c790ec)
     )
@@ -5528,9 +5528,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 75ff3350-eec9-40c2-aff2-4cd6aaab585b))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 45cdc791-1c69-4c7b-9216-12dee06e5306))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp 09586aef-4da4-44b8-86a9-a4c20e2ed42d))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 77 "S13") (pinfunction "A") (pintype "passive") (tstamp d0c4a80f-b4fe-4bc2-94b6-331b5736ceff))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -5541,7 +5541,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp c790a0a5-ce70-4525-9797-7b70de06da8c)
-    (at 27.4 65)
+    (at 9 50)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -5615,7 +5615,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp c8e93b47-8fbe-4d11-985c-b0436015d305)
-    (at 27.4 50.05)
+    (at 9 35)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -5815,7 +5815,7 @@
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
     (tstamp cf9551ca-04a6-4a60-acef-842d13a13fcc)
-    (at 26.125 25.55)
+    (at 9 9 -90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (property "Sheetfile" "step.kicad_sch")
@@ -5824,11 +5824,11 @@
     (property "ki_keywords" "LED diode")
     (path "/9be6474a-87f8-4133-b0da-677b2e0ffa4c/3af54c80-1b9c-4875-8e3f-9483a1284b11")
     (attr through_hole)
-    (fp_text reference "D3" (at 1.27 -2.96) (layer "F.SilkS")
+    (fp_text reference "D  " (at 1.27 -2.96 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9810209a-7a8b-4de8-a92a-f2e18b6b9eab)
     )
-    (fp_text value "LED" (at 1.27 2.96) (layer "F.Fab")
+    (fp_text value "LED" (at 1.27 2.96 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2d089672-5f66-44f6-8c4b-4342ae6e54b8)
     )
@@ -5858,9 +5858,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6924585a-1ad9-48d9-b73d-2d7da07d7a86))
     (fp_circle (center 1.27 0) (end 2.77 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 9fd0149b-6269-4b99-a508-349f33a503fd))
-    (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 12 "CBUS") (pinfunction "K") (pintype "passive") (tstamp e48e3f88-c755-472d-b036-9a1f0c715832))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 11 "S1") (pinfunction "A") (pintype "passive") (tstamp 7bccc9d0-421f-427d-99af-dbdb4c2e05d1))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -5871,7 +5871,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp d0d3cdc4-5ae5-4162-b91c-05a2d1b67ea7)
-    (at 35.6 84.05 90)
+    (at 18.6 80 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -5894,12 +5894,12 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ddfa6f41-1418-4626-9d58-f577b5cea7e7)
     )
-    (fp_text user "${REFERENCE}" (at 4.11 0 90) (layer "F.Fab")
-        (effects (font (size 0.8 0.8) (thickness 0.12)))
+    (fp_text user "${REFERENCE}" (at 0 -1.8 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 268054cb-abe1-4215-934d-f9d4e412895d)
     )
-    (fp_text user "K" (at 0 -1.8 90) (layer "F.Fab")
-        (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text user "K" (at 4.11 0 90) (layer "F.Fab")
+        (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp c11c0d73-ff74-4bcf-b9fa-a00e334213be)
     )
     (fp_line (start 1.04 0) (end 1.69 0)
@@ -5959,7 +5959,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp d232e2e7-f492-484b-85fd-35ea733b3cd9)
-    (at 89.5 35.05 90)
+    (at 78.904 19.21 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -6047,7 +6047,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp d62fb5ec-cc0b-4ad5-a312-43bf7d6c9465)
-    (at 68 50.05)
+    (at 57.404 34.21)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -6121,7 +6121,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp dad6af22-a91d-4d91-b1f6-b6acb9e1355c)
-    (at 41 50.05)
+    (at 25 35)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -6195,7 +6195,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp e000f601-a39b-4c86-820b-ae39ce3c7afd)
-    (at 55 84.05)
+    (at 38 80)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step11")
     (property "ki_description" "Switch, single pole double throw")
@@ -6238,7 +6238,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp e2ce0786-0a94-475f-9529-78f59eca6e45)
-    (at 55 99.05)
+    (at 38 95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -6438,7 +6438,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp e66ed04b-8bf6-4182-9381-88c00d9239eb)
-    (at 27.4 114)
+    (at 10.4 110)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -6512,7 +6512,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp e6813917-2d93-4a3b-a6a3-99c46939d7f1)
-    (at 41 35.05)
+    (at 25 20)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step2")
     (property "ki_description" "Switch, single pole double throw")
@@ -6555,7 +6555,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp e6b9ea49-12e3-4c02-a409-eaa773dabafa)
-    (at 110 84.05)
+    (at 93 80)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step16")
     (property "ki_description" "Switch, single pole double throw")
@@ -6598,7 +6598,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp e7e9eb46-a088-4f64-98cb-63bddafc663a)
-    (at 96 113.95)
+    (at 79 109.95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -6672,7 +6672,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp e873f671-cd9b-48c3-879d-ffc5729cedea)
-    (at 68.5 114)
+    (at 51.5 110)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -6872,7 +6872,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp f0be19a2-c766-4e2f-b51b-6ddedf7365d9)
-    (at 55 114)
+    (at 38 110)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -6946,7 +6946,7 @@
 
   (footprint "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (layer "F.Cu")
     (tstamp f0fc44ee-5261-4ba1-a6a1-385a3279dc7e)
-    (at 68.5 99.05)
+    (at 51.5 95)
     (descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
     (tags "Potentiometer vertical Bourns PTV09A-1 Single")
     (property "Sheetfile" "step.kicad_sch")
@@ -7020,7 +7020,7 @@
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp fad8291b-71a1-4d61-adeb-2655c7a69ca1)
-    (at 118 84.05 90)
+    (at 101 80 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "step.kicad_sch")
@@ -7234,7 +7234,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp feb1e393-1c6d-4573-8a5a-ce8869f335c7)
-    (at 54.5 35.05)
+    (at 41 20)
     (property "Sheetfile" "step.kicad_sch")
     (property "Sheetname" "step3")
     (property "ki_description" "Switch, single pole double throw")
@@ -7275,7 +7275,142 @@
       (net 72 "GB") (pinfunction "C") (pintype "passive") (tstamp 453f7688-e444-465d-9829-52cdee6653e2))
   )
 
-  (gr_rect (start 17.5 19) (end 181 124.5)
+  (gr_rect (start 0 6) (end 180 122.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp afcd69e1-7b92-4b45-ac2f-39fbf91bb7de))
 
+  (group "Replicated Group ['step13']" (id 02f692ca-c68e-4671-a54b-d818efa815ae)
+    (members
+      078ead59-7344-46ee-a007-7c93701cf222
+      14522ddb-f48a-4f9b-9776-98f48580413c
+      5ca20d71-5a20-4142-b056-b5ffd5080151
+      b8ff527b-86ff-40d5-a015-48ec5608fe43
+      c6175587-2a8b-4a26-a424-07dce1fcb938
+    )
+  )
+  (group "Replicated Group ['step2']" (id 11496bdf-a661-4607-a964-0749731d754a)
+    (members
+      39a62682-48ef-4ffe-a963-5cf1e234d2c7
+      3ed4bc42-6438-4dc7-8363-0cc0bad72e97
+      b99c7f2f-96a9-4d25-b9d4-559da9479cfe
+      dad6af22-a91d-4d91-b1f6-b6acb9e1355c
+      e6813917-2d93-4a3b-a6a3-99c46939d7f1
+    )
+  )
+  (group "Replicated Group ['step12']" (id 11b78620-2819-41de-b31a-5d7b2a6f022e)
+    (members
+      1b2c823f-2c5e-4d3a-85ba-a4a069d4db03
+      576ff1ea-d48f-4f8b-87e1-4583b81a7f31
+      7e96e105-afa5-4e47-99d2-6b3a097babb4
+      e873f671-cd9b-48c3-879d-ffc5729cedea
+      f0fc44ee-5261-4ba1-a6a1-385a3279dc7e
+    )
+  )
+  (group "Replicated Group ['step15']" (id 2b237dd6-d369-4def-99df-74b41ffef88a)
+    (members
+      4ca335d1-143e-431f-a6ff-68d39b5b3e61
+      5cc5fc3c-28b2-4779-82af-c85e25a0258e
+      888878b7-04ad-49d4-bd7c-f45d0d27d6b4
+      afdf8b15-5bd0-4e69-9523-8544f3cd2c5b
+      fad8291b-71a1-4d61-adeb-2655c7a69ca1
+    )
+  )
+  (group "Replicated Group ['step9']" (id 380c78bd-c0fe-4b2f-866c-7bc6fb4b5a8c)
+    (members
+      747b1583-24ba-41cd-ad5c-72b3417cfc52
+      74e4ee0b-0263-4052-9367-b37ddddb358e
+      99f3c91c-8e6e-4c13-8b96-584282aa77a5
+      c4488ce0-5841-4a2d-a05e-42606a472e6d
+      e66ed04b-8bf6-4182-9381-88c00d9239eb
+    )
+  )
+  (group "Replicated Group ['step8']" (id 3c37c63f-877b-4c66-ba50-1ce469ac91ab)
+    (members
+      10776a82-b1f2-4e3f-9536-f69742947dc8
+      30c4e4cc-6cd6-49a7-b6ab-90bca12b3b60
+      b62c15f9-8316-4a7f-a5b3-82fa8f299c91
+      b653365f-a6e6-4ba8-a218-94e66207a257
+      bfd171bc-a6bf-4291-94b0-8bd53a19b157
+    )
+  )
+  (group "Replicated Group ['step10']" (id 40cbc336-5258-480e-b8f5-f6592c111278)
+    (members
+      269deae5-f355-4d3a-8909-cbced3a1adb9
+      56061a4e-f508-47cd-b091-cf4703d1f0a0
+      84aadb94-9532-4b48-b2dc-70f766a87e02
+      8f705f17-0874-4223-8df4-1c8b822cb1c8
+      d0d3cdc4-5ae5-4162-b91c-05a2d1b67ea7
+    )
+  )
+  (group "Replicated Group ['step4']" (id 46c02497-c499-48f7-b2e8-f465afe1a32b)
+    (members
+      6ffcddd1-1539-4ce8-a958-983e121250b3
+      7dfa6cd5-5bf0-4b29-b136-42857649b25e
+      8d5389da-0d04-4fdd-80f4-e595a1c24e69
+      a7b2738f-4452-4aaa-b61d-c8d19f06aab9
+      d62fb5ec-cc0b-4ad5-a312-43bf7d6c9465
+    )
+  )
+  (group "Replicated Group ['step3']" (id 5b8369d6-cebb-426d-bb97-f9e0a864bb59)
+    (members
+      35ad6488-2138-4ff8-b802-394da35f0c6e
+      64007f70-529e-453a-98ef-2dba68a9f44d
+      9fedd4fd-8c16-4a6c-871f-5dd0571432d7
+      b2172fd9-6969-4d82-9986-cbfefa2b9ad3
+      feb1e393-1c6d-4573-8a5a-ce8869f335c7
+    )
+  )
+  (group "Replicated Group ['step11']" (id 5d93d6a9-67f8-4e67-aff4-3af41be349d5)
+    (members
+      654b06fa-b7ee-40b2-b905-3cc9eee3f00d
+      937b0951-2771-4d90-b293-27b709530be6
+      e000f601-a39b-4c86-820b-ae39ce3c7afd
+      e2ce0786-0a94-475f-9529-78f59eca6e45
+      f0be19a2-c766-4e2f-b51b-6ddedf7365d9
+    )
+  )
+  (group "Replicated Group ['step5']" (id 68550d41-8634-4d99-8931-24c1d87507fe)
+    (members
+      24852871-babd-4e86-9090-c80045a5eb8b
+      6f541dc1-6ade-4680-95aa-6215d90f138c
+      75ff69ac-157d-49e9-9b28-d7e1dfed9130
+      9a110aec-2182-41ca-b065-236ddc77d083
+      b87aca56-3c81-4bd7-860a-7fb6a917ed1f
+    )
+  )
+  (group "Replicated Group ['step6']" (id 8bad9ebc-2406-42cf-921a-6774af26d748)
+    (members
+      0ff15190-1df0-48fa-a874-e7dbdd761bec
+      5827c094-c62a-43c3-8b85-2f1ab307e0d3
+      754f5ff0-cd07-4943-a609-6f9cacca071e
+      8765e7ca-f94e-4fbe-b0de-54c050344af4
+      d232e2e7-f492-484b-85fd-35ea733b3cd9
+    )
+  )
+  (group "Replicated Group ['step14']" (id 9727a57f-c985-4a97-9bbf-6bc303511e86)
+    (members
+      0a408629-9fe6-462c-8241-1ef54d60e3cc
+      395d43cd-ee8b-4133-b9a8-f88f4be14493
+      980c6954-280c-4bf5-b070-d206a33ccda8
+      a69fe617-1b24-4dcb-b58f-7f3ac3cbfde0
+      e7e9eb46-a088-4f64-98cb-63bddafc663a
+    )
+  )
+  (group "Replicated Group ['step16']" (id eb1bc147-d4cd-4be1-9ace-6cccef022fb9)
+    (members
+      17d8dc25-0a9f-4c34-86cb-1819ef29d081
+      210179e5-57c6-43a8-bfac-ec1012583b2c
+      6ce33a2e-8920-4d2f-bf14-65a8919f2e42
+      c5d8984f-78d8-45d4-a0b0-3142aa1adaef
+      e6b9ea49-12e3-4c02-a409-eaa773dabafa
+    )
+  )
+  (group "Replicated Group ['step7']" (id f1939a78-aabc-40bf-a331-3a4fedb49a9f)
+    (members
+      0b8dd34b-4798-4bf8-b20f-024ab4b88d86
+      3bd4af8a-ece3-4969-871f-144f1f526c4c
+      71512432-cc15-4006-b09e-b1d3ffeaeb29
+      a498371e-6bd0-4c18-8fc3-ded5d5c958dd
+      c4981442-e6f3-4bce-9bd9-8d8040da83eb
+    )
+  )
 )
