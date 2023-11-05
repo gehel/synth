@@ -423,7 +423,7 @@
   (symbol (lib_id "power:GND") (at 63.5 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3285e5c5-ad7e-473c-97e5-8d29d7400d34)
-    (property "Reference" "#PWR05" (at 63.5 64.77 0)
+    (property "Reference" "#PWR06" (at 63.5 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 63.5 0)
@@ -439,7 +439,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4e57f06b-721f-4583-aa33-1cbf60f4a7ab"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -565,7 +565,7 @@
   (symbol (lib_id "power:GND") (at 38.1 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8f8cd72-481a-4774-ae84-5d062069032e)
-    (property "Reference" "#PWR04" (at 38.1 77.47 0)
+    (property "Reference" "#PWR05" (at 38.1 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 76.2 0)
@@ -581,7 +581,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4e57f06b-721f-4583-aa33-1cbf60f4a7ab"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -668,7 +668,7 @@
   (symbol (lib_id "power:GND") (at 88.9 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6380b4a-a896-41fa-b6af-149b8d1a2c57)
-    (property "Reference" "#PWR06" (at 88.9 52.07 0)
+    (property "Reference" "#PWR07" (at 88.9 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 50.8 0)
@@ -684,7 +684,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4e57f06b-721f-4583-aa33-1cbf60f4a7ab"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )

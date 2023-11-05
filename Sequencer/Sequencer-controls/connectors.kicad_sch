@@ -281,11 +281,11 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_02x05_Counter_Clockwise" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector_Generic:Conn_02x05_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_02x05_Counter_Clockwise" (at 1.27 -7.62 0)
+      (property "Value" "Conn_02x05_Odd_Even" (at 1.27 -7.62 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -297,13 +297,13 @@
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_02x05_Counter_Clockwise_1_1"
+      (symbol "Conn_02x05_Odd_Even_1_1"
         (rectangle (start -1.27 -4.953) (end 0 -5.207)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -352,39 +352,39 @@
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 7.62 5.08 180) (length 3.81)
+        (pin passive line (at 7.62 -5.08 180) (length 3.81)
           (name "Pin_10" (effects (font (size 1.27 1.27))))
           (number "10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
+        (pin passive line (at 7.62 5.08 180) (length 3.81)
           (name "Pin_2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 0 0) (length 3.81)
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
           (name "Pin_3" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+        (pin passive line (at 7.62 2.54 180) (length 3.81)
           (name "Pin_4" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+        (pin passive line (at -5.08 0 0) (length 3.81)
           (name "Pin_5" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 7.62 -5.08 180) (length 3.81)
+        (pin passive line (at 7.62 0 180) (length 3.81)
           (name "Pin_6" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 7.62 -2.54 180) (length 3.81)
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
           (name "Pin_7" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 7.62 0 180) (length 3.81)
+        (pin passive line (at 7.62 -2.54 180) (length 3.81)
           (name "Pin_8" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 7.62 2.54 180) (length 3.81)
+        (pin passive line (at -5.08 -5.08 0) (length 3.81)
           (name "Pin_9" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
         )
@@ -1446,7 +1446,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 77.47 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fb057da-d7d5-46f1-a11c-0949c3dc545c)
-    (property "Reference" "J11" (at 80.01 93.98 0)
+    (property "Reference" "J8" (at 80.01 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05" (at 80.01 96.52 0)
@@ -1466,7 +1466,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "J11") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1475,7 +1475,7 @@
   (symbol (lib_id "power:GND") (at 179.07 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c7f666c-4573-49bd-a8a5-60e6e2eb5fd6)
-    (property "Reference" "#PWR039" (at 179.07 50.8 0)
+    (property "Reference" "#PWR045" (at 179.07 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 49.53 0)
@@ -1491,7 +1491,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1500,7 +1500,7 @@
   (symbol (lib_id "power:-12V") (at 173.99 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20dcfb8e-247d-40c5-8111-f0e4b2bc9db6)
-    (property "Reference" "#PWR041" (at 173.99 46.99 0)
+    (property "Reference" "#PWR044" (at 173.99 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 173.99 49.53 0)
@@ -1516,7 +1516,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -1557,7 +1557,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 77.47 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40d9d36c-c7d9-47d7-9046-a1b51c513de6)
-    (property "Reference" "J10" (at 80.01 80.01 0)
+    (property "Reference" "J7" (at 80.01 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 80.01 82.55 0)
@@ -1576,7 +1576,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "J10") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -1585,7 +1585,7 @@
   (symbol (lib_id "power:+12V") (at 173.99 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fcb7b81-7301-41ad-a6b4-623971e46683)
-    (property "Reference" "#PWR040" (at 173.99 33.02 0)
+    (property "Reference" "#PWR043" (at 173.99 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 173.99 24.13 0)
@@ -1601,7 +1601,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1610,7 +1610,7 @@
   (symbol (lib_id "power:GND") (at 151.13 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77ec9b64-9f8a-4cde-a5f0-3317a794b14f)
-    (property "Reference" "#PWR044" (at 151.13 50.8 0)
+    (property "Reference" "#PWR040" (at 151.13 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 49.53 0)
@@ -1626,7 +1626,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1667,7 +1667,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 115.57 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 894ab666-759b-4261-a16f-c073df8670ac)
-    (property "Reference" "J8" (at 118.11 59.69 0)
+    (property "Reference" "J10" (at 118.11 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08" (at 118.11 62.23 0)
@@ -1690,7 +1690,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "J8") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1731,7 +1731,7 @@
   (symbol (lib_id "power:-12V") (at 156.21 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c14e138-a9fa-48ee-a7e0-134b3e01a0fa)
-    (property "Reference" "#PWR043" (at 156.21 46.99 0)
+    (property "Reference" "#PWR042" (at 156.21 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 156.21 49.53 0)
@@ -1747,7 +1747,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1756,7 +1756,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 115.57 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92246fe8-fbaf-41ca-9c1b-6bb796539107)
-    (property "Reference" "J7" (at 118.11 29.21 0)
+    (property "Reference" "J9" (at 118.11 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 118.11 31.75 0)
@@ -1775,16 +1775,16 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "J7") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise") (at 163.83 36.83 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 163.83 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bb381f2-f28a-48ba-ac52-fc86845de8cc)
-    (property "Reference" "J9" (at 165.1 25.4 0)
+    (property "Reference" "J12" (at 165.1 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x05_Counter_Clockwise" (at 165.1 27.94 0)
@@ -1809,7 +1809,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "J9") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1818,7 +1818,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 115.57 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4875d7b-0d74-4946-917a-20bf1847d030)
-    (property "Reference" "J12" (at 118.11 78.74 0)
+    (property "Reference" "J11" (at 118.11 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (at 118.11 81.28 0)
@@ -1836,7 +1836,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "J12") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1877,7 +1877,7 @@
   (symbol (lib_id "power:+12V") (at 156.21 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d210ce9a-a635-4052-8922-f2273cf1e3e8)
-    (property "Reference" "#PWR042" (at 156.21 33.02 0)
+    (property "Reference" "#PWR041" (at 156.21 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 156.21 24.13 0)
@@ -1893,7 +1893,7 @@
     (instances
       (project "Sequencer-controls"
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa9fd4ea-0392-4968-bc04-e545f42a920f"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
