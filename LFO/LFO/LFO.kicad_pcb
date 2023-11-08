@@ -5869,7 +5869,7 @@
   (gr_text "TRISKEW" (at 135.001 72.898 90) (layer "F.SilkS") (tstamp a6774378-ca3e-4654-a400-5052c02fa754)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "LFO - V1\nMusic\nFrom\nOuter\nSpace" (at 131.572 90.424) (layer "F.SilkS") (tstamp ae11d15b-1535-4f71-9139-4393e07a7c3d)
+  (gr_text "LFO - V2\nMusic\nFrom\nOuter\nSpace" (at 131.572 90.424) (layer "F.SilkS") (tstamp ae11d15b-1535-4f71-9139-4393e07a7c3d)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
