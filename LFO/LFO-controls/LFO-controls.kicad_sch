@@ -652,10 +652,6 @@
     (stroke (width 0) (type default))
     (uuid 09d932ad-b897-4800-8388-3d4ee7180a39)
   )
-  (wire (pts (xy 58.42 46.99) (xy 58.42 49.53))
-    (stroke (width 0) (type default))
-    (uuid 0d74e221-7b71-43db-9d0b-71005c6379cb)
-  )
   (wire (pts (xy 104.14 121.92) (xy 106.68 121.92))
     (stroke (width 0) (type default))
     (uuid 16c566e7-d14b-4012-af75-500375c0c1a4)
@@ -679,6 +675,10 @@
   (wire (pts (xy 219.71 83.82) (xy 219.71 73.66))
     (stroke (width 0) (type default))
     (uuid 2c5b3e62-b777-4db2-967d-0ba5e0e038fd)
+  )
+  (wire (pts (xy 58.42 46.99) (xy 58.42 49.53))
+    (stroke (width 0) (type default))
+    (uuid 2d593884-2d91-411a-a46b-22da8f9a296f)
   )
   (wire (pts (xy 33.02 119.38) (xy 33.02 120.65))
     (stroke (width 0) (type default))
@@ -719,6 +719,10 @@
   (wire (pts (xy 158.75 109.22) (xy 158.75 114.3))
     (stroke (width 0) (type default))
     (uuid 5171d0a6-daa1-4cb1-bd34-fc775a441379)
+  )
+  (wire (pts (xy 58.42 57.15) (xy 58.42 59.69))
+    (stroke (width 0) (type default))
+    (uuid 58e06053-1fea-4c0e-aab8-0cd61aa43833)
   )
   (wire (pts (xy 31.75 119.38) (xy 33.02 119.38))
     (stroke (width 0) (type default))
@@ -799,10 +803,6 @@
   (wire (pts (xy 166.37 109.22) (xy 158.75 109.22))
     (stroke (width 0) (type default))
     (uuid 9efc89b7-4525-4bfb-8984-19e70f5c6a25)
-  )
-  (wire (pts (xy 58.42 57.15) (xy 58.42 59.69))
-    (stroke (width 0) (type default))
-    (uuid a0652656-aa36-4a8f-9ed2-ff76b02b70cd)
   )
   (wire (pts (xy 104.14 111.76) (xy 106.68 111.76))
     (stroke (width 0) (type default))
@@ -1164,7 +1164,7 @@
   (symbol (lib_id "power:GND") (at 34.29 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 023421d9-1289-48c3-b91b-e05de96c379c)
-    (property "Reference" "#PWR03" (at 34.29 113.03 0)
+    (property "Reference" "#PWR06" (at 34.29 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 111.76 0)
@@ -1180,7 +1180,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1189,7 +1189,7 @@
   (symbol (lib_id "power:-12V") (at 33.02 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04ec8306-b9e8-4821-84bd-02f6fd59e2c3)
-    (property "Reference" "#PWR09" (at 33.02 62.23 0)
+    (property "Reference" "#PWR02" (at 33.02 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 33.02 64.77 0)
@@ -1205,7 +1205,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1237,7 +1237,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "RV1") (unit 1)
+          (reference "FINE1") (unit 1)
         )
       )
       (project "VCA"
@@ -1273,7 +1273,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J8") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
       (project "VCA"
@@ -1339,7 +1339,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "VCA"
@@ -1375,7 +1375,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "VCA"
@@ -1419,7 +1419,7 @@
   (symbol (lib_id "power:GND") (at 33.02 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dde7223-6af8-4172-99a8-f99eddb3889c)
-    (property "Reference" "#PWR04" (at 33.02 127 0)
+    (property "Reference" "#PWR03" (at 33.02 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 125.73 0)
@@ -1435,7 +1435,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1474,7 +1474,7 @@
   (symbol (lib_id "power:+12V") (at 33.02 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 330e0fff-56ff-4277-8cbe-b49454d4584f)
-    (property "Reference" "#PWR010" (at 33.02 52.07 0)
+    (property "Reference" "#PWR01" (at 33.02 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 33.02 43.18 0)
@@ -1490,7 +1490,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1522,7 +1522,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "RV3") (unit 1)
+          (reference "PW1") (unit 1)
         )
       )
       (project "VCA"
@@ -1558,7 +1558,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J1") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
       (project "VCA"
@@ -1655,7 +1655,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "VCA"
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "power:GND") (at 34.29 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5057fa2e-faa9-49c0-8aeb-c8cf43870625)
-    (property "Reference" "#PWR02" (at 34.29 101.6 0)
+    (property "Reference" "#PWR05" (at 34.29 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 100.33 0)
@@ -1685,7 +1685,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1694,7 +1694,7 @@
   (symbol (lib_id "power:GND") (at 57.15 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56e49b11-2ebb-4aba-a471-e7d6a0526446)
-    (property "Reference" "#PWR05" (at 57.15 127 0)
+    (property "Reference" "#PWR010" (at 57.15 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 125.73 0)
@@ -1710,7 +1710,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1811,7 +1811,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
       (project "VCA"
@@ -1957,7 +1957,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
       (project "VCA"
@@ -1971,7 +1971,7 @@
   (symbol (lib_id "power:GND") (at 55.88 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7416ecac-4a3d-473e-9260-302d125af7bc)
-    (property "Reference" "#PWR06" (at 55.88 113.03 0)
+    (property "Reference" "#PWR08" (at 55.88 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 111.76 0)
@@ -1987,7 +1987,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2053,7 +2053,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "VCA"
@@ -2088,7 +2088,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "VCA"
@@ -2107,7 +2107,7 @@
   (symbol (lib_id "power:GND") (at 34.29 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2c20f2a-58d8-4abe-9697-decad9911a74)
-    (property "Reference" "#PWR01" (at 34.29 88.9 0)
+    (property "Reference" "#PWR04" (at 34.29 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 87.63 0)
@@ -2123,19 +2123,19 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Potentiometer") (at 58.42 53.34 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R_Potentiometer") (at 58.42 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a66946c2-0223-4335-866e-9be1d5104640)
-    (property "Reference" "RV2" (at 55.88 54.61 0)
+    (property "Reference" "RV2" (at 55.88 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "R_Potentiometer" (at 55.88 52.07 0)
+    (property "Value" "R_Potentiometer" (at 55.88 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical" (at 58.42 53.34 0)
@@ -2155,7 +2155,7 @@
       )
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "RV2") (unit 1)
+          (reference "COARSE1") (unit 1)
         )
       )
       (project "VCA"
@@ -2169,7 +2169,7 @@
   (symbol (lib_id "power:GND") (at 55.88 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a777095c-5173-464c-9cb0-dc9f515a2523)
-    (property "Reference" "#PWR08" (at 55.88 87.63 0)
+    (property "Reference" "#PWR07" (at 55.88 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 86.36 0)
@@ -2185,7 +2185,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2299,7 +2299,7 @@
   (symbol (lib_id "power:GND") (at 57.15 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9e6a9b9-a1bf-4fd9-90b3-6ab47375d020)
-    (property "Reference" "#PWR07" (at 57.15 100.33 0)
+    (property "Reference" "#PWR09" (at 57.15 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 99.06 0)
@@ -2315,7 +2315,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2324,7 +2324,7 @@
   (symbol (lib_id "power:GND") (at 194.31 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d03e9d0f-ac5c-4bc0-a3e8-200912b1351e)
-    (property "Reference" "#PWR011" (at 194.31 93.98 0)
+    (property "Reference" "#PWR015" (at 194.31 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 92.71 0)
@@ -2340,7 +2340,7 @@
     (instances
       (project "LFO-controls"
         (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "VCA"

@@ -2711,7 +2711,7 @@
   (symbol (lib_id "power:-12V") (at 125.73 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00f11578-6c75-4ab3-9349-fa2be1e07284)
-    (property "Reference" "#PWR022" (at 125.73 190.5 0)
+    (property "Reference" "#PWR023" (at 125.73 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 125.73 193.04 0)
@@ -2727,7 +2727,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2817,7 +2817,7 @@
   (symbol (lib_id "power:GND") (at 195.58 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04dd5c93-fafe-4248-ad8b-238f4f07ee38)
-    (property "Reference" "#PWR034" (at 195.58 139.7 0)
+    (property "Reference" "#PWR035" (at 195.58 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 138.43 0)
@@ -2833,7 +2833,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3115,7 +3115,7 @@
   (symbol (lib_id "power:+12V") (at 227.33 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12e26c8a-b209-4b81-9f2c-47875fb17210)
-    (property "Reference" "#PWR037" (at 227.33 140.97 0)
+    (property "Reference" "#PWR038" (at 227.33 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 227.33 132.08 0)
@@ -3131,7 +3131,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3291,7 +3291,7 @@
   (symbol (lib_id "power:+12V") (at 125.73 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ecf67e2-61a2-4bbe-95bf-bc5c9ca0a328)
-    (property "Reference" "#PWR021" (at 125.73 172.72 0)
+    (property "Reference" "#PWR022" (at 125.73 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 125.73 163.83 0)
@@ -3307,7 +3307,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3451,7 +3451,7 @@
   (symbol (lib_id "power:-12V") (at 273.05 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28e62280-ad1c-4453-b408-28ecaffffd7b)
-    (property "Reference" "#PWR038" (at 273.05 148.59 0)
+    (property "Reference" "#PWR039" (at 273.05 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 273.05 151.13 0)
@@ -3467,7 +3467,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -3896,7 +3896,7 @@
   (symbol (lib_id "power:GND") (at 144.78 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4662cdf8-18c0-4a7b-baff-783aa5388857)
-    (property "Reference" "#PWR026" (at 144.78 171.45 0)
+    (property "Reference" "#PWR027" (at 144.78 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 170.18 0)
@@ -3912,7 +3912,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4317,7 +4317,7 @@
   (symbol (lib_id "power:GND") (at 165.1 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ab85eb7-a9a7-4c3f-8def-b1176de4c655)
-    (property "Reference" "#PWR029" (at 165.1 48.26 0)
+    (property "Reference" "#PWR030" (at 165.1 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 46.99 0)
@@ -4333,7 +4333,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4533,7 +4533,7 @@
   (symbol (lib_id "power:+12V") (at 130.81 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ca53c4a-bbe0-4031-8bc8-7461f768a813)
-    (property "Reference" "#PWR023" (at 130.81 49.53 0)
+    (property "Reference" "#PWR024" (at 130.81 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 130.81 40.64 0)
@@ -4549,7 +4549,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4558,7 +4558,7 @@
   (symbol (lib_id "power:-12V") (at 125.73 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cb3768f-9ace-44cc-a415-0ac4ad361ea3)
-    (property "Reference" "#PWR050" (at 125.73 110.49 0)
+    (property "Reference" "#PWR021" (at 125.73 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 125.73 113.03 0)
@@ -4574,7 +4574,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4615,7 +4615,7 @@
   (symbol (lib_id "power:-12V") (at 167.64 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fb6b4e2-ad5e-4849-90ee-290c635996a0)
-    (property "Reference" "#PWR031" (at 167.64 152.4 0)
+    (property "Reference" "#PWR032" (at 167.64 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 167.64 154.94 0)
@@ -4631,7 +4631,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5002,7 +5002,7 @@
   (symbol (lib_id "power:-12V") (at 203.2 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82a35611-f8c7-49ae-b882-5b857c73e3f7)
-    (property "Reference" "#PWR036" (at 203.2 93.98 0)
+    (property "Reference" "#PWR037" (at 203.2 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 203.2 96.52 0)
@@ -5018,7 +5018,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -5054,7 +5054,7 @@
   (symbol (lib_id "power:+12V") (at 167.64 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c0483d0-0a8a-437f-856b-9218e9bacedd)
-    (property "Reference" "#PWR030" (at 167.64 133.35 0)
+    (property "Reference" "#PWR031" (at 167.64 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 167.64 124.46 0)
@@ -5070,7 +5070,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -5199,7 +5199,7 @@
   (symbol (lib_id "power:+12V") (at 142.24 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f5ac03a-60b7-49b3-b19e-adfe3ee6b44e)
-    (property "Reference" "#PWR024" (at 142.24 85.09 0)
+    (property "Reference" "#PWR025" (at 142.24 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 142.24 76.2 0)
@@ -5215,7 +5215,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5224,7 +5224,7 @@
   (symbol (lib_id "power:GND") (at 151.13 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4a799a0-1898-4b3b-a2f4-5511642cf658)
-    (property "Reference" "#PWR027" (at 151.13 107.95 0)
+    (property "Reference" "#PWR028" (at 151.13 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 106.68 0)
@@ -5240,7 +5240,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -5420,7 +5420,7 @@
   (symbol (lib_id "power:GND") (at 195.58 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b13fb610-35c6-437d-8fd4-253aa4cfe1d4)
-    (property "Reference" "#PWR035" (at 195.58 173.99 0)
+    (property "Reference" "#PWR036" (at 195.58 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 172.72 0)
@@ -5436,7 +5436,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -6244,7 +6244,7 @@
   (symbol (lib_id "power:+12V") (at 191.77 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbba1807-7778-4dcf-901d-a5938d289319)
-    (property "Reference" "#PWR032" (at 191.77 101.6 0)
+    (property "Reference" "#PWR033" (at 191.77 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 191.77 92.71 0)
@@ -6260,7 +6260,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -6759,7 +6759,7 @@
   (symbol (lib_id "power:GND") (at 195.58 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0027884-a9f0-464b-97bf-a1dab431c667)
-    (property "Reference" "#PWR033" (at 195.58 41.91 0)
+    (property "Reference" "#PWR034" (at 195.58 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 40.64 0)
@@ -6775,7 +6775,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -6816,7 +6816,7 @@
   (symbol (lib_id "power:+12V") (at 153.67 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f31a295e-e4fe-43a8-b7e5-a5637d44eff9)
-    (property "Reference" "#PWR028" (at 153.67 80.01 0)
+    (property "Reference" "#PWR029" (at 153.67 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 153.67 71.12 0)
@@ -6832,7 +6832,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -6977,7 +6977,7 @@
   (symbol (lib_id "power:-12V") (at 142.24 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcfa52ac-d37f-4985-a5e9-fe5ec898dc48)
-    (property "Reference" "#PWR025" (at 142.24 104.14 0)
+    (property "Reference" "#PWR026" (at 142.24 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 142.24 106.68 0)
@@ -6993,7 +6993,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )

@@ -579,9 +579,13 @@
     (stroke (width 0) (type default))
     (uuid 15a2733c-d9d2-47ae-8208-8edc8ad4a9b5)
   )
-  (wire (pts (xy 133.35 72.39) (xy 130.81 72.39))
+  (wire (pts (xy 137.16 88.9) (xy 137.16 86.36))
     (stroke (width 0) (type default))
-    (uuid 1641e09b-7e1f-407d-a872-fbdbfec7bdfe)
+    (uuid 1e94d8f3-e0e6-49c6-a292-29c7783b490a)
+  )
+  (wire (pts (xy 137.16 93.98) (xy 137.16 96.52))
+    (stroke (width 0) (type default))
+    (uuid 278122f5-4fdd-4bb4-b85f-37068b141a05)
   )
   (wire (pts (xy 81.28 40.64) (xy 83.82 40.64))
     (stroke (width 0) (type default))
@@ -590,6 +594,14 @@
   (wire (pts (xy 77.47 95.25) (xy 80.01 95.25))
     (stroke (width 0) (type default))
     (uuid 2cc02bd0-42d2-4b22-a736-1adb7b79f367)
+  )
+  (wire (pts (xy 139.7 91.44) (xy 132.08 91.44))
+    (stroke (width 0) (type default))
+    (uuid 3e35578b-78fc-4d91-a13c-af10c9964592)
+  )
+  (wire (pts (xy 139.7 93.98) (xy 137.16 93.98))
+    (stroke (width 0) (type default))
+    (uuid 3fe92da6-5d7d-4879-b908-5ab33f2b25ca)
   )
   (wire (pts (xy 200.66 101.6) (xy 209.55 101.6))
     (stroke (width 0) (type default))
@@ -606,6 +618,10 @@
   (wire (pts (xy 77.47 72.39) (xy 80.01 72.39))
     (stroke (width 0) (type default))
     (uuid 5cfd6670-f649-4d72-9786-03803b2a024d)
+  )
+  (wire (pts (xy 139.7 88.9) (xy 137.16 88.9))
+    (stroke (width 0) (type default))
+    (uuid 5e6daffa-f54c-4d4c-a454-a10121d7ee9c)
   )
   (wire (pts (xy 173.99 41.91) (xy 171.45 41.91))
     (stroke (width 0) (type default))
@@ -631,10 +647,6 @@
     (stroke (width 0) (type default))
     (uuid 758239d2-5d4b-4c3a-8584-4fbb4d9fd06a)
   )
-  (wire (pts (xy 133.35 74.93) (xy 125.73 74.93))
-    (stroke (width 0) (type default))
-    (uuid 7c20e9a8-7f2d-4ba4-870d-810277dbb3d9)
-  )
   (wire (pts (xy 189.23 41.91) (xy 189.23 44.45))
     (stroke (width 0) (type default))
     (uuid 7d12b7c8-7403-4724-9a73-338666af55d4)
@@ -655,10 +667,6 @@
     (stroke (width 0) (type default))
     (uuid 91faed19-f7fe-4aef-a254-c68c6be5e8a8)
   )
-  (wire (pts (xy 130.81 72.39) (xy 130.81 69.85))
-    (stroke (width 0) (type default))
-    (uuid 99d35e2b-4078-4aaf-bdb0-5c0d6b12d2a3)
-  )
   (wire (pts (xy 209.55 101.6) (xy 209.55 91.44))
     (stroke (width 0) (type default))
     (uuid 9d171bd6-c7a2-4956-ac26-bd923c6e6f5f)
@@ -674,10 +682,6 @@
   (wire (pts (xy 77.47 87.63) (xy 80.01 87.63))
     (stroke (width 0) (type default))
     (uuid acfa1103-7137-49bd-9c0c-660ee4f4827a)
-  )
-  (wire (pts (xy 130.81 77.47) (xy 130.81 80.01))
-    (stroke (width 0) (type default))
-    (uuid adf36fc0-6db3-46c2-9e82-43f4aa5721b7)
   )
   (wire (pts (xy 77.47 97.79) (xy 80.01 97.79))
     (stroke (width 0) (type default))
@@ -707,6 +711,10 @@
     (stroke (width 0) (type default))
     (uuid bcccaaf0-c4f0-4641-94df-2d5bce591a29)
   )
+  (wire (pts (xy 132.08 91.44) (xy 132.08 96.52))
+    (stroke (width 0) (type default))
+    (uuid be0ad80b-911e-490b-84de-21552fd7da77)
+  )
   (wire (pts (xy 186.69 34.29) (xy 195.58 34.29))
     (stroke (width 0) (type default))
     (uuid bec4950b-0e95-4eda-aac8-7d063735bf1c)
@@ -726,14 +734,6 @@
   (wire (pts (xy 195.58 36.83) (xy 195.58 39.37))
     (stroke (width 0) (type default))
     (uuid dc3ad70f-487b-4632-958d-aff5dd205717)
-  )
-  (wire (pts (xy 125.73 74.93) (xy 125.73 80.01))
-    (stroke (width 0) (type default))
-    (uuid e9967127-1742-4c37-868e-5684e4d2f1ee)
-  )
-  (wire (pts (xy 133.35 77.47) (xy 130.81 77.47))
-    (stroke (width 0) (type default))
-    (uuid f392cc65-2a5a-457b-a87a-427aa08c9230)
   )
   (wire (pts (xy 77.47 67.31) (xy 80.01 67.31))
     (stroke (width 0) (type default))
@@ -863,7 +863,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 88.9 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00a82441-ad81-49df-a8a3-7507db5727e2)
-    (property "Reference" "J4" (at 91.44 31.75 0)
+    (property "Reference" "TRI1" (at 91.44 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 91.44 34.29 0)
@@ -879,7 +879,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "J4") (unit 1)
+          (reference "TRI1") (unit 1)
         )
       )
     )
@@ -909,34 +909,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR057") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 138.43 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1983f56a-5289-44dc-9071-d490df1a8116)
-    (property "Reference" "J8" (at 140.97 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x03" (at 140.97 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 138.43 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7bb0c8c9-3f5e-4cb8-aa4b-74060776aa13))
-    (pin "2" (uuid 93ccdfa9-6ae2-4dee-bc6b-c7da2e896804))
-    (pin "3" (uuid 0f04287b-6fd7-47ca-9ce8-1a0661090c2b))
-    (instances
-      (project "LFO"
-        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "J8") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -983,32 +956,77 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 125.73 80.01 0) (unit 1)
+  (symbol (lib_id "power:-12V") (at 137.16 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 377c8ce9-b4ec-4e79-9ed3-a8564407b103)
-    (property "Reference" "#PWR054" (at 125.73 86.36 0)
+    (uuid 301b671e-a717-4d2e-9dc1-eae0a1dcd350)
+    (property "Reference" "#PWR055" (at 137.16 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 125.73 85.09 0)
+    (property "Value" "-12V" (at 137.16 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 125.73 80.01 0)
+    (property "Footprint" "" (at 137.16 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 125.73 80.01 0)
+    (property "Datasheet" "" (at 137.16 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8a8a425-02df-48d1-b5fe-f4e4c2275e3c))
+    (pin "1" (uuid 7587beea-2e06-4a0c-9103-8a13fe839d45))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/da6756ce-4aab-446d-9318-b5790d028b73"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "#PWR054") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 132.08 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 329d810b-4b5a-4093-997a-26362e4d6af9)
+    (property "Reference" "#PWR054" (at 132.08 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 132.08 101.6 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 132.08 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 132.08 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 39226641-b3c2-40a1-9d77-c91eed264cac))
     (instances
       (project "VCO"
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/da6756ce-4aab-446d-9318-b5790d028b73"
           (reference "#PWR054") (unit 1)
+        )
+      )
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "VCA"
@@ -1018,7 +1036,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1027,7 +1045,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 85.09 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40d7329d-5782-405b-8a07-5d0e2a02a274)
-    (property "Reference" "J3" (at 87.63 92.71 0)
+    (property "Reference" "J2" (at 87.63 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06" (at 87.63 95.25 0)
@@ -1048,7 +1066,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1113,42 +1131,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR056") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 130.81 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6b5ef659-71f6-406d-a91f-1b862ce82c6b)
-    (property "Reference" "#PWR053" (at 130.81 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 130.81 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 130.81 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 130.81 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0296554f-5d27-4736-8d03-f2d5b47e08a3))
-    (instances
-      (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/da6756ce-4aab-446d-9318-b5790d028b73"
-          (reference "#PWR053") (unit 1)
-        )
-      )
-      (project "VCA"
-        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "LFO"
-        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -1157,7 +1140,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 88.9 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ddd9c54-88ce-4d88-aa28-6feb5a7b3c89)
-    (property "Reference" "J7" (at 91.44 39.37 0)
+    (property "Reference" "LEDA1" (at 91.44 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 91.44 41.91 0)
@@ -1173,7 +1156,7 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "J7") (unit 1)
+          (reference "LEDA1") (unit 1)
         )
       )
     )
@@ -1208,7 +1191,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1217,7 +1200,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 88.9 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8777f23b-1745-48b7-8b4f-a217a712d8a5)
-    (property "Reference" "J5" (at 91.44 34.29 0)
+    (property "Reference" "SAW1" (at 91.44 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 91.44 36.83 0)
@@ -1233,7 +1216,47 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "J5") (unit 1)
+          (reference "SAW1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 137.16 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 891f027b-3069-42fa-9f28-b01edc714046)
+    (property "Reference" "#PWR053" (at 137.16 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 137.16 81.28 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 137.16 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e71b51eb-b878-4b6d-9b8a-89a9aa5d172f))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/da6756ce-4aab-446d-9318-b5790d028b73"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "VCA"
+        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
+          (reference "#PWR052") (unit 1)
+        )
+      )
+      (project "LFO"
+        (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -1268,7 +1291,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1303,7 +1326,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -1368,7 +1391,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1408,7 +1431,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 88.9 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7a30984-bc6a-4ead-ae0b-7721954c405e)
-    (property "Reference" "J6" (at 91.44 36.83 0)
+    (property "Reference" "SIN1" (at 91.44 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 91.44 39.37 0)
@@ -1424,42 +1447,39 @@
     (instances
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "J6") (unit 1)
+          (reference "SIN1") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:-12V") (at 130.81 80.01 180) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 144.78 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f57a78f6-1c3e-4930-93a6-c0337607c50d)
-    (property "Reference" "#PWR055" (at 130.81 82.55 0)
+    (uuid dd045f9e-2ce9-4fe8-8617-c3142a481a2f)
+    (property "Reference" "J15" (at 147.32 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x03" (at 147.32 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 144.78 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "-12V" (at 130.81 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 130.81 80.01 0)
+    (property "Datasheet" "~" (at 144.78 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 130.81 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc26f908-3002-4938-8ff3-792f9a4becec))
+    (pin "1" (uuid 41f42104-4cf9-4647-b993-876a0a0414a2))
+    (pin "2" (uuid 5faff3b2-13f2-4161-8c94-c9d967e19842))
+    (pin "3" (uuid 069f01f5-54b2-44bc-be4f-efea37c43e01))
     (instances
-      (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/da6756ce-4aab-446d-9318-b5790d028b73"
-          (reference "#PWR055") (unit 1)
-        )
-      )
-      (project "VCA"
-        (path "/a331be11-cf92-4101-a082-e20022c8dee2/105b1da3-69f9-4444-a8b7-56e3901da034"
-          (reference "#PWR054") (unit 1)
+      (project "LFO-controls"
+        (path "/938c5bc2-f32a-4a3a-8ab9-029566134c63"
+          (reference "J15") (unit 1)
         )
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR060") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1494,7 +1514,7 @@
       )
       (project "LFO"
         (path "/acd84bd8-c29a-4e4d-a78d-bbb1d32e037c/764b8532-46b5-43ba-a119-e7e4e00258ed"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
