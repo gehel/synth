@@ -7,3 +7,6 @@ production_files
 *.stl
 *.FCStd1
 
+fp-lib-table
+jlcpcb
+__pycache__
