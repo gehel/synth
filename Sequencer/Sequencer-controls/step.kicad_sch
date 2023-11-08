@@ -652,7 +652,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 88.9 92.71 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a5a7c4a-8241-426e-b986-9ee6d20c431c)
-    (property "Reference" "RV_COARSE1" (at 86.36 93.98 0)
+    (property "Reference" "RV_COARSE15" (at 86.36 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100K" (at 86.36 91.44 0)
@@ -669,56 +669,56 @@
     (pin "3" (uuid 3c9a4de4-dafa-455f-9bbb-e302b42c61d8))
     (instances
       (project "Sequencer-controls"
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/9be6474a-87f8-4133-b0da-677b2e0ffa4c"
-          (reference "RV_COARSE1") (unit 1)
-        )
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/92d14863-e14e-4f82-a3ce-7c25c4c36499"
           (reference "RV_COARSE15") (unit 1)
         )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/42b0cf15-1ba8-48b5-9f50-5416dd963e68"
-          (reference "RV_COARSE2") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/53101723-5797-4314-a5ae-0b6811121254"
-          (reference "RV_COARSE3") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/b332fec8-c2d4-45a7-891c-c0d3bfa046d7"
-          (reference "RV_COARSE4") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/219118e8-0d4c-4af9-9eaa-664aa5b564ae"
-          (reference "RV_COARSE5") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412"
-          (reference "RV1") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/ebbf3d9b-4c9a-4e22-bb34-f9afecb9e9ba"
-          (reference "RV_COARSE7") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4545a4ff-4eb6-4333-983e-1a79de480be7"
-          (reference "RV_COARSE8") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/c4f5c5e7-033d-4f7e-9071-ee6dcfab4327"
-          (reference "RV_COARSE9") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa30ec04-d0ae-4d45-bef1-b8dcd6691dbc"
-          (reference "RV_COARSE10") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/949c7440-3343-4ad4-ab00-0fef90373f09"
-          (reference "RV_COARSE11") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/05e85de7-7976-41b2-b99e-570227db2349"
-          (reference "RV_COARSE6") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/8eae250f-f2e1-46cb-8b20-913cfdb4ab21"
-          (reference "RV_COARSE12") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/88e0ef38-6b82-45a5-977f-06e9f447cd44"
-          (reference "RV_COARSE13") (unit 1)
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d770d6a1-b2b6-41ae-bc3d-cd908c237402"
+          (reference "RV_COARSE16") (unit 1)
         )
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d54d0b29-e3f4-4c7b-9944-56c416fa3781"
           (reference "RV_COARSE14") (unit 1)
         )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d770d6a1-b2b6-41ae-bc3d-cd908c237402"
-          (reference "RV_COARSE16") (unit 1)
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/88e0ef38-6b82-45a5-977f-06e9f447cd44"
+          (reference "RV_COARSE13") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/8eae250f-f2e1-46cb-8b20-913cfdb4ab21"
+          (reference "RV_COARSE12") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/05e85de7-7976-41b2-b99e-570227db2349"
+          (reference "RV_COARSE6") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/949c7440-3343-4ad4-ab00-0fef90373f09"
+          (reference "RV_COARSE11") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa30ec04-d0ae-4d45-bef1-b8dcd6691dbc"
+          (reference "RV_COARSE10") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/c4f5c5e7-033d-4f7e-9071-ee6dcfab4327"
+          (reference "RV_COARSE9") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4545a4ff-4eb6-4333-983e-1a79de480be7"
+          (reference "RV_COARSE8") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/ebbf3d9b-4c9a-4e22-bb34-f9afecb9e9ba"
+          (reference "RV_COARSE7") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412"
+          (reference "RV1") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/219118e8-0d4c-4af9-9eaa-664aa5b564ae"
+          (reference "RV_COARSE5") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/b332fec8-c2d4-45a7-891c-c0d3bfa046d7"
+          (reference "RV_COARSE4") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/53101723-5797-4314-a5ae-0b6811121254"
+          (reference "RV_COARSE3") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/42b0cf15-1ba8-48b5-9f50-5416dd963e68"
+          (reference "RV_COARSE2") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/9be6474a-87f8-4133-b0da-677b2e0ffa4c"
+          (reference "RV_COARSE1") (unit 1)
         )
       )
       (project "VCA-controls"
@@ -807,7 +807,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 54.61 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82aa046c-3aba-49fa-a576-338f24e0e8a1)
-    (property "Reference" "SW4" (at 55.88 52.07 90)
+    (property "Reference" "SW18" (at 55.88 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SW_SPDT" (at 53.34 52.07 90)
@@ -824,56 +824,56 @@
     (pin "3" (uuid 1bf1c8fe-35b1-4a0c-b93b-884904120dd1))
     (instances
       (project "Sequencer-controls"
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/9be6474a-87f8-4133-b0da-677b2e0ffa4c"
-          (reference "SW4") (unit 1)
-        )
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/92d14863-e14e-4f82-a3ce-7c25c4c36499"
           (reference "SW18") (unit 1)
         )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/42b0cf15-1ba8-48b5-9f50-5416dd963e68"
-          (reference "SW5") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/53101723-5797-4314-a5ae-0b6811121254"
-          (reference "SW6") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/b332fec8-c2d4-45a7-891c-c0d3bfa046d7"
-          (reference "SW7") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/219118e8-0d4c-4af9-9eaa-664aa5b564ae"
-          (reference "SW8") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412"
-          (reference "SW1") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/ebbf3d9b-4c9a-4e22-bb34-f9afecb9e9ba"
-          (reference "SW10") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4545a4ff-4eb6-4333-983e-1a79de480be7"
-          (reference "SW11") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/c4f5c5e7-033d-4f7e-9071-ee6dcfab4327"
-          (reference "SW12") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa30ec04-d0ae-4d45-bef1-b8dcd6691dbc"
-          (reference "SW13") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/949c7440-3343-4ad4-ab00-0fef90373f09"
-          (reference "SW14") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/05e85de7-7976-41b2-b99e-570227db2349"
-          (reference "SW9") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/8eae250f-f2e1-46cb-8b20-913cfdb4ab21"
-          (reference "SW15") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/88e0ef38-6b82-45a5-977f-06e9f447cd44"
-          (reference "SW16") (unit 1)
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d770d6a1-b2b6-41ae-bc3d-cd908c237402"
+          (reference "SW19") (unit 1)
         )
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d54d0b29-e3f4-4c7b-9944-56c416fa3781"
           (reference "SW17") (unit 1)
         )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d770d6a1-b2b6-41ae-bc3d-cd908c237402"
-          (reference "SW19") (unit 1)
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/88e0ef38-6b82-45a5-977f-06e9f447cd44"
+          (reference "SW16") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/8eae250f-f2e1-46cb-8b20-913cfdb4ab21"
+          (reference "SW15") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/05e85de7-7976-41b2-b99e-570227db2349"
+          (reference "SW9") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/949c7440-3343-4ad4-ab00-0fef90373f09"
+          (reference "SW14") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa30ec04-d0ae-4d45-bef1-b8dcd6691dbc"
+          (reference "SW13") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/c4f5c5e7-033d-4f7e-9071-ee6dcfab4327"
+          (reference "SW12") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4545a4ff-4eb6-4333-983e-1a79de480be7"
+          (reference "SW11") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/ebbf3d9b-4c9a-4e22-bb34-f9afecb9e9ba"
+          (reference "SW10") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412"
+          (reference "SW1") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/219118e8-0d4c-4af9-9eaa-664aa5b564ae"
+          (reference "SW8") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/b332fec8-c2d4-45a7-891c-c0d3bfa046d7"
+          (reference "SW7") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/53101723-5797-4314-a5ae-0b6811121254"
+          (reference "SW6") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/42b0cf15-1ba8-48b5-9f50-5416dd963e68"
+          (reference "SW5") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/9be6474a-87f8-4133-b0da-677b2e0ffa4c"
+          (reference "SW4") (unit 1)
         )
       )
       (project "VCA-controls"
@@ -892,7 +892,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 50.8 92.71 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd55fcfe-2bda-494f-b653-a5b9bc7321fa)
-    (property "Reference" "RV_FINE1" (at 48.26 93.98 0)
+    (property "Reference" "RV_FINE15" (at 48.26 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100K" (at 48.26 91.44 0)
@@ -909,56 +909,56 @@
     (pin "3" (uuid b4decff7-4c25-4949-b4d6-aff1b4cb1524))
     (instances
       (project "Sequencer-controls"
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/9be6474a-87f8-4133-b0da-677b2e0ffa4c"
-          (reference "RV_FINE1") (unit 1)
-        )
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/92d14863-e14e-4f82-a3ce-7c25c4c36499"
           (reference "RV_FINE15") (unit 1)
         )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/42b0cf15-1ba8-48b5-9f50-5416dd963e68"
-          (reference "RV_FINE2") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/53101723-5797-4314-a5ae-0b6811121254"
-          (reference "RV_FINE3") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/b332fec8-c2d4-45a7-891c-c0d3bfa046d7"
-          (reference "RV_FINE4") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/219118e8-0d4c-4af9-9eaa-664aa5b564ae"
-          (reference "RV_FINE5") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412"
-          (reference "RV1") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/ebbf3d9b-4c9a-4e22-bb34-f9afecb9e9ba"
-          (reference "RV_FINE7") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4545a4ff-4eb6-4333-983e-1a79de480be7"
-          (reference "RV_FINE8") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/c4f5c5e7-033d-4f7e-9071-ee6dcfab4327"
-          (reference "RV_FINE9") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa30ec04-d0ae-4d45-bef1-b8dcd6691dbc"
-          (reference "RV_FINE10") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/949c7440-3343-4ad4-ab00-0fef90373f09"
-          (reference "RV_FINE11") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/05e85de7-7976-41b2-b99e-570227db2349"
-          (reference "RV_FINE6") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/8eae250f-f2e1-46cb-8b20-913cfdb4ab21"
-          (reference "RV_FINE12") (unit 1)
-        )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/88e0ef38-6b82-45a5-977f-06e9f447cd44"
-          (reference "RV_FINE13") (unit 1)
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d770d6a1-b2b6-41ae-bc3d-cd908c237402"
+          (reference "RV_FINE16") (unit 1)
         )
         (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d54d0b29-e3f4-4c7b-9944-56c416fa3781"
           (reference "RV_FINE14") (unit 1)
         )
-        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/d770d6a1-b2b6-41ae-bc3d-cd908c237402"
-          (reference "RV_FINE16") (unit 1)
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/88e0ef38-6b82-45a5-977f-06e9f447cd44"
+          (reference "RV_FINE13") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/8eae250f-f2e1-46cb-8b20-913cfdb4ab21"
+          (reference "RV_FINE12") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/05e85de7-7976-41b2-b99e-570227db2349"
+          (reference "RV_FINE6") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/949c7440-3343-4ad4-ab00-0fef90373f09"
+          (reference "RV_FINE11") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/aa30ec04-d0ae-4d45-bef1-b8dcd6691dbc"
+          (reference "RV_FINE10") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/c4f5c5e7-033d-4f7e-9071-ee6dcfab4327"
+          (reference "RV_FINE9") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/4545a4ff-4eb6-4333-983e-1a79de480be7"
+          (reference "RV_FINE8") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/ebbf3d9b-4c9a-4e22-bb34-f9afecb9e9ba"
+          (reference "RV_FINE7") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412"
+          (reference "RV1") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/219118e8-0d4c-4af9-9eaa-664aa5b564ae"
+          (reference "RV_FINE5") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/b332fec8-c2d4-45a7-891c-c0d3bfa046d7"
+          (reference "RV_FINE4") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/53101723-5797-4314-a5ae-0b6811121254"
+          (reference "RV_FINE3") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/42b0cf15-1ba8-48b5-9f50-5416dd963e68"
+          (reference "RV_FINE2") (unit 1)
+        )
+        (path "/0fe7de3d-0e02-4720-a37d-4e739d042412/9be6474a-87f8-4133-b0da-677b2e0ffa4c"
+          (reference "RV_FINE1") (unit 1)
         )
       )
       (project "VCA-controls"
