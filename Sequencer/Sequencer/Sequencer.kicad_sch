@@ -25,6 +25,23 @@
     )
   )
 
+  (sheet (at 139.7 114.3) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 75cd6a02-8c5c-4a51-bd20-b6b2f0ee908c)
+    (property "Sheetname" "analogue" (at 139.7 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "analogue.kicad_sch" (at 139.7 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Sequencer"
+        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "22"))
+      )
+    )
+  )
+
   (sheet (at 177.8 76.2) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
