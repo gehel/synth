@@ -20,7 +20,7 @@
     )
     (instances
       (project "Sequencer"
-        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "4"))
+        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "3"))
       )
     )
   )
@@ -37,7 +37,7 @@
     )
     (instances
       (project "Sequencer"
-        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "2"))
+        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "6"))
       )
     )
   )
@@ -54,7 +54,24 @@
     )
     (instances
       (project "Sequencer"
-        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "3"))
+        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 139.7 101.6) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f9783d66-e3a6-4a86-9515-bb64497eeaa6)
+    (property "Sheetname" "digital3" (at 139.7 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "digital3.kicad_sch" (at 139.7 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Sequencer"
+        (path "/8a8c4421-b74b-4a68-822a-0aad66407659" (page "5"))
       )
     )
   )

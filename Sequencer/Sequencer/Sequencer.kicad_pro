@@ -473,10 +473,6 @@
       ""
     ],
     [
-      "92ad5e63-2ca1-4c30-8d76-326b48f118bb",
-      "connectors"
-    ],
-    [
       "e1c6bc1a-534c-4609-a96e-6da53a5e1861",
       "digital1"
     ],
@@ -489,8 +485,16 @@
       "step_controls4"
     ],
     [
+      "f9783d66-e3a6-4a86-9515-bb64497eeaa6",
+      "digital3"
+    ],
+    [
       "85cdf42f-3b5c-4bf6-9a93-2b98f416da1f",
       "step_controls1"
+    ],
+    [
+      "92ad5e63-2ca1-4c30-8d76-326b48f118bb",
+      "connectors"
     ],
     [
       "f9fd0a08-9f31-4407-ab5d-d68d28717ec1",
