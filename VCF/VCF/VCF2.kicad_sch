@@ -1773,7 +1773,7 @@
   (symbol (lib_id "power:-12V") (at 38.1 142.24 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 001f68a8-0abb-4f0d-936c-517685bda75a)
-    (property "Reference" "#PWR053" (at 38.1 144.78 0)
+    (property "Reference" "#PWR036" (at 38.1 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 38.1 147.32 0)
@@ -1789,7 +1789,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1818,7 +1818,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R49") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -1847,7 +1847,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R44") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -1888,7 +1888,7 @@
   (symbol (lib_id "power:GND") (at 123.19 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ca0709b-fb79-4da0-928b-4e023ca15236)
-    (property "Reference" "#PWR055" (at 123.19 167.64 0)
+    (property "Reference" "#PWR042" (at 123.19 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 166.37 0)
@@ -1904,7 +1904,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1913,7 +1913,7 @@
   (symbol (lib_id "power:GND") (at 67.31 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f0f9f35-034c-4793-94a8-e03469dba778)
-    (property "Reference" "#PWR036" (at 67.31 77.47 0)
+    (property "Reference" "#PWR037" (at 67.31 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 76.2 0)
@@ -1929,7 +1929,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1989,7 +1989,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
       (project "Noise"
@@ -2033,7 +2033,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R43") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -2042,7 +2042,7 @@
   (symbol (lib_id "power:GND") (at 31.75 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2613be0e-33c3-427a-9ef6-dbb8e3f55add)
-    (property "Reference" "#PWR052" (at 31.75 135.89 0)
+    (property "Reference" "#PWR032" (at 31.75 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 134.62 0)
@@ -2058,7 +2058,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2067,7 +2067,7 @@
   (symbol (lib_id "power:GND") (at 123.19 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 266b9402-2fd7-4a3c-9b2e-c32f2dd90231)
-    (property "Reference" "#PWR038" (at 123.19 85.09 0)
+    (property "Reference" "#PWR041" (at 123.19 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 83.82 0)
@@ -2083,7 +2083,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -2092,7 +2092,7 @@
   (symbol (lib_id "power:-12V") (at 91.44 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2de4c05f-e5a2-48fb-a472-d6c4013a2c1c)
-    (property "Reference" "#PWR037" (at 91.44 81.28 0)
+    (property "Reference" "#PWR040" (at 91.44 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 91.44 83.82 0)
@@ -2108,7 +2108,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -2138,7 +2138,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "Noise"
@@ -2202,7 +2202,7 @@
   (symbol (lib_id "power:-12V") (at 201.93 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30c94d0c-26df-4b25-b52f-9f2f283e1a15)
-    (property "Reference" "#PWR045" (at 201.93 66.04 0)
+    (property "Reference" "#PWR049" (at 201.93 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 201.93 68.58 0)
@@ -2218,7 +2218,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -2312,7 +2312,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
       (project "Noise"
@@ -2366,7 +2366,7 @@
   (symbol (lib_id "power:+12V") (at 74.93 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d42fa8c-560b-4093-8e8c-340f867efcd1)
-    (property "Reference" "#PWR034" (at 74.93 60.96 0)
+    (property "Reference" "#PWR038" (at 74.93 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 74.93 52.07 0)
@@ -2382,7 +2382,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -2465,7 +2465,7 @@
           (reference "C6") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "Noise"
@@ -2499,7 +2499,7 @@
           (reference "C6") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "Noise"
@@ -2533,7 +2533,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R40") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -2563,7 +2563,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "Noise"
@@ -2608,7 +2608,7 @@
           (reference "RV1") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "RV4") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
@@ -2637,7 +2637,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R47") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -2672,7 +2672,7 @@
   (symbol (lib_id "power:GND") (at 148.59 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e5c6316-f1f4-4d63-b5d2-1fdeb475aea9)
-    (property "Reference" "#PWR042" (at 148.59 77.47 0)
+    (property "Reference" "#PWR044" (at 148.59 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 76.2 0)
@@ -2688,7 +2688,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2718,7 +2718,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
       (project "Noise"
@@ -2742,7 +2742,7 @@
   (symbol (lib_id "power:GND") (at 173.99 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7294fd6f-17af-49c3-abe9-340f0d23c41c)
-    (property "Reference" "#PWR041" (at 173.99 39.37 0)
+    (property "Reference" "#PWR045" (at 173.99 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 38.1 0)
@@ -2758,7 +2758,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -2913,7 +2913,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "Noise"
@@ -2957,7 +2957,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R51") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -2986,7 +2986,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R52") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -3020,7 +3020,7 @@
   (symbol (lib_id "power:-12V") (at 74.93 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9929fd8e-db5b-4a88-a54f-19c76280932b)
-    (property "Reference" "#PWR035" (at 74.93 77.47 0)
+    (property "Reference" "#PWR039" (at 74.93 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 74.93 80.01 0)
@@ -3036,7 +3036,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -3065,7 +3065,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R42") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -3095,7 +3095,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
       (project "Noise"
@@ -3236,7 +3236,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R50") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -3265,7 +3265,7 @@
           (reference "C6") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "Noise"
@@ -3300,7 +3300,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "Noise"
@@ -3344,7 +3344,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R53") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -3353,7 +3353,7 @@
   (symbol (lib_id "power:-12V") (at 38.1 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad1ff17d-ef02-48f0-b562-89ae0402be88)
-    (property "Reference" "#PWR032" (at 38.1 91.44 0)
+    (property "Reference" "#PWR034" (at 38.1 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 38.1 93.98 0)
@@ -3369,7 +3369,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3437,7 +3437,7 @@
   (symbol (lib_id "power:-12V") (at 184.15 39.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4980682-9448-4870-bd3e-4a1d4b6ab2b3)
-    (property "Reference" "#PWR040" (at 184.15 41.91 0)
+    (property "Reference" "#PWR047" (at 184.15 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (at 184.15 44.45 0)
@@ -3453,7 +3453,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -3522,7 +3522,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R41") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -3531,7 +3531,7 @@
   (symbol (lib_id "power:+12V") (at 38.1 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2b1135b-5922-40cb-b86e-a0f6601e340a)
-    (property "Reference" "#PWR054" (at 38.1 115.57 0)
+    (property "Reference" "#PWR035" (at 38.1 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 38.1 106.68 0)
@@ -3547,7 +3547,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3576,7 +3576,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R46") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -3703,7 +3703,7 @@
       )
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "Noise"
@@ -3727,7 +3727,7 @@
   (symbol (lib_id "power:+12V") (at 184.15 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid def2c1b9-1e12-4788-9856-ebd1c8ac870c)
-    (property "Reference" "#PWR039" (at 184.15 25.4 0)
+    (property "Reference" "#PWR046" (at 184.15 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 184.15 16.51 0)
@@ -3743,7 +3743,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3772,7 +3772,7 @@
           (reference "C6") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "C13") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "Noise"
@@ -3806,7 +3806,7 @@
           (reference "R39") (unit 1)
         )
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "R45") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -3815,7 +3815,7 @@
   (symbol (lib_id "power:GND") (at 185.42 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea372598-8213-4cd7-a8fe-9d5d270c4be9)
-    (property "Reference" "#PWR044" (at 185.42 85.09 0)
+    (property "Reference" "#PWR048" (at 185.42 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 83.82 0)
@@ -3831,7 +3831,7 @@
     (instances
       (project "VCF"
         (path "/0845c4d2-1d17-4468-ac2b-67813b157dad/a059d6aa-e5ba-4e50-8077-2c108b2205ef"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
