@@ -2401,7 +2401,7 @@
     (property "Value" "100K" (at 238.76 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 238.76 41.148 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 238.76 41.148 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.76 39.37 0)
@@ -2420,7 +2420,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R33") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -2460,7 +2460,7 @@
     (property "Value" "100K" (at 33.02 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 33.02 95.758 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 33.02 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 93.98 0)
@@ -2520,7 +2520,7 @@
     (property "Value" "100K" (at 34.29 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 34.29 57.658 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 34.29 57.658 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 55.88 0)
@@ -2554,7 +2554,7 @@
     (property "Value" "2M" (at 92.71 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 92.71 124.968 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 92.71 124.968 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.71 123.19 0)
@@ -2573,7 +2573,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R41") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2704,7 +2704,7 @@
     (property "Value" "150R" (at 44.45 116.84 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 43.688 115.57 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 43.688 115.57 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 115.57 0)
@@ -2917,7 +2917,7 @@
     (property "Value" "2K" (at 53.34 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 53.34 46.228 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 53.34 46.228 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 44.45 0)
@@ -2977,7 +2977,7 @@
     (property "Value" "120K" (at 218.44 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 217.678 62.23 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 217.678 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 215.9 62.23 0)
@@ -2996,7 +2996,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R29") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -3167,7 +3167,7 @@
     (property "Value" "4.7K" (at 105.41 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 105.41 95.758 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 105.41 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 93.98 0)
@@ -3186,7 +3186,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3201,7 +3201,7 @@
     (property "Value" "30K" (at 267.97 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 267.97 55.118 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 267.97 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 267.97 53.34 0)
@@ -3220,7 +3220,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R40") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -3388,7 +3388,7 @@
     (property "Value" "1K" (at 118.11 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 118.11 95.758 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 118.11 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 93.98 0)
@@ -3407,7 +3407,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3462,7 +3462,7 @@
     (property "Value" "20K" (at 229.87 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 229.108 67.31 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 229.108 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.33 67.31 0)
@@ -3481,7 +3481,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R30") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -3573,7 +3573,7 @@
     (property "Value" "20K" (at 254 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 254 55.118 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 254 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 254 53.34 0)
@@ -3592,7 +3592,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R37") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -3607,7 +3607,7 @@
     (property "Value" "2K" (at 45.72 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 45.72 77.978 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 45.72 77.978 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 76.2 0)
@@ -3641,7 +3641,7 @@
     (property "Value" "100K" (at 101.6 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 101.6 41.148 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 101.6 41.148 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 39.37 0)
@@ -3660,7 +3660,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3715,7 +3715,7 @@
     (property "Value" "20K" (at 116.84 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 116.84 55.118 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 116.84 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 53.34 0)
@@ -3734,7 +3734,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3787,7 +3787,7 @@
     (property "Value" "100K" (at 34.29 15.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 34.29 20.828 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 34.29 20.828 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 19.05 0)
@@ -3846,7 +3846,7 @@
     (property "Value" "2M" (at 229.87 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 229.87 124.968 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 229.87 124.968 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 229.87 123.19 0)
@@ -3865,7 +3865,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R42") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -4098,7 +4098,7 @@
     (property "Value" "20K" (at 92.71 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 91.948 67.31 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 91.948 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.17 67.31 0)
@@ -4157,7 +4157,7 @@
     (property "Value" "100K" (at 255.27 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 255.27 41.148 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 255.27 41.148 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 39.37 0)
@@ -4176,7 +4176,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R38") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -4293,7 +4293,7 @@
     (property "Value" "120K" (at 81.28 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 80.518 62.23 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 80.518 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 78.74 62.23 0)
@@ -4352,7 +4352,7 @@
     (property "Value" "100K" (at 171.45 15.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 171.45 20.828 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 171.45 20.828 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 19.05 0)
@@ -4371,7 +4371,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R23") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -4426,7 +4426,7 @@
     (property "Value" "100K" (at 33.02 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 33.02 77.978 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 33.02 77.978 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 76.2 0)
@@ -4460,7 +4460,7 @@
     (property "Value" "100K" (at 171.45 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 171.45 34.798 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 171.45 34.798 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 33.02 0)
@@ -4479,7 +4479,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R24") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -4494,7 +4494,7 @@
     (property "Value" "47K" (at 110.49 113.9123 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 110.49 118.618 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 110.49 118.618 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 116.84 0)
@@ -4513,7 +4513,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4578,7 +4578,7 @@
     (property "Value" "470K" (at 97.79 113.9123 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 97.79 118.618 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 97.79 118.618 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 116.84 0)
@@ -4597,7 +4597,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4612,7 +4612,7 @@
     (property "Value" "100K" (at 170.18 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 170.18 77.978 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 170.18 77.978 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 76.2 0)
@@ -4631,7 +4631,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4646,7 +4646,7 @@
     (property "Value" "2K" (at 101.6 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 101.6 27.178 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 101.6 27.178 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 25.4 0)
@@ -4665,7 +4665,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4680,7 +4680,7 @@
     (property "Value" "100K" (at 34.29 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 34.29 34.798 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 34.29 34.798 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 33.02 0)
@@ -4793,7 +4793,7 @@
     (property "Value" "470K" (at 234.95 113.9123 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 234.95 118.618 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 234.95 118.618 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 116.84 0)
@@ -4812,7 +4812,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R31") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -4827,7 +4827,7 @@
     (property "Value" "100K" (at 171.45 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 171.45 57.658 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 171.45 57.658 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 55.88 0)
@@ -4846,7 +4846,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R25") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -4886,7 +4886,7 @@
     (property "Value" "2K" (at 238.76 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 238.76 27.178 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 238.76 27.178 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.76 25.4 0)
@@ -4905,7 +4905,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R32") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -4970,7 +4970,7 @@
     (property "Value" "100K" (at 252.73 13.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 252.73 19.558 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 252.73 19.558 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 17.78 0)
@@ -4989,7 +4989,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R36") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -5056,7 +5056,7 @@
     (property "Value" "2K" (at 182.88 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 182.88 77.978 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 182.88 77.978 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 76.2 0)
@@ -5075,7 +5075,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R27") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -5130,7 +5130,7 @@
     (property "Value" "150R" (at 181.61 116.84 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 180.848 115.57 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 180.848 115.57 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 115.57 0)
@@ -5149,7 +5149,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R26") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -5214,7 +5214,7 @@
     (property "Value" "2K" (at 190.5 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 190.5 46.228 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 190.5 46.228 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.5 44.45 0)
@@ -5233,7 +5233,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R28") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -5273,7 +5273,7 @@
     (property "Value" "4.7K" (at 242.57 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 242.57 95.758 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 242.57 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 93.98 0)
@@ -5292,7 +5292,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R34") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -5332,7 +5332,7 @@
     (property "Value" "1K" (at 255.27 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 255.27 95.758 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 255.27 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 93.98 0)
@@ -5351,7 +5351,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R39") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -5391,7 +5391,7 @@
     (property "Value" "30K" (at 130.81 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 130.81 55.118 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 130.81 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 53.34 0)
@@ -5410,7 +5410,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5425,7 +5425,7 @@
     (property "Value" "100K" (at 170.18 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 170.18 95.758 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 170.18 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 93.98 0)
@@ -5444,7 +5444,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -5574,7 +5574,7 @@
     (property "Value" "100K" (at 115.57 13.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 115.57 19.558 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 115.57 19.558 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 17.78 0)
@@ -5593,7 +5593,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R16") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -5608,7 +5608,7 @@
     (property "Value" "47K" (at 247.65 113.9123 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 247.65 118.618 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 247.65 118.618 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.65 116.84 0)
@@ -5627,7 +5627,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R35") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -5667,7 +5667,7 @@
     (property "Value" "100K" (at 118.11 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (at 118.11 41.148 90)
+    (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 118.11 41.148 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 39.37 0)
@@ -5686,7 +5686,7 @@
       )
       (project "VCA"
         (path "/a331be11-cf92-4101-a082-e20022c8dee2"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
