@@ -1,0 +1,493 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7730b527-72ff-4201-8576-0e76fb2b149b)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Connector-github:AudioJack2" (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "AudioJack2" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "audio jack receptacle mono phone headphone TS connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Audio Jack, 2 Poles (Mono / TS)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Jack*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "AudioJack2_0_1"
+        (rectangle (start -3.81 0) (end -2.54 -2.54)
+          (stroke (width 0.254) (type solid))
+          (fill (type outline))
+        )
+        (rectangle (start -2.54 3.81) (end 2.54 -2.54)
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0.635 -0.635)
+            (xy 1.27 0)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy -0.635 2.54)
+            (xy -0.635 0)
+            (xy -1.27 -0.635)
+            (xy -1.905 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "AudioJack2_1_1"
+        (pin passive line (at 5.08 2.54 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "S" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "T" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_Potentiometer" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "RV" (at -4.445 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R_Potentiometer" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "resistor variable" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Potentiometer" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Potentiometer*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_Potentiometer_0_1"
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy 1.524 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.143 0)
+            (xy 2.286 0.508)
+            (xy 2.286 -0.508)
+            (xy 1.143 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 1.016 2.54) (end -1.016 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_Potentiometer_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Device:R_Potentiometer") (at 66.04 26.67 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1e1ad740-5376-445b-a883-ee3293c5b006)
+    (property "Reference" "RV1" (at 66.04 20.32 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100K" (at 66.04 22.86 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical-panel" (at 66.04 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.04 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b5bacb06-8717-4222-a884-cf0811df5648))
+    (pin "2" (uuid 93a2f7e9-38d7-4392-a21b-ecb6196e406b))
+    (pin "3" (uuid a7448c0f-6198-4031-a7d4-dc98a9252188))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
+          (reference "RV1") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "RV2") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "RES1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "Graininess1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "RV1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector-github:AudioJack2") (at 66.04 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 24b552d6-a367-4bd5-8db5-a701974424f3)
+    (property "Reference" "J11" (at 65.405 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AudioJack2" (at 65.405 35.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel" (at 66.04 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.04 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "S" (uuid 8c467aef-c3da-4362-a854-571b82bfa0c2))
+    (pin "T" (uuid 08a25745-98f1-418c-9a77-d08d58251398))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "J11") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "J12") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "COF_CV1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "Grainy_Noise1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector-github:AudioJack2") (at 91.44 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5bec9238-33fd-4510-97d4-4d712ecd1b21)
+    (property "Reference" "J11" (at 90.805 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AudioJack2" (at 90.805 35.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel" (at 91.44 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 91.44 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "S" (uuid 76df48ed-48e0-444c-a679-f3e0cace1f4d))
+    (pin "T" (uuid 6308f233-1b62-4d6f-a356-6f6d4487a806))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "J11") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "J12") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "COF_CV1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "Low_Noise1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector-github:AudioJack2") (at 91.44 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 70c38428-bb73-4c31-8b81-f78fba1e867a)
+    (property "Reference" "J11" (at 90.805 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AudioJack2" (at 90.805 60.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel" (at 91.44 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 91.44 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "S" (uuid d8d000b0-0b83-402a-bad3-b3d37b60149c))
+    (pin "T" (uuid 790aec3f-5087-4c59-a517-e57594147d1e))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "J11") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "J12") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "COF_CV1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "High_Noise1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector-github:AudioJack2") (at 66.04 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 91126c28-9eb6-44a4-a119-d043ba785218)
+    (property "Reference" "J11" (at 65.405 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AudioJack2" (at 65.405 60.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel" (at 66.04 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.04 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "S" (uuid 463969cd-adf5-4d8d-91d3-55c55fbadfa8))
+    (pin "T" (uuid cd6f0fc7-430f-4b76-a0dc-d86f5978bd66))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "J11") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "J12") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "COF_CV1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "Random_Gates1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector-github:AudioJack2") (at 91.44 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 92b9733c-e1d0-4281-aec1-b9f77b14d38d)
+    (property "Reference" "J11" (at 90.805 45.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AudioJack2" (at 90.805 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel" (at 91.44 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 91.44 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "S" (uuid 8e9ff90a-dafb-4c85-879c-0aab7dd4a946))
+    (pin "T" (uuid f005a61e-1cd9-442a-b625-ac0fdc1cee01))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "J11") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "J12") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "COF_CV1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "Highpass_Grainy1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Potentiometer") (at 66.04 52.07 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b8a65fc1-50c2-4340-af6a-2cb337624fb3)
+    (property "Reference" "RV1" (at 66.04 45.72 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100K" (at 66.04 48.26 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Potentiometer_Bourns_PTV09A-1_Single_Vertical-panel" (at 66.04 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.04 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 85186e4d-006b-4d3f-aadc-aa2f5088dc34))
+    (pin "2" (uuid 9830bd04-ce64-4648-a51d-d9f5f243dea9))
+    (pin "3" (uuid 17fe3201-0ad9-4d7d-aa57-e973be4be477))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
+          (reference "RV1") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "RV2") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "RES1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "Gate_Frequency1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "RV1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector-github:AudioJack2") (at 91.44 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fd246eb1-6f88-4884-b9c2-8507e05b77d1)
+    (property "Reference" "J11" (at 90.805 20.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AudioJack2" (at 90.805 22.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Library:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel" (at 91.44 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 91.44 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "S" (uuid f0e63e36-c8f8-4740-9d08-d9be6d6d2071))
+    (pin "T" (uuid 06dd0b23-0e12-472f-8ae0-8159fc73b286))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
+          (reference "J11") (unit 1)
+        )
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "J12") (unit 1)
+        )
+      )
+      (project "VCF-panel"
+        (path "/45b80440-6dbb-4f96-bcf3-a34016125b22"
+          (reference "COF_CV1") (unit 1)
+        )
+      )
+      (project "Noise-panel"
+        (path "/7730b527-72ff-4201-8576-0e76fb2b149b"
+          (reference "White_Noise1") (unit 1)
+        )
+      )
+      (project "VCO-panel"
+        (path "/9e3ac5ad-d42c-4783-8f4f-b6ebd3ad00fa"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
