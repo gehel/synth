@@ -48,13 +48,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,16 +165,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.5
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -406,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Mixer.kicad_pro",
+    "filename": "Mixer-controls.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -483,51 +469,43 @@
   },
   "sheets": [
     [
-      "02bdf3ed-49ad-462d-bfb7-2680e5425c71",
+      "1f08d11c-1854-443a-b96d-9c408632cb42",
       ""
     ],
     [
-      "52f98575-b6b1-4613-b190-7715a41b4852",
+      "449c538b-79cf-4e50-a4b7-7d15648ecb12",
+      "line_in1"
+    ],
+    [
+      "2121c17b-a5f4-48fc-9924-610eb72f13b2",
+      "line_in2"
+    ],
+    [
+      "cc9fb9b9-dee5-43ac-82a1-da22a14c9bd8",
       "channel1"
     ],
     [
-      "ecb9438e-fe4f-4b28-97c4-c9929d9859d1",
+      "cc8faf47-8bc8-425b-a68a-a61d4712790a",
       "channel2"
     ],
     [
-      "7f3e631e-9a5c-4934-a1b1-bd49061533ad",
+      "12f04bf2-04ed-48e2-ab53-5b109195de88",
       "channel3"
     ],
     [
-      "e708131b-f9b4-49f9-8a9b-26871488fd87",
+      "1537534f-9816-4f77-8512-4aa110d7afe0",
       "channel4"
     ],
     [
-      "de5c8d46-4682-41aa-9a48-f18472dcc46b",
-      "effect_return1"
+      "f2986e1e-7a04-460f-aeeb-1d076654183e",
+      "fx1"
     ],
     [
-      "30e2cfdb-adc1-4f74-be98-bac91060d93c",
-      "effect_return2"
+      "0927d8d8-93b7-4fc5-85e1-961b3a691ca1",
+      "fx2"
     ],
     [
-      "d319f256-3206-47ee-aa3e-07ff7474c3d9",
-      "stereo_line_in1"
-    ],
-    [
-      "d279ef22-df87-414e-a4d0-98f29ea5784f",
-      "stereo_line_in2"
-    ],
-    [
-      "65c842cd-b062-4f3b-8838-f5a1230698da",
-      "effect_send1"
-    ],
-    [
-      "55167b70-c20e-4a83-ba77-ed2f478e8e1a",
-      "effect_send2"
-    ],
-    [
-      "2c0afc7c-1ecf-45f8-8238-a5c3d799feb6",
+      "71a20b75-c608-4242-ba7f-5167d3ed7664",
       "outputs"
     ]
   ],
