@@ -4883,7 +4883,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 203.2 156.21 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid c639c4a8-d3c3-4f02-94ba-9f00f929580d)
     (property "Reference" "D12" (at 204.7875 148.59 0)
       (effects (font (size 1.27 1.27)))
