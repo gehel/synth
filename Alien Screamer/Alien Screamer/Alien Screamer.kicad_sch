@@ -4447,7 +4447,7 @@
     (property "Reference" "Q3" (at 181.61 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "NJFET" (at 181.61 39.37 90)
+    (property "Value" "2N5457" (at 181.61 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder" (at 179.07 35.56 0)
