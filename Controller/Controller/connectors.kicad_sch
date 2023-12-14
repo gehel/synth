@@ -596,7 +596,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 72.39 114.3 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0400b2d0-0ce2-4ff4-8334-8e4bd7158112)
     (property "Reference" "H1" (at 71.12 107.95 90)
       (effects (font (size 1.27 1.27)))
@@ -626,7 +626,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 76.2 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07fc3f4b-f2a0-47a7-bf34-2254dfbb2907)
     (property "Reference" "J5" (at 112.395 71.12 0)
       (effects (font (size 1.27 1.27)))
@@ -651,7 +651,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ca71afc-9b57-4c9e-97f3-02bd70c3b6a1)
     (property "Reference" "J6" (at 112.395 77.47 0)
       (effects (font (size 1.27 1.27)))
@@ -676,7 +676,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 71.12 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cf05ca4-d0dc-428e-9466-08d3c4421760)
     (property "Reference" "J10" (at 139.065 66.04 0)
       (effects (font (size 1.27 1.27)))
@@ -701,7 +701,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 63.5 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15a1897b-5371-45c0-afad-41256b979f94)
     (property "Reference" "J3" (at 112.395 58.42 0)
       (effects (font (size 1.27 1.27)))
@@ -726,7 +726,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 63.5 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 278c1dc5-c585-463f-b998-aaf34c81a143)
     (property "Reference" "J9" (at 139.065 58.42 0)
       (effects (font (size 1.27 1.27)))
@@ -751,7 +751,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 57.15 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ca7a350-7858-49da-a6b8-3934e358ec3e)
     (property "Reference" "J2" (at 112.395 52.07 0)
       (effects (font (size 1.27 1.27)))
@@ -776,7 +776,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 77.47 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51dab302-f18d-414e-89df-8e7c57f6d669)
     (property "Reference" "J11" (at 139.065 72.39 0)
       (effects (font (size 1.27 1.27)))
@@ -848,7 +848,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 72.39 144.78 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f7cbb4a-5232-4997-9e92-62d8ed5a1b21)
     (property "Reference" "H4" (at 71.12 138.43 90)
       (effects (font (size 1.27 1.27)))
@@ -878,7 +878,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 69.85 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c358a42-fe24-4717-b08b-6868601918ef)
     (property "Reference" "J4" (at 112.395 64.77 0)
       (effects (font (size 1.27 1.27)))
@@ -903,7 +903,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 113.03 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 749275b7-01d3-49ca-894c-a12acd7791a8)
     (property "Reference" "J7" (at 112.395 83.82 0)
       (effects (font (size 1.27 1.27)))
@@ -998,7 +998,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 57.15 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b2e7a8c-6a50-4c2e-bcae-9038a75e8f71)
     (property "Reference" "J8" (at 139.065 52.07 0)
       (effects (font (size 1.27 1.27)))
@@ -1093,7 +1093,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 92.71 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3c8f4b0-fca3-4335-99b1-75d18c5c8ee2)
     (property "Reference" "J13" (at 139.065 87.63 0)
       (effects (font (size 1.27 1.27)))
@@ -1148,7 +1148,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 72.39 124.46 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d73f99f4-c4f4-434b-b93f-2758a96cd21b)
     (property "Reference" "H2" (at 71.12 118.11 90)
       (effects (font (size 1.27 1.27)))
@@ -1213,7 +1213,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 139.7 86.36 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddf4bff2-95cb-4905-b4ee-8e9032e6086a)
     (property "Reference" "J12" (at 139.065 81.28 0)
       (effects (font (size 1.27 1.27)))
@@ -1238,7 +1238,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 72.39 134.62 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5e95ee8-dbcd-4d9f-a0a8-1b9abb7887f3)
     (property "Reference" "H3" (at 71.12 128.27 90)
       (effects (font (size 1.27 1.27)))
