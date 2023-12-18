@@ -405,8 +405,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Library"
+    ],
+    "pinned_symbol_libs": [
+      "Synth"
+    ]
   },
   "meta": {
     "filename": "Controller.kicad_pro",
