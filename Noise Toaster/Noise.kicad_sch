@@ -482,7 +482,7 @@
     (property "Reference" "R1" (at 160.02 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10K" (at 160.02 92.71 90)
+    (property "Value" "100K" (at 160.02 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 160.02 98.298 90)

@@ -683,7 +683,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 35.56 127 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17be6c4e-0361-415b-a152-9a6b644d8b12)
     (property "Reference" "H1" (at 34.29 120.65 90)
       (effects (font (size 1.27 1.27)))
@@ -788,7 +788,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 35.56 152.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9d8d9e8-d076-4fb0-837e-7b85d3257c5e)
     (property "Reference" "H3" (at 34.29 146.05 90)
       (effects (font (size 1.27 1.27)))
@@ -843,7 +843,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 35.56 165.1 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2ec305b-a9f6-4aa4-89b7-5f2aee0125d3)
     (property "Reference" "H4" (at 34.29 158.75 90)
       (effects (font (size 1.27 1.27)))
@@ -893,7 +893,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 35.56 139.7 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca4dfa35-533c-49ad-98d1-88a2c102fa78)
     (property "Reference" "H2" (at 34.29 133.35 90)
       (effects (font (size 1.27 1.27)))
