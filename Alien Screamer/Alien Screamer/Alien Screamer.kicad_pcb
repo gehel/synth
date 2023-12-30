@@ -6644,7 +6644,7 @@
     (start 173 125.0205) (end 183.16 104.9545) (angle 90) (layer "F.SilkS") (tstamp 044adc12-e551-406a-b726-2ef3fec78e5d)
       (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify top))
   )
-  (gr_text_box "Alien Screamer - V3\n\nMusic From Outer Space\n\nhttps://musicfromouterspace.com/"
+  (gr_text_box "Alien Screamer - V4\n\nMusic From Outer Space\n\nhttps://musicfromouterspace.com/"
     (start 86.36 139.065) (end 94.742 92.075) (angle 90) (layer "F.SilkS") (tstamp 5250810c-af75-4458-bd15-821bd4e890be)
       (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify top))
   )
