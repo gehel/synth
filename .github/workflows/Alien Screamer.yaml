@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 3
       - uses: INTI-CMNB/KiBot@v2_k7
         with:
           config: 'Alien Screamer/Alien Screamer/config.kibot.yaml'
