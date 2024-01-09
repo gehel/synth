@@ -1,0 +1,28 @@
+name: "KiCad CI for Alien Screamer"
+
+on:
+  push:
+    paths:
+      - '.github/workflows/Alien Screamer.yaml'
+      - 'Alien Screamer/Alien Screamer/*.kibot.yaml'
+      - 'Alien Screamer/Alien Screamer/*.kicad_pcb'
+      - 'Alien Screamer/Alien Screamer/*.kicad_sch'
+  pull_request:
+    paths:
+      - '.github/workflows/Alien Screamer.yaml'
+      - 'Alien Screamer/Alien Screamer/*.kibot.yaml'
+      - 'Alien Screamer/Alien Screamer/*.kicad_pcb'
+      - 'Alien Screamer/Alien Screamer/*.kicad_sch'
+
+jobs:
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: INTI-CMNB/KiBot@v2_k7
+        with:
+          config: 'Alien Screamer/Alien Screamer/config.kibot.yaml'
+      - name: upload results
+        uses: actions/upload-artifact@v4
+        with:
+          path: 'Alien Screamer/Alien Screamer/output'

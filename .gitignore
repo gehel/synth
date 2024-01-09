@@ -6,6 +6,7 @@ utils/venv/
 production_files
 *.stl
 *.FCStd1
+**/output
 
 fp-lib-table
 jlcpcb
