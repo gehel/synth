@@ -26,6 +26,7 @@ jobs:
           config: 'Alien Screamer/Alien Screamer/config.kibot.yaml'
           board: 'Alien Screamer/Alien Screamer/Alien Screamer.kicad_pcb'
           schema: 'Alien Screamer/Alien Screamer/Alien Screamer.kicad_sch'
+          dir: 'Alien Screamer/Alien Screamer/output'
       - name: upload results
         uses: actions/upload-artifact@v4
         with:
