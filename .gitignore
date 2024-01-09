@@ -8,6 +8,5 @@ production_files
 *.FCStd1
 **/output
 
-fp-lib-table
 jlcpcb
 __pycache__
