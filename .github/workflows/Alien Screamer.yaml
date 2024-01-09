@@ -15,7 +15,7 @@ on:
       - 'Alien Screamer/Alien Screamer/*.kicad_sch'
 
 jobs:
-  Fabrication:
+  alien-screamer:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
