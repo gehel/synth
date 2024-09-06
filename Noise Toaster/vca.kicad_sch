@@ -285,7 +285,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 101.6 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b8766b5-3b1a-485b-8470-ba8996f40e5f)
-    (property "Reference" "SYNC" (at 101.6 50.8 0)
+    (property "Reference" "VCA_BYPASS1" (at 101.6 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 101.6 53.34 0)
@@ -302,12 +302,6 @@
     (pin "1" (uuid adb5e6c5-72cb-4bd2-b019-8fca6d9b4a6f))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "SYNC") (unit 1)
-        )
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "NOISE_TO_VCF") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/8c4b4d4d-dbd3-481e-bec4-b1d50db9f311"
           (reference "VCA_BYPASS1") (unit 1)
         )
@@ -318,7 +312,7 @@
   (symbol (lib_id "Device:R") (at 113.03 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44a3e219-cc27-4b1e-99db-d6481c1279c3)
-    (property "Reference" "R1" (at 115.57 87.63 0)
+    (property "Reference" "R41" (at 115.57 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100K" (at 115.57 90.17 0)
@@ -334,12 +328,6 @@
     (pin "2" (uuid f84ac6e2-2977-4194-80ec-446a882f6925))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "R36") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/8c4b4d4d-dbd3-481e-bec4-b1d50db9f311"
           (reference "R41") (unit 1)
         )
@@ -350,7 +338,7 @@
   (symbol (lib_id "Device:R") (at 101.6 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54cac2e7-1275-43cb-baf1-93853fa76cd9)
-    (property "Reference" "R1" (at 104.14 87.63 0)
+    (property "Reference" "R40" (at 104.14 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 104.14 90.17 0)
@@ -366,12 +354,6 @@
     (pin "2" (uuid dbdd34c3-fe91-4d5a-8399-41675fa55a88))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "R36") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/8c4b4d4d-dbd3-481e-bec4-b1d50db9f311"
           (reference "R40") (unit 1)
         )
@@ -404,12 +386,6 @@
         )
       )
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "Q3") (unit 1)
-        )
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "Q7") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/8c4b4d4d-dbd3-481e-bec4-b1d50db9f311"
           (reference "Q8") (unit 1)
         )
@@ -420,7 +396,7 @@
   (symbol (lib_id "Device:R") (at 95.25 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce471f8d-d38d-464f-9f0e-dc61d9636ad6)
-    (property "Reference" "R1" (at 95.25 76.2 90)
+    (property "Reference" "R39" (at 95.25 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470K" (at 95.25 78.74 90)
@@ -436,12 +412,6 @@
     (pin "2" (uuid 6904e790-9ebf-4c2d-9a8c-2540069bde0f))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "R36") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/8c4b4d4d-dbd3-481e-bec4-b1d50db9f311"
           (reference "R39") (unit 1)
         )

@@ -735,7 +735,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 199.39 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32e2dbcb-aed1-47b1-92dc-521a91d4a358)
-    (property "Reference" "C15" (at 203.2 124.841 0)
+    (property "Reference" "C1" (at 203.2 124.841 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470uF" (at 203.2 127.381 0)
@@ -751,9 +751,6 @@
     (pin "2" (uuid 293aa023-ec6e-4a79-b65e-301b8739b193))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "C15") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6"
           (reference "C1") (unit 1)
         )
@@ -815,7 +812,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 191.77 116.84 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2b24717-04f6-4d75-8a76-863a8a929755)
-    (property "Reference" "AR_Mod_On_Off" (at 191.77 109.22 0)
+    (property "Reference" "AR_Mod_On_Off2" (at 191.77 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 191.77 111.76 0)
@@ -832,9 +829,6 @@
     (pin "1" (uuid 2a6f974a-404b-40e4-816d-2b176ffa6245))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "AR_Mod_On_Off") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6"
           (reference "AR_Mod_On_Off2") (unit 1)
         )

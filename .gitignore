@@ -7,6 +7,8 @@ production_files
 *.stl
 *.FCStd1
 **/output
-
+.idea
+**/.cache/
+**/bom/
 jlcpcb
 __pycache__

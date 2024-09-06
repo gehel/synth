@@ -669,6 +669,41 @@
         )
       )
     )
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1336,6 +1371,10 @@
   (wire (pts (xy 77.47 115.57) (xy 77.47 121.92))
     (stroke (width 0) (type default))
     (uuid 010e4830-7e0a-488a-8437-cf8b5c170448)
+  )
+  (wire (pts (xy 82.55 43.18) (xy 82.55 45.72))
+    (stroke (width 0) (type default))
+    (uuid 045158b1-b2a3-4d9a-b5b0-e9fdab189969)
   )
   (wire (pts (xy 123.19 53.34) (xy 123.19 45.72))
     (stroke (width 0) (type default))
@@ -2049,6 +2088,10 @@
     (stroke (width 0) (type default))
     (uuid b9688162-f525-4024-bccd-8ae9638b9fbe)
   )
+  (wire (pts (xy 143.51 40.64) (xy 143.51 43.18))
+    (stroke (width 0) (type default))
+    (uuid bae8d0a2-e1dc-4b4f-b71f-2d74fb4b7a7e)
+  )
   (wire (pts (xy 62.23 140.97) (xy 62.23 144.78))
     (stroke (width 0) (type default))
     (uuid bb40d3d9-e7da-45f8-b018-bea196c40608)
@@ -2409,7 +2452,7 @@
   (symbol (lib_id "Device:R") (at 102.87 24.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0162876b-4698-4877-b84f-81cdb0646b4c)
-    (property "Reference" "R5" (at 102.87 17.78 90)
+    (property "Reference" "R37" (at 102.87 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 102.87 20.32 90)
@@ -2425,12 +2468,6 @@
     (pin "2" (uuid 0db67c9f-7fa7-48ef-ab40-c82cea13ae2e))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R37") (unit 1)
         )
@@ -2441,7 +2478,7 @@
   (symbol (lib_id "power:+12V") (at 41.91 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04a9db7a-4e92-4a1f-a3b9-06a464da4eb0)
-    (property "Reference" "#PWR05" (at 41.91 119.38 0)
+    (property "Reference" "#PWR027" (at 41.91 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 41.91 110.49 0)
@@ -2456,12 +2493,6 @@
     (pin "1" (uuid 10429985-9439-4d1e-b355-c05ef59b289a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR027") (unit 1)
         )
@@ -2498,7 +2529,7 @@
   (symbol (lib_id "Device:R") (at 99.06 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 058de91d-da91-4745-90c2-11615e37465b)
-    (property "Reference" "R5" (at 101.6 152.4 0)
+    (property "Reference" "R51" (at 101.6 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "130K" (at 101.6 154.94 0)
@@ -2514,12 +2545,6 @@
     (pin "2" (uuid 5ca90efa-7d9e-4a22-9da9-2ebb10c0069e))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R51") (unit 1)
         )
@@ -2580,7 +2605,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 35.56 118.11 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 110fba32-f777-4ee8-a756-6111fd5cc982)
-    (property "Reference" "RV4" (at 35.56 111.76 90)
+    (property "Reference" "SINBIAS1" (at 35.56 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 35.56 114.3 90)
@@ -2597,12 +2622,6 @@
     (pin "3" (uuid 86112508-6ce5-4ca4-aac6-28f535d03d43))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "RV4") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "RV8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "SINBIAS1") (unit 1)
         )
@@ -2703,7 +2722,7 @@
   (symbol (lib_id "Device:R") (at 233.68 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1389895e-e5ce-44af-816f-ad749bc6cb71)
-    (property "Reference" "R5" (at 233.68 76.2 90)
+    (property "Reference" "R48" (at 233.68 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 233.68 78.74 90)
@@ -2719,12 +2738,6 @@
     (pin "2" (uuid 6509ee63-cda1-40cb-903d-903881cbe09f))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R48") (unit 1)
         )
@@ -2786,7 +2799,7 @@
   (symbol (lib_id "Diode:1N914") (at 105.41 45.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e0d4a45-a768-4fc9-bc4e-0a04db751873)
-    (property "Reference" "D1" (at 105.41 39.37 0)
+    (property "Reference" "D3" (at 105.41 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 105.41 41.91 0)
@@ -2808,12 +2821,6 @@
     (pin "2" (uuid 39e7ef85-536a-4d78-bbc6-032b378526a3))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "D1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "D3") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "D3") (unit 1)
         )
@@ -2824,7 +2831,7 @@
   (symbol (lib_id "Connector-github:AudioJack2") (at 22.86 171.45 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 1f83726e-5c68-488a-97de-a8913eaa173b)
-    (property "Reference" "J4" (at 22.225 162.56 0)
+    (property "Reference" "J9" (at 22.225 162.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2" (at 22.225 165.1 0)
@@ -2840,9 +2847,6 @@
     (pin "T" (uuid 065d6919-1acc-40ad-8a66-ccdfbcb69069))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "J4") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "J9") (unit 1)
         )
@@ -2853,7 +2857,7 @@
   (symbol (lib_id "Device:R") (at 55.88 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 246a3881-e758-4adc-845d-e5b7dd2e71af)
-    (property "Reference" "R5" (at 55.88 41.91 90)
+    (property "Reference" "R28" (at 55.88 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 55.88 44.45 90)
@@ -2869,12 +2873,6 @@
     (pin "2" (uuid 4e465b9b-bdd0-4c71-b1d7-e6418e38ce74))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R28") (unit 1)
         )
@@ -2902,6 +2900,31 @@
       (project "VCO"
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR038") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 143.51 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 25d52791-6bf9-4a32-aef8-d9754d3e8812)
+    (property "Reference" "TP2" (at 140.97 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 138.43 35.56 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 148.59 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 148.59 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f3165efb-89f5-4503-bba1-ab65d16b0f9a))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -2935,7 +2958,7 @@
   (symbol (lib_id "Connector-github:AudioJack2") (at 22.86 157.48 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 294dfffa-6a89-4cf5-9e65-a2f27ed348db)
-    (property "Reference" "J3" (at 22.225 148.59 0)
+    (property "Reference" "J8" (at 22.225 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2" (at 22.225 151.13 0)
@@ -2951,11 +2974,33 @@
     (pin "T" (uuid 3280ca7e-fcba-4404-a9e8-53bc99b9c813))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "J3") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "J8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 82.55 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2d6d15de-68a3-4b08-a864-aab10a666972)
+    (property "Reference" "TP1" (at 85.09 38.608 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 85.09 41.148 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 87.63 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 87.63 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a07ad5d5-e358-48e6-b0ce-69d3a773a43f))
+    (instances
+      (project "VCO"
+        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -2964,7 +3009,7 @@
   (symbol (lib_id "Device:R") (at 133.35 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 314898df-2183-4eb5-be9b-40fbeb310b03)
-    (property "Reference" "R5" (at 133.35 46.99 90)
+    (property "Reference" "R42" (at 133.35 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20K" (at 133.35 49.53 90)
@@ -2980,12 +3025,6 @@
     (pin "2" (uuid 04c32343-817d-489d-b092-c749aa646c2e))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R42") (unit 1)
         )
@@ -2996,7 +3035,7 @@
   (symbol (lib_id "Device:R") (at 35.56 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 336741d8-9088-402b-8937-a735e43cd964)
-    (property "Reference" "R5" (at 38.1 127 0)
+    (property "Reference" "R26" (at 38.1 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470K" (at 38.1 129.54 0)
@@ -3012,12 +3051,6 @@
     (pin "2" (uuid 004448ba-a2f1-4f5e-a972-e61c6ad2db2d))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R26") (unit 1)
         )
@@ -3028,7 +3061,7 @@
   (symbol (lib_id "power:+12V") (at 59.69 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33706ef4-ff69-4389-8fa1-4f7fadfc51aa)
-    (property "Reference" "#PWR05" (at 59.69 38.1 0)
+    (property "Reference" "#PWR029" (at 59.69 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 59.69 29.21 0)
@@ -3043,12 +3076,6 @@
     (pin "1" (uuid d0d26792-1a0b-4461-8507-5e4bc5751f76))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR029") (unit 1)
         )
@@ -3059,7 +3086,7 @@
   (symbol (lib_id "Device:R") (at 72.39 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37d7d4f1-1171-4860-a7be-eb99af5088e3)
-    (property "Reference" "R5" (at 72.39 57.15 90)
+    (property "Reference" "R31" (at 72.39 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 72.39 59.69 90)
@@ -3075,12 +3102,6 @@
     (pin "2" (uuid 2f139113-1ef6-4aad-8b8c-5ea5e7a67540))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R31") (unit 1)
         )
@@ -3116,7 +3137,7 @@
   (symbol (lib_id "Diode:1N914") (at 105.41 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42a7f8b5-84bf-43f2-8c32-f1c073963e65)
-    (property "Reference" "D1" (at 105.41 49.53 0)
+    (property "Reference" "D4" (at 105.41 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 105.41 52.07 0)
@@ -3138,12 +3159,6 @@
     (pin "2" (uuid 838633d3-4c2e-4cfe-9fb1-1d344e3ccf9d))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "D1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "D3") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "D4") (unit 1)
         )
@@ -3179,7 +3194,7 @@
   (symbol (lib_id "Device:R") (at 116.84 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46672594-c943-4fc7-b113-4b9a1eb7293f)
-    (property "Reference" "R5" (at 116.84 39.37 90)
+    (property "Reference" "R40" (at 116.84 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 116.84 41.91 90)
@@ -3195,12 +3210,6 @@
     (pin "2" (uuid 21968f9d-233e-4e86-95f0-6338a5f82fac))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R40") (unit 1)
         )
@@ -3291,7 +3300,7 @@
   (symbol (lib_id "power:GND") (at 35.56 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 560fb59c-f3e6-4e08-9b42-b0e37fd4fe50)
-    (property "Reference" "#PWR09" (at 35.56 199.39 0)
+    (property "Reference" "#PWR024" (at 35.56 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 198.12 0)
@@ -3306,12 +3315,6 @@
     (pin "1" (uuid 72a09632-8994-4be1-b47c-55b52fb347b1))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR049") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR024") (unit 1)
         )
@@ -3322,7 +3325,7 @@
   (symbol (lib_id "power:+12V") (at 195.58 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59e76361-79c2-4de2-b991-f88410a7524c)
-    (property "Reference" "#PWR05" (at 195.58 74.93 0)
+    (property "Reference" "#PWR046" (at 195.58 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 195.58 66.04 0)
@@ -3337,12 +3340,6 @@
     (pin "1" (uuid 7923a099-9a08-43d7-ae0e-9017fcbbe29e))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR046") (unit 1)
         )
@@ -3353,7 +3350,7 @@
   (symbol (lib_id "Device:R") (at 113.03 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fc9168f-849a-4455-bd3b-e8d3847d4ee0)
-    (property "Reference" "R5" (at 113.03 116.84 90)
+    (property "Reference" "R38" (at 113.03 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 113.03 119.38 90)
@@ -3369,12 +3366,6 @@
     (pin "2" (uuid 6c63ab6e-3691-43b8-a1e4-9a20288ce670))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R38") (unit 1)
         )
@@ -3410,7 +3401,7 @@
   (symbol (lib_id "Diode:1N914") (at 137.16 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61d84769-be8a-42c7-98a1-eea1fe245688)
-    (property "Reference" "D1" (at 137.16 95.5306 0)
+    (property "Reference" "D7" (at 137.16 95.5306 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 137.16 98.0706 0)
@@ -3432,12 +3423,6 @@
     (pin "2" (uuid 63068e68-739f-4123-a8a2-4cef6493b250))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "D1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "D3") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "D7") (unit 1)
         )
@@ -3448,7 +3433,7 @@
   (symbol (lib_id "Device:R") (at 95.25 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6313291f-bd13-4691-919e-a8ee0e5c1cbb)
-    (property "Reference" "R5" (at 97.79 127 0)
+    (property "Reference" "R36" (at 97.79 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 97.79 129.54 0)
@@ -3464,12 +3449,6 @@
     (pin "2" (uuid f5147423-7aec-4f58-a7db-b6de72b9edb5))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R36") (unit 1)
         )
@@ -3512,7 +3491,7 @@
   (symbol (lib_id "Device:R") (at 215.9 20.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6836fc69-7ae0-4506-959b-77f20f1cecc5)
-    (property "Reference" "R5" (at 215.9 13.97 90)
+    (property "Reference" "R47" (at 215.9 13.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10M" (at 215.9 16.51 90)
@@ -3528,12 +3507,6 @@
     (pin "2" (uuid ed101481-35b3-406b-9798-41800fedd09a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R47") (unit 1)
         )
@@ -3544,7 +3517,7 @@
   (symbol (lib_id "Connector-github:AudioJack2") (at 21.59 143.51 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 685d91f3-bd97-4683-b0ac-31adcb4b16df)
-    (property "Reference" "J2" (at 20.955 134.62 0)
+    (property "Reference" "J7" (at 20.955 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2" (at 20.955 137.16 0)
@@ -3560,9 +3533,6 @@
     (pin "T" (uuid 80ffdef1-cbbf-4b00-a3d2-05f7f4e20c80))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "J2") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "J7") (unit 1)
         )
@@ -3573,7 +3543,7 @@
   (symbol (lib_id "Device:C") (at 38.1 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68a756d4-2050-4762-af49-aef8f8a899ab)
-    (property "Reference" "C1" (at 41.91 48.26 0)
+    (property "Reference" "C10" (at 41.91 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 41.91 50.8 0)
@@ -3589,12 +3559,6 @@
     (pin "2" (uuid 6aae63b2-46ba-4da5-a96a-229e845122cb))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "C1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "C8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "C10") (unit 1)
         )
@@ -3605,7 +3569,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 55.88 113.03 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6903eb2e-09ad-438f-b451-12a91bb43e6f)
-    (property "Reference" "RV4" (at 55.88 106.68 90)
+    (property "Reference" "SINSHAPE1" (at 55.88 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 55.88 109.22 90)
@@ -3622,12 +3586,6 @@
     (pin "3" (uuid 500677c7-6e32-4512-921e-d4281fe8e2cd))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "RV4") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "RV8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "SINSHAPE1") (unit 1)
         )
@@ -3638,7 +3596,7 @@
   (symbol (lib_id "Device:R") (at 55.88 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69659282-36fb-465a-9397-e6c0d6c5a80f)
-    (property "Reference" "R5" (at 58.42 121.92 0)
+    (property "Reference" "R29" (at 58.42 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20K" (at 58.42 124.46 0)
@@ -3654,12 +3612,6 @@
     (pin "2" (uuid 7d03b617-dd5a-4580-992c-2bb352d019a3))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R29") (unit 1)
         )
@@ -3670,7 +3622,7 @@
   (symbol (lib_id "Diode:1N914") (at 125.73 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cf40c77-2f67-4b1f-a2f5-2f12882c0f00)
-    (property "Reference" "D1" (at 125.73 81.28 0)
+    (property "Reference" "D5" (at 125.73 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 125.73 83.82 0)
@@ -3692,12 +3644,6 @@
     (pin "2" (uuid d4f5dd5c-6176-41ee-9d23-3db73975833e))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "D1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "D3") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "D5") (unit 1)
         )
@@ -3708,7 +3654,7 @@
   (symbol (lib_id "Device:R") (at 50.8 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 734549eb-9bc2-4f85-9498-d973cc9626c5)
-    (property "Reference" "R5" (at 50.8 31.75 90)
+    (property "Reference" "R27" (at 50.8 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 50.8 34.29 90)
@@ -3724,12 +3670,6 @@
     (pin "2" (uuid 2776c3ca-927a-4e7b-9f53-4044ea2667e0))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R27") (unit 1)
         )
@@ -3740,7 +3680,7 @@
   (symbol (lib_id "Device:C") (at 92.71 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 772b4699-64a5-42b7-9feb-e16738a054f5)
-    (property "Reference" "C1" (at 96.52 34.29 0)
+    (property "Reference" "C11" (at 96.52 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 96.52 36.83 0)
@@ -3756,12 +3696,6 @@
     (pin "2" (uuid 2a1d6c09-6149-4267-bc2e-0cf2d7346690))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "C1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "C8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "C11") (unit 1)
         )
@@ -3772,7 +3706,7 @@
   (symbol (lib_id "Connector-github:AudioJack2") (at 59.69 177.8 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 77b7b8e1-7ca2-4d27-8397-efeea14233df)
-    (property "Reference" "J11" (at 59.055 168.91 0)
+    (property "Reference" "J12" (at 59.055 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2" (at 59.055 171.45 0)
@@ -3788,9 +3722,6 @@
     (pin "T" (uuid 6e7ac613-6bdc-4297-afdf-42ff45864b3f))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "J11") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "J12") (unit 1)
         )
@@ -3839,7 +3770,7 @@
   (symbol (lib_id "Device:R") (at 113.03 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7aa18add-3f16-4301-95a8-072063a9b63b)
-    (property "Reference" "R5" (at 113.03 127 90)
+    (property "Reference" "R39" (at 113.03 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7K" (at 113.03 129.54 90)
@@ -3855,12 +3786,6 @@
     (pin "2" (uuid f7f6978f-4cbb-4705-82b0-226713f4cc2f))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R39") (unit 1)
         )
@@ -4073,7 +3998,7 @@
   (symbol (lib_id "Device:R") (at 262.89 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 907114d2-4861-4afd-bd62-c232b08f8f86)
-    (property "Reference" "R5" (at 265.43 46.99 0)
+    (property "Reference" "R50" (at 265.43 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3K" (at 265.43 49.53 0)
@@ -4089,12 +4014,6 @@
     (pin "2" (uuid ba66a621-0ba2-4261-829a-8d4b3b9b8ae5))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R50") (unit 1)
         )
@@ -4137,7 +4056,7 @@
   (symbol (lib_id "Device:R") (at 149.86 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96d8191b-c373-4434-bcf5-1170a722d7f7)
-    (property "Reference" "R5" (at 149.86 36.83 90)
+    (property "Reference" "R43" (at 149.86 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 149.86 39.37 90)
@@ -4153,12 +4072,6 @@
     (pin "2" (uuid 8fee4be7-41eb-4785-bd83-f514c0f57a6f))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R43") (unit 1)
         )
@@ -4194,7 +4107,7 @@
   (symbol (lib_id "Device:R") (at 191.77 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99f79dfb-9696-4951-8565-0475924ec6be)
-    (property "Reference" "R5" (at 191.77 24.13 90)
+    (property "Reference" "R45" (at 191.77 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 191.77 26.67 90)
@@ -4210,12 +4123,6 @@
     (pin "2" (uuid 67c2b308-4ab1-49d5-a2a2-4fb32a96865a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R45") (unit 1)
         )
@@ -4276,7 +4183,7 @@
   (symbol (lib_id "power:+12V") (at 24.13 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a504f2b5-d23e-4a33-a8c4-dfe7aa5dadd3)
-    (property "Reference" "#PWR05" (at 24.13 76.2 0)
+    (property "Reference" "#PWR020" (at 24.13 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 24.13 67.31 0)
@@ -4291,12 +4198,6 @@
     (pin "1" (uuid 36266bb4-eac8-4f6d-8e10-2713eac0963c))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR020") (unit 1)
         )
@@ -4307,7 +4208,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 262.89 99.06 0) (mirror x) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid a57ca81c-3791-4032-ab45-c81ea8b4d2c9)
-    (property "Reference" "RV1" (at 260.35 100.33 0)
+    (property "Reference" "RV3" (at 260.35 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100K" (at 260.35 97.79 0)
@@ -4324,12 +4225,6 @@
     (pin "3" (uuid d570ce29-8437-41be-97fd-d90d469f519e))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "RV1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "RV6") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "RV3") (unit 1)
         )
@@ -4340,7 +4235,7 @@
   (symbol (lib_id "power:+12V") (at 102.87 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a645379d-00c7-4a8d-a39e-3bfee7d3784d)
-    (property "Reference" "#PWR05" (at 102.87 124.46 0)
+    (property "Reference" "#PWR039" (at 102.87 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 102.87 115.57 0)
@@ -4355,12 +4250,6 @@
     (pin "1" (uuid eab2bda0-7c55-4e96-9a26-5229c33b8e75))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR039") (unit 1)
         )
@@ -4371,7 +4260,7 @@
   (symbol (lib_id "Device:R") (at 116.84 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac59a8f2-500d-4a0b-b6b3-a2d14df3044c)
-    (property "Reference" "R5" (at 116.84 49.53 90)
+    (property "Reference" "R41" (at 116.84 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20K" (at 116.84 52.07 90)
@@ -4387,12 +4276,6 @@
     (pin "2" (uuid 5f8682b2-3aef-4d3f-ad38-586f217f1220))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R41") (unit 1)
         )
@@ -4403,7 +4286,7 @@
   (symbol (lib_id "power:GND") (at 69.85 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac9570fb-b414-4190-8a78-38e0758da712)
-    (property "Reference" "#PWR09" (at 69.85 194.31 0)
+    (property "Reference" "#PWR033" (at 69.85 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 193.04 0)
@@ -4418,12 +4301,6 @@
     (pin "1" (uuid 6acf73bd-4f35-473d-99a9-9e0e3353ec8a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR052") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR033") (unit 1)
         )
@@ -4434,7 +4311,7 @@
   (symbol (lib_id "Device:R") (at 72.39 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae114e43-4368-4e4c-9c77-4c2b0e865872)
-    (property "Reference" "R5" (at 72.39 90.17 90)
+    (property "Reference" "R33" (at 72.39 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 72.39 92.71 90)
@@ -4450,12 +4327,6 @@
     (pin "2" (uuid 42558869-1198-4837-bdc6-923b8589c8b4))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R33") (unit 1)
         )
@@ -4466,7 +4337,7 @@
   (symbol (lib_id "Device:R") (at 72.39 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afc6f634-8c18-4a8b-bb80-9da03a80ac63)
-    (property "Reference" "R5" (at 72.39 66.04 90)
+    (property "Reference" "R32" (at 72.39 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 72.39 68.58 90)
@@ -4482,12 +4353,6 @@
     (pin "2" (uuid 4e4bdfb5-c863-4200-b337-43540cbfc78b))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R32") (unit 1)
         )
@@ -4498,7 +4363,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 83.82 115.57 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1d3602e-34f5-48b3-82a2-3f48d9158e64)
-    (property "Reference" "RV4" (at 83.82 109.22 90)
+    (property "Reference" "SINLVL1" (at 83.82 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 83.82 111.76 90)
@@ -4515,12 +4380,6 @@
     (pin "3" (uuid 6c8f055c-c742-43ca-9fd9-0664d6c4a02d))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "RV4") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "RV8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "SINLVL1") (unit 1)
         )
@@ -4588,7 +4447,7 @@
   (symbol (lib_id "Device:C") (at 241.3 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7d28993-85e4-488e-b1bc-1be112b64065)
-    (property "Reference" "C1" (at 245.11 46.99 0)
+    (property "Reference" "C17" (at 245.11 46.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 245.11 49.53 0)
@@ -4604,12 +4463,6 @@
     (pin "2" (uuid c0512093-49ce-42d7-a370-b25c4bfe04cc))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "C1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "C8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "C17") (unit 1)
         )
@@ -4620,7 +4473,7 @@
   (symbol (lib_id "Diode:1N914") (at 149.86 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7fc8667-b30c-4a46-bed0-7b7b5cdc9c69)
-    (property "Reference" "D1" (at 149.86 95.5306 0)
+    (property "Reference" "D8" (at 149.86 95.5306 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 149.86 98.0706 0)
@@ -4642,12 +4495,6 @@
     (pin "2" (uuid 67ff843d-4a85-416f-b3ec-de900d8b172c))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "D1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "D3") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "D8") (unit 1)
         )
@@ -4683,7 +4530,7 @@
   (symbol (lib_id "Device:R") (at 196.85 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbfb06bc-e5bf-45c5-9f06-3c5465cfa018)
-    (property "Reference" "R5" (at 196.85 45.72 90)
+    (property "Reference" "R46" (at 196.85 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 196.85 48.26 90)
@@ -4699,12 +4546,6 @@
     (pin "2" (uuid dd2675e5-1ce1-411c-ba84-1cc179ca1ff0))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R46") (unit 1)
         )
@@ -4787,7 +4628,7 @@
   (symbol (lib_id "Device:R") (at 262.89 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c195404b-67b3-4cc1-9054-5202f01b318e)
-    (property "Reference" "R5" (at 265.43 36.83 0)
+    (property "Reference" "R49" (at 265.43 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 265.43 39.37 0)
@@ -4803,12 +4644,6 @@
     (pin "2" (uuid e8dc05f9-f7fa-4054-957b-87d0b905d076))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R49") (unit 1)
         )
@@ -4819,7 +4654,7 @@
   (symbol (lib_id "Diode:1N914") (at 125.73 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1a8a5ab-29cd-4e0b-9475-30717b3c920e)
-    (property "Reference" "D1" (at 125.73 95.5306 0)
+    (property "Reference" "D6" (at 125.73 95.5306 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N914" (at 125.73 98.0706 0)
@@ -4841,12 +4676,6 @@
     (pin "2" (uuid 973786db-06eb-4a84-8cbe-70662759be2a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "D1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "D3") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "D6") (unit 1)
         )
@@ -4857,7 +4686,7 @@
   (symbol (lib_id "Device:C") (at 215.9 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c497e59c-f07c-43e2-bdee-53d2ee0147b4)
-    (property "Reference" "C1" (at 215.9 22.86 90)
+    (property "Reference" "C15" (at 215.9 22.86 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10pF" (at 215.9 25.4 90)
@@ -4873,12 +4702,6 @@
     (pin "2" (uuid b06f5b5b-c53b-43cd-af5c-c6af8e00fd4a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "C1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "C8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "C15") (unit 1)
         )
@@ -4952,7 +4775,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 38.1 38.1 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c806d6aa-5650-4415-a310-122daf6f14e1)
-    (property "Reference" "RV4" (at 38.1 31.75 90)
+    (property "Reference" "RMPOFST1" (at 38.1 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 38.1 34.29 90)
@@ -4969,14 +4792,8 @@
     (pin "3" (uuid 036d7a28-0b10-494b-83ff-2a5e4983aae9))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "RV4") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "RV8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
-          (reference "SAWOFST1") (unit 1)
+          (reference "RMPOFST1") (unit 1)
         )
       )
     )
@@ -5010,7 +4827,7 @@
   (symbol (lib_id "Device:R") (at 83.82 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cac92155-7496-408c-80b3-1b38fecebad1)
-    (property "Reference" "R5" (at 86.36 127 0)
+    (property "Reference" "R34" (at 86.36 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K" (at 86.36 129.54 0)
@@ -5026,12 +4843,6 @@
     (pin "2" (uuid 45223824-f545-4a36-8432-85b31874596a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R34") (unit 1)
         )
@@ -5042,7 +4853,7 @@
   (symbol (lib_id "power:+12V") (at 68.58 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb058b1d-b60b-44a8-b492-9ad4971d070f)
-    (property "Reference" "#PWR05" (at 68.58 38.1 0)
+    (property "Reference" "#PWR031" (at 68.58 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 68.58 29.21 0)
@@ -5057,12 +4868,6 @@
     (pin "1" (uuid fe4005a1-962f-4b3b-a84e-c7e84b0c0207))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR031") (unit 1)
         )
@@ -5098,7 +4903,7 @@
   (symbol (lib_id "Device:C") (at 118.11 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d30c2099-688e-44ee-8074-2a0719c7515b)
-    (property "Reference" "C1" (at 118.11 58.42 90)
+    (property "Reference" "C12" (at 118.11 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2nF" (at 118.11 60.96 90)
@@ -5114,12 +4919,6 @@
     (pin "2" (uuid 989e6ed4-1ced-4b17-9c5f-a63cf82f0273))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "C1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "C8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "C12") (unit 1)
         )
@@ -5181,7 +4980,7 @@
   (symbol (lib_id "Device:C") (at 224.79 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d98c1e99-7c9a-410b-b110-e217a9e55253)
-    (property "Reference" "C1" (at 228.6 64.77 0)
+    (property "Reference" "C16" (at 228.6 64.77 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 228.6 67.31 0)
@@ -5197,12 +4996,6 @@
     (pin "2" (uuid 84babc4d-e7cc-4760-a8ab-140f3c0ab601))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "C1") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "C8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "C16") (unit 1)
         )
@@ -5213,7 +5006,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 92.71 24.13 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da018b0a-fe46-4c43-b610-d2baf5834b6d)
-    (property "Reference" "RV4" (at 92.71 17.78 90)
+    (property "Reference" "TRIOFST1" (at 92.71 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 92.71 20.32 90)
@@ -5230,12 +5023,6 @@
     (pin "3" (uuid e6c7ac1d-d62d-4da9-b126-0ec263b82eeb))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "RV4") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "RV8") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "TRIOFST1") (unit 1)
         )
@@ -5246,7 +5033,7 @@
   (symbol (lib_id "Device:R") (at 90.17 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfb38026-c3b3-445f-9cbb-8599a86151c7)
-    (property "Reference" "R5" (at 90.17 90.17 90)
+    (property "Reference" "R35" (at 90.17 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 90.17 92.71 90)
@@ -5262,12 +5049,6 @@
     (pin "2" (uuid 11cfbc2b-d1e9-48b3-9284-dd73ecc8bfbe))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R35") (unit 1)
         )
@@ -5318,7 +5099,7 @@
   (symbol (lib_id "power:+12V") (at 110.49 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e316bde3-5398-4a67-880f-a81481eee684)
-    (property "Reference" "#PWR05" (at 110.49 25.4 0)
+    (property "Reference" "#PWR040" (at 110.49 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 110.49 16.51 0)
@@ -5333,12 +5114,6 @@
     (pin "1" (uuid fe20bd8b-88de-47d4-bc44-79038c272d9a))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR040") (unit 1)
         )
@@ -5462,7 +5237,7 @@
   (symbol (lib_id "Connector-github:AudioJack2") (at 22.86 185.42 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid f25617c6-4c38-4491-bf83-44247c1e1b03)
-    (property "Reference" "J4" (at 22.225 176.53 0)
+    (property "Reference" "J10" (at 22.225 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2" (at 22.225 179.07 0)
@@ -5478,9 +5253,6 @@
     (pin "T" (uuid e1f528b6-da0c-4d28-a464-e8a0cbd6e2ed))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "J4") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "J10") (unit 1)
         )
@@ -5491,7 +5263,7 @@
   (symbol (lib_id "power:+12V") (at 218.44 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f25b30a4-bf19-4b40-a1b0-b0f9b59aa17a)
-    (property "Reference" "#PWR05" (at 218.44 43.18 0)
+    (property "Reference" "#PWR048" (at 218.44 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 218.44 34.29 0)
@@ -5506,12 +5278,6 @@
     (pin "1" (uuid ac832510-6f9e-432f-b65d-dff0c1ea9a52))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR048") (unit 1)
         )
@@ -5522,7 +5288,7 @@
   (symbol (lib_id "power:+12V") (at 72.39 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6fee3de-a028-4aed-8c5f-66cce8864a4d)
-    (property "Reference" "#PWR05" (at 72.39 132.08 0)
+    (property "Reference" "#PWR034" (at 72.39 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 72.39 123.19 0)
@@ -5537,12 +5303,6 @@
     (pin "1" (uuid 7a737f57-5cff-467c-82e5-d8cb5f526916))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "#PWR034") (unit 1)
         )
@@ -5553,7 +5313,7 @@
   (symbol (lib_id "Device:R") (at 55.88 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9ad7238-4331-47ac-a2a1-a14a39889c5c)
-    (property "Reference" "R5" (at 58.42 137.16 0)
+    (property "Reference" "R30" (at 58.42 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 58.42 139.7 0)
@@ -5569,12 +5329,6 @@
     (pin "2" (uuid e4e65d93-b54a-4371-a6be-5e0c665d999b))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R30") (unit 1)
         )
@@ -5585,7 +5339,7 @@
   (symbol (lib_id "Device:R") (at 190.5 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcff2323-845f-406b-a5a4-83dc6d608515)
-    (property "Reference" "R5" (at 193.04 58.42 0)
+    (property "Reference" "R44" (at 193.04 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K" (at 193.04 60.96 0)
@@ -5601,12 +5355,6 @@
     (pin "2" (uuid 40ee0ffb-9a2e-480c-a229-b6c800dac876))
     (instances
       (project "VCO"
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3"
-          (reference "R5") (unit 1)
-        )
-        (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/fd825903-0522-4fe0-9de2-27683c18edc1"
-          (reference "R28") (unit 1)
-        )
         (path "/07047393-d9d5-4686-952a-e5b55e75d5c3/112d807c-3471-405b-a950-cec871c9359e"
           (reference "R44") (unit 1)
         )

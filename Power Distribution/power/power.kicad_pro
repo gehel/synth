@@ -3,7 +3,7 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -27,7 +27,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -38,26 +38,18 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        "courtyards_overlap|104426999|44704001|1a387d6a-2f36-4c82-8fdd-7895c7326a3a|84094739-1cb2-4a81-9045-f135022d53c4"
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -115,7 +107,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -128,8 +120,6 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -173,16 +163,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -408,7 +390,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "VCO.kicad_pro",
+    "filename": "power.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -425,9 +407,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -485,20 +467,48 @@
   },
   "sheets": [
     [
-      "07047393-d9d5-4686-952a-e5b55e75d5c3",
+      "f1e36e40-1330-480b-85be-e6bd68699b6b",
       ""
     ],
     [
-      "fd825903-0522-4fe0-9de2-27683c18edc1",
-      "VCO1"
+      "1f6e13ec-5d8e-41ec-98cd-d6618f608e14",
+      "connector4"
     ],
     [
-      "112d807c-3471-405b-a950-cec871c9359e",
-      "VCO2"
+      "709043a8-de49-4afc-a5ec-82499f805658",
+      "connector1"
     ],
     [
-      "da6756ce-4aab-446d-9318-b5790d028b73",
-      "VCO-connect"
+      "255a55cb-b6ae-4718-aba1-3ca4b681354d",
+      "connector2"
+    ],
+    [
+      "30a4ae9f-a0f2-46f5-ac72-dcecdbc8c7b3",
+      "connector3"
+    ],
+    [
+      "a7ef7959-3c85-49a8-98f4-3574aa5ea4b9",
+      "connector5"
+    ],
+    [
+      "2982d0a1-4b7a-436d-83af-2db5cc0714cb",
+      "connector6"
+    ],
+    [
+      "9f61ce00-1a3a-4c02-a81c-084c9f85c255",
+      "connector7"
+    ],
+    [
+      "47145fc6-ace6-449f-9bc0-dff099f2c0c7",
+      "connector8"
+    ],
+    [
+      "b49e67ee-d444-4076-8a35-7351124810dc",
+      "connector9"
+    ],
+    [
+      "a4b587a9-60bd-40c4-ba95-d5a1c05637ba",
+      "connector10"
     ]
   ],
   "text_variables": {}

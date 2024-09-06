@@ -828,7 +828,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 49.53 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ab063f3-aa6c-4991-a6be-f1fce4fa84bf)
-    (property "Reference" "C14" (at 53.34 103.251 0)
+    (property "Reference" "C18" (at 53.34 103.251 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470uF" (at 53.34 105.791 0)
@@ -844,9 +844,6 @@
     (pin "2" (uuid 029c80ef-4ed9-417b-a92a-deba6ec9a89a))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "C14") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "C18") (unit 1)
         )
@@ -857,7 +854,7 @@
   (symbol (lib_id "Device:R") (at 58.42 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fe48ba3-9a8a-4403-8cae-5b4bdd8be83c)
-    (property "Reference" "R1" (at 60.96 91.44 0)
+    (property "Reference" "R47" (at 60.96 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3K" (at 60.96 93.98 0)
@@ -873,9 +870,6 @@
     (pin "2" (uuid 790a0cb0-ac44-49d7-ab89-fb3a7006702b))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "R47") (unit 1)
         )
@@ -886,7 +880,7 @@
   (symbol (lib_id "Device:C") (at 77.47 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c707455-e4b2-4347-9e64-33f405f477c9)
-    (property "Reference" "C3" (at 77.47 54.61 90)
+    (property "Reference" "C19" (at 77.47 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 77.47 57.15 90)
@@ -902,9 +896,6 @@
     (pin "1" (uuid a8dd79c1-5682-4f9a-8fba-a73764ac57f7))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "C3") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "C19") (unit 1)
         )
@@ -915,7 +906,7 @@
   (symbol (lib_id "Device:R") (at 52.07 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b6b8c4a-6862-419e-bb8a-3f1c3e3061f0)
-    (property "Reference" "R1" (at 52.07 69.85 90)
+    (property "Reference" "R45" (at 52.07 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K" (at 52.07 72.39 90)
@@ -931,9 +922,6 @@
     (pin "2" (uuid 145ced37-5fea-46c4-b8b8-678d53e70d79))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "R45") (unit 1)
         )
@@ -944,7 +932,7 @@
   (symbol (lib_id "Device:R") (at 38.1 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e5201ef-89f0-4cd6-a5f7-8714efcfd3ae)
-    (property "Reference" "R1" (at 40.64 68.58 0)
+    (property "Reference" "R42" (at 40.64 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100K" (at 40.64 71.12 0)
@@ -960,9 +948,6 @@
     (pin "2" (uuid c33e95a6-239f-4e55-b4cd-8f5895e0feff))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "R42") (unit 1)
         )
@@ -973,7 +958,7 @@
   (symbol (lib_id "Device:R") (at 53.34 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 682a908c-4a82-4bde-817c-dd8332b48fbc)
-    (property "Reference" "R1" (at 53.34 38.1 90)
+    (property "Reference" "R46" (at 53.34 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K" (at 53.34 40.64 90)
@@ -989,9 +974,6 @@
     (pin "2" (uuid 9ec7157c-fa63-4124-95c4-650b0f62f415))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "R46") (unit 1)
         )
@@ -1030,12 +1012,6 @@
     (pin "3" (uuid 6b790a3d-8c5e-45d9-9c85-504b638b57c3))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "U2") (unit 3)
-        )
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "U2") (unit 3)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "U2") (unit 3)
         )
@@ -1072,7 +1048,7 @@
   (symbol (lib_id "Device:R") (at 49.53 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f9ca9d7-ac26-4370-aa87-706d3ca5e32f)
-    (property "Reference" "R1" (at 52.07 91.44 0)
+    (property "Reference" "R44" (at 52.07 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3K" (at 52.07 93.98 0)
@@ -1088,9 +1064,6 @@
     (pin "2" (uuid 7302f785-ddcd-4920-b74f-92ad38d7ab8e))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "R44") (unit 1)
         )
@@ -1101,7 +1074,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 34.29 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5a4be38-800e-438c-88ab-68ac78618e1c)
-    (property "Reference" "C12" (at 38.1 51.181 0)
+    (property "Reference" "C17" (at 38.1 51.181 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 38.1 53.721 0)
@@ -1117,9 +1090,6 @@
     (pin "2" (uuid b9d036f6-ed81-4bff-850f-d3ce4bb161c7))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "C12") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "C17") (unit 1)
         )
@@ -1130,7 +1100,7 @@
   (symbol (lib_id "Device:R") (at 77.47 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid baec4e4b-3998-46e9-967f-275eb2acae8b)
-    (property "Reference" "R1" (at 77.47 69.85 90)
+    (property "Reference" "R48" (at 77.47 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75K" (at 77.47 72.39 90)
@@ -1146,9 +1116,6 @@
     (pin "2" (uuid e0be0084-cf83-44f6-b748-fa9a46738324))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "R48") (unit 1)
         )
@@ -1159,7 +1126,7 @@
   (symbol (lib_id "power:GND") (at 64.77 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb7404e4-aaec-4565-a728-d096520bc103)
-    (property "Reference" "#PWR04" (at 64.77 58.42 0)
+    (property "Reference" "#PWR014" (at 64.77 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 57.15 0)
@@ -1174,9 +1141,6 @@
     (pin "1" (uuid 613a39f5-0ba2-41b4-8f07-40c9dad1ab53))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "#PWR014") (unit 1)
         )
@@ -1187,7 +1151,7 @@
   (symbol (lib_id "Device:R") (at 38.1 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2d65564-7294-4110-a028-5970191132a5)
-    (property "Reference" "R1" (at 40.64 81.28 0)
+    (property "Reference" "R43" (at 40.64 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100K" (at 40.64 83.82 0)
@@ -1203,9 +1167,6 @@
     (pin "2" (uuid 65373b04-3c7b-44a7-b3f5-2afd9d95673d))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "R1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "R43") (unit 1)
         )
@@ -1216,7 +1177,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 83.82 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daee84d2-4d88-449d-b73b-37e0490aa2ac)
-    (property "Reference" "C12" (at 87.63 80.391 0)
+    (property "Reference" "C20" (at 87.63 80.391 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 87.63 82.931 0)
@@ -1232,9 +1193,6 @@
     (pin "2" (uuid 3000bfbd-85cc-4544-9882-2f065df9649c))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/46712425-f81c-4e59-b8d1-7e996aa9ca64"
-          (reference "C12") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "C20") (unit 1)
         )
@@ -1245,7 +1203,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 78.74 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de37daf2-bbe9-4f8f-a13c-f7700f51004b)
-    (property "Reference" "AR_Mod_On_Off2" (at 78.74 36.83 0)
+    (property "Reference" "LFO_SHAPE1" (at 78.74 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 78.74 39.37 0)
@@ -1262,9 +1220,6 @@
     (pin "1" (uuid 2d88896c-cbec-4f30-82fe-3f87886e273d))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "AR_Mod_On_Off2") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "LFO_SHAPE1") (unit 1)
         )
@@ -1275,7 +1230,7 @@
   (symbol (lib_id "Device:R_Potentiometer_MountingPin") (at 64.77 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de599918-6765-48c5-a2fd-775384e74881)
-    (property "Reference" "LFO_Mod_Depth1" (at 64.77 52.705 90)
+    (property "Reference" "LFO_RATE1" (at 64.77 52.705 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 64.77 50.8 90)
@@ -1293,9 +1248,6 @@
     (pin "2" (uuid abb6683b-a100-4003-9e2b-8ea55dc683dd))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "LFO_Mod_Depth1") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "LFO_RATE1") (unit 1)
         )
@@ -1306,7 +1258,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 93.98 64.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8e63478-b797-4c2b-aa21-310e3f7b686d)
-    (property "Reference" "AR_Mod_On_Off2" (at 93.98 57.15 0)
+    (property "Reference" "LFO_SHAPE2" (at 93.98 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 93.98 59.69 0)
@@ -1323,9 +1275,6 @@
     (pin "1" (uuid 42a04892-43f2-46b6-a4e6-4c78283bc1e3))
     (instances
       (project "Noise Toaster"
-        (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/3f36173e-f191-4036-853e-444de7299fbe"
-          (reference "AR_Mod_On_Off2") (unit 1)
-        )
         (path "/c06bdaff-9d92-4322-9a29-784b2d9ec2c6/74bc29e1-6bfb-4a22-9659-b607bacf38d2"
           (reference "LFO_SHAPE2") (unit 1)
         )
