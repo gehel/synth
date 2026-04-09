@@ -1,8 +1,8 @@
 from synth_panel.dsl import (
+    LED,
     Component,
     Direction,
     Jack,
-    LED,
     Panel,
     Pot,
     RotarySwitch,

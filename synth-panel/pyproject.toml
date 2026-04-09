@@ -15,6 +15,16 @@ dependencies = [
 packages = [{include = "synth_panel", from = "src"}]
 
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.15.10"
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "N", "B", "SIM"]
+ignore = ["UP045"]  # prefer Optional[str] over str | None

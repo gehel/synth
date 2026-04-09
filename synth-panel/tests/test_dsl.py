@@ -1,10 +1,10 @@
 import pytest
 
 from synth_panel import (
+    LED,
     Component,
     Direction,
     Jack,
-    LED,
     Panel,
     Pot,
     RotarySwitch,
