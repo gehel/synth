@@ -1,0 +1,20 @@
+[project]
+name = "synth-panel"
+version = "0.1.0"
+description = "Generate KiCad v9 projects for Eurorack modular synthesizer panels"
+authors = [
+    {name = "Guillaume Lederrey",email = "guillaume.lederrey@gmail.com"}
+]
+license = "Apache-2.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "synth_panel", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
