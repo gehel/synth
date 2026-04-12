@@ -1,30 +1,31 @@
 import pytest
 
-from synth_panel.ascii_renderer import PANEL_ROWS, render_ascii
-from synth_panel.dsl import LED, Direction, Jack, Panel, Pot, Section, ToggleSwitch
+from synth_panel import ASCIIRenderer
+from synth_panel.ascii_renderer import PANEL_ROWS
+from synth_panel.dsl import Direction, Jack, Panel, Pot, Section
 
 
 def test_render_ascii_returns_string():
     panel = Panel(name="Test", width_hp=4, sections=[Section(components=[Jack()])])
-    assert isinstance(render_ascii(panel), str)
+    assert isinstance(ASCIIRenderer().render(panel), str)
 
 
 def test_render_ascii_row_count():
     panel = Panel(name="Test", width_hp=4, sections=[Section(components=[Jack()])])
-    lines = render_ascii(panel).split("\n")
+    lines = ASCIIRenderer().render(panel).split("\n")
     assert len(lines) == PANEL_ROWS + 2
 
 
 def test_render_ascii_all_rows_same_width():
     panel = Panel(name="Test", width_hp=8, sections=[Section(components=[Jack()])])
-    lines = render_ascii(panel).split("\n")
+    lines = ASCIIRenderer().render(panel).split("\n")
     widths = {len(line) for line in lines}
     assert len(widths) == 1
 
 
 def test_render_ascii_border_corners():
     panel = Panel(name="Test", width_hp=4, sections=[Section(components=[Jack()])])
-    lines = render_ascii(panel).split("\n")
+    lines = ASCIIRenderer().render(panel).split("\n")
     assert lines[0][0] == "+"
     assert lines[0][-1] == "+"
     assert lines[-1][0] == "+"
@@ -33,17 +34,17 @@ def test_render_ascii_border_corners():
 
 def test_render_ascii_jack_symbol_present():
     panel = Panel(name="Test", width_hp=4, sections=[Section(components=[Jack()])])
-    assert "J" in render_ascii(panel)
+    assert "J" in ASCIIRenderer().render(panel)
 
 
 def test_render_ascii_pot_symbol_present():
     panel = Panel(name="Test", width_hp=4, sections=[Section(components=[Pot()])])
-    assert "P" in render_ascii(panel)
+    assert "P" in ASCIIRenderer().render(panel)
 
 
 def test_render_ascii_label_present():
     panel = Panel(name="Test", width_hp=4, sections=[Section(components=[Jack(label="CV")])])
-    assert "CV" in render_ascii(panel)
+    assert "CV" in ASCIIRenderer().render(panel)
 
 
 def test_render_ascii_multiple_labels():
@@ -52,7 +53,7 @@ def test_render_ascii_multiple_labels():
         width_hp=4,
         sections=[Section(components=[Jack(label="IN"), Pot(label="Gain")])],
     )
-    result = render_ascii(panel)
+    result = ASCIIRenderer().render(panel)
     assert "IN" in result
     assert "Gain" in result
 
@@ -65,7 +66,7 @@ def test_render_ascii_horizontal_section():
             Section(direction=Direction.HORIZONTAL, components=[Jack(label="L"), Jack(label="R")])
         ],
     )
-    result = render_ascii(panel)
+    result = ASCIIRenderer().render(panel)
     assert result.count("J") == 2
 
 
@@ -99,12 +100,12 @@ def test_render_ascii_visual(capsys):
             ]),
         ],
     )
-    print(render_ascii(panel))
+    print(ASCIIRenderer().render(panel))
 
 
 @pytest.mark.parametrize("width_hp", [4, 8, 12, 16])
 def test_render_ascii_various_widths(width_hp: int):
     panel = Panel(name="Test", width_hp=width_hp, sections=[Section(components=[Jack()])])
-    lines = render_ascii(panel).split("\n")
+    lines = ASCIIRenderer().render(panel).split("\n")
     assert len(lines) == PANEL_ROWS + 2
     assert all(len(line) == len(lines[0]) for line in lines)
