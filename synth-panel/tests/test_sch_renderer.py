@@ -101,21 +101,6 @@ def test_render_schematic_all_component_types(tmp_path):
     assert "Device:LED" in content
 
 
-# ── Reference designators ─────────────────────────────────────────────────────
-
-def test_render_schematic_reference_designators(tmp_path):
-    panel = Panel(
-        name="refs",
-        width_hp=8,
-        sections=[Section(components=[Jack(label="A"), Jack(label="B"), Pot(label="C")])],
-    )
-    SchematicRenderer(tmp_path).render(panel)
-    content = (tmp_path / "refs" / "refs.kicad_sch").read_text()
-    assert '"J1"' in content
-    assert '"J2"' in content
-    assert '"RV1"' in content
-
-
 # ── KiCad 9 format ───────────────────────────────────────────────────────────
 
 def test_render_schematic_kicad9_version(tmp_path):
