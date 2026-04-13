@@ -2,9 +2,17 @@ from __future__ import annotations
 
 from pathlib import Path
 
-import pytest
-
-from synth_panel import LED, Jack, Panel, Pot, RotarySwitch, Section, ToggleSwitch, SchematicRenderer
+from synth_panel import (
+    LED,
+    Jack,
+    KicadProject,
+    Panel,
+    Pot,
+    RotarySwitch,
+    SchematicRenderer,
+    Section,
+    ToggleSwitch,
+)
 
 
 def _panel() -> Panel:
@@ -23,6 +31,10 @@ def _panel() -> Panel:
     )
 
 
+def _renderer(base: Path, panel: Panel) -> SchematicRenderer:
+    return SchematicRenderer(KicadProject(base / panel.name))
+
+
 def _sch_path(tmp_path, panel):
     return tmp_path / panel.name / f"{panel.name}.kicad_sch"
 
@@ -31,13 +43,13 @@ def _sch_path(tmp_path, panel):
 
 def test_render_schematic_creates_sch_file(tmp_path):
     panel = _panel()
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     assert _sch_path(tmp_path, panel).exists()
 
 
 def test_render_schematic_creates_project_files(tmp_path):
     panel = _panel()
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     base = tmp_path / panel.name / panel.name
     assert base.with_suffix(".kicad_pro").exists()
     assert base.with_suffix(".kicad_pcb").exists()
@@ -47,7 +59,7 @@ def test_render_schematic_creates_project_files(tmp_path):
 def test_render_schematic_creates_parent_dirs(tmp_path):
     panel = _panel()
     output_dir = tmp_path / "deep" / "nested"
-    SchematicRenderer(output_dir).render(panel)
+    _renderer(output_dir, panel).render(panel)
     assert _sch_path(tmp_path / "deep" / "nested", panel).exists()
 
 
@@ -55,21 +67,21 @@ def test_render_schematic_creates_parent_dirs(tmp_path):
 
 def test_render_schematic_contains_jack_symbol(tmp_path):
     panel = _panel()
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     content = _sch_path(tmp_path, panel).read_text()
     assert "AudioJack2" in content
 
 
 def test_render_schematic_contains_pot_symbol(tmp_path):
     panel = _panel()
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     content = _sch_path(tmp_path, panel).read_text()
     assert "R_Potentiometer_MountingPin" in content
 
 
 def test_render_schematic_contains_labels(tmp_path):
     panel = _panel()
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     content = _sch_path(tmp_path, panel).read_text()
     assert "IN" in content
     assert "CUTOFF" in content
@@ -92,7 +104,7 @@ def test_render_schematic_all_component_types(tmp_path):
             )
         ],
     )
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     content = (tmp_path / "all_types" / "all_types.kicad_sch").read_text()
     assert "AudioJack2" in content
     assert "R_Potentiometer_MountingPin" in content
@@ -105,14 +117,14 @@ def test_render_schematic_all_component_types(tmp_path):
 
 def test_render_schematic_kicad9_version(tmp_path):
     panel = _panel()
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     content = _sch_path(tmp_path, panel).read_text()
     assert "(version 20250114)" in content
 
 
 def test_render_schematic_is_valid_kicad_sch(tmp_path):
     panel = _panel()
-    SchematicRenderer(tmp_path).render(panel)
+    _renderer(tmp_path, panel).render(panel)
     content = _sch_path(tmp_path, panel).read_text()
     assert content.strip().startswith("(kicad_sch")
     assert content.strip().endswith(")")
@@ -143,5 +155,5 @@ def test_render_schematic_manual_inspection():
             )
         ],
     )
-    SchematicRenderer(output_dir).render(panel)
+    _renderer(output_dir, panel).render(panel)
     assert (output_dir / panel.name / f"{panel.name}.kicad_sch").exists()

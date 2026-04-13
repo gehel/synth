@@ -10,6 +10,7 @@ from synth_panel.dsl import (
     Section,
     ToggleSwitch,
 )
+from synth_panel.kicad_project import KicadProject
 from synth_panel.renderer import Renderer
 from synth_panel.sch_renderer import SchematicRenderer
 
@@ -18,6 +19,7 @@ __all__ = [
     "Component",
     "Direction",
     "Jack",
+    "KicadProject",
     "LED",
     "Panel",
     "Pot",
