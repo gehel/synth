@@ -60,8 +60,9 @@ class SchematicComponent:
         grid_y: int,
     ) -> None:
         sch.components.add(
-            self.library() + ":" + self.component_id(),
+            str(self.symbol()),
             value=value,
+            footprint=str(self.footprint()),
             position=(grid_x, grid_y),
         )
 
@@ -70,12 +71,6 @@ class SchematicComponent:
 
     def footprint(self) -> Footprint:
         return self._footprint
-
-    def library(self) -> str:
-        return self.symbol().library()
-
-    def component_id(self) -> str:
-        return self.symbol().id()
 
 
 class JackSchematicComponent(SchematicComponent):
