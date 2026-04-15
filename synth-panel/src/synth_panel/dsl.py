@@ -70,7 +70,7 @@ class Jack(Component):
         return Symbol("Connector_Audio", "AudioJack2")
 
     def footprint(self) -> Footprint:
-        return UNKNOWN_FOOTPRINT
+        return Footprint("Library", "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel")
 
 
 @dataclass
@@ -79,7 +79,7 @@ class Pot(Component):
         return Symbol("Device", "R_Potentiometer_MountingPin")
 
     def footprint(self) -> Footprint:
-        return UNKNOWN_FOOTPRINT
+        return Footprint("Library", "Potentiometer_Bourns_PTV09A-1_Single_Vertical-panel")
 
 
 @dataclass
