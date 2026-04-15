@@ -13,9 +13,13 @@ from synth_panel.layout import (
 
 
 def test_single_component_centered_horizontally():
-    panel = Panel(name="Test", width_hp=4, sections=[
-        Section(components=[Jack()]),
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=4,
+        sections=[
+            Section(components=[Jack()]),
+        ],
+    )
     placed = lay_out(panel)
 
     assert len(placed) == 1
@@ -23,9 +27,13 @@ def test_single_component_centered_horizontally():
 
 
 def test_single_component_vertical_position():
-    panel = Panel(name="Test", width_hp=4, sections=[
-        Section(components=[Jack()])  # Jack size = 12mm
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=4,
+        sections=[
+            Section(components=[Jack()])  # Jack size = 12mm
+        ],
+    )
     placed = lay_out(panel)
 
     expected_y = PANEL_MARGIN + SECTION_PADDING + 12.0 / 2
@@ -33,9 +41,13 @@ def test_single_component_vertical_position():
 
 
 def test_two_components_in_vertical_section():
-    panel = Panel(name="Test", width_hp=4, sections=[
-        Section(components=[Jack(), Pot()])  # Jack=12mm, Pot=18mm
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=4,
+        sections=[
+            Section(components=[Jack(), Pot()])  # Jack=12mm, Pot=18mm
+        ],
+    )
     placed = lay_out(panel)
 
     assert len(placed) == 2
@@ -46,10 +58,14 @@ def test_two_components_in_vertical_section():
 
 
 def test_section_margin_between_sections():
-    panel = Panel(name="Test", width_hp=4, sections=[
-        Section(components=[Jack()]),   # height = 2*PADDING + 12
-        Section(components=[Pot()]),    # starts after first section + SECTION_MARGIN
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=4,
+        sections=[
+            Section(components=[Jack()]),  # height = 2*PADDING + 12
+            Section(components=[Pot()]),  # starts after first section + SECTION_MARGIN
+        ],
+    )
     placed = lay_out(panel)
 
     section1_height = 2 * SECTION_PADDING + 12.0
@@ -58,9 +74,11 @@ def test_section_margin_between_sections():
 
 
 def test_horizontal_section_distributes_x():
-    panel = Panel(name="Test", width_hp=8, sections=[
-        Section(direction=Direction.HORIZONTAL, components=[Jack(), Jack()])
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=8,
+        sections=[Section(direction=Direction.HORIZONTAL, components=[Jack(), Jack()])],
+    )
     placed = lay_out(panel)
 
     panel_width = 8 * HP
@@ -70,9 +88,11 @@ def test_horizontal_section_distributes_x():
 
 
 def test_horizontal_section_centers_vertically():
-    panel = Panel(name="Test", width_hp=8, sections=[
-        Section(direction=Direction.HORIZONTAL, components=[Jack(), Jack()])
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=8,
+        sections=[Section(direction=Direction.HORIZONTAL, components=[Jack(), Jack()])],
+    )
     placed = lay_out(panel)
 
     section_height = 2 * SECTION_PADDING + 12.0
@@ -82,21 +102,30 @@ def test_horizontal_section_centers_vertically():
 
 
 def test_nested_sections():
-    panel = Panel(name="Test", width_hp=8, sections=[
-        Section(direction=Direction.HORIZONTAL, components=[
-            Section(direction=Direction.VERTICAL, components=[Jack(), Jack()]),
-            Section(direction=Direction.VERTICAL, components=[Pot()]),
-        ])
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=8,
+        sections=[
+            Section(
+                direction=Direction.HORIZONTAL,
+                components=[
+                    Section(direction=Direction.VERTICAL, components=[Jack(), Jack()]),
+                    Section(direction=Direction.VERTICAL, components=[Pot()]),
+                ],
+            )
+        ],
+    )
     placed = lay_out(panel)
 
     assert len(placed) == 3
 
 
 def test_lay_out_returns_placed_components():
-    panel = Panel(name="Test", width_hp=4, sections=[
-        Section(components=[Jack(label="CV"), Pot(label="Cutoff", value="100K")])
-    ])
+    panel = Panel(
+        name="Test",
+        width_hp=4,
+        sections=[Section(components=[Jack(label="CV"), Pot(label="Cutoff", value="100K")])],
+    )
     placed = lay_out(panel)
 
     assert all(isinstance(p, PlacedComponent) for p in placed)

@@ -5,14 +5,52 @@ from collections.abc import Callable
 
 import kicad_sch_api as ksa
 
-from synth_panel.component_factory import ComponentFactory
 from synth_panel.dsl import LED, Component, Jack, Pot, RotarySwitch, ToggleSwitch
 
 # ── Product hierarchy ──────────────────────────────────────────────────────────
 
+class LibraryEntry:
+    def __init__(self, library: str, id: str) -> None:
+        self._library = library
+        self._id = id
 
-class SchematicComponent(ABC):
+    def library(self) -> str:
+        return self._library
+
+    def id(self) -> str:
+        return self._id
+
+    def __str__(self) -> str:
+        return f"{self._library}:{self._id}"
+
+
+class Symbol(LibraryEntry):
+    pass
+
+
+class Footprint(LibraryEntry):
+    pass
+
+
+UNKNOWN_FOOTPRINT = Footprint("Unknown", "Unknown")
+
+
+class ComponentFactory(ABC):
+    """Abstract factory that produces output-specific representations of a DSL component.
+
+    Subclasses specialise *T* for a particular output format (schematic, PCB, …).
+    """
+
+    @abstractmethod
+    def create(self, component: Component) -> SchematicComponent: ...
+
+
+class SchematicComponent:
     """A DSL component that knows how to place itself in a KiCad schematic."""
+
+    def __init__(self, symbol: Symbol, footprint: Footprint) -> None:
+        self._symbol = symbol
+        self._footprint = footprint
 
     def add_to_schematic(
         self,
@@ -23,50 +61,41 @@ class SchematicComponent(ABC):
     ) -> None:
         sch.components.add(
             self.library() + ":" + self.component_id(),
-            value=value, position=(grid_x, grid_y),
+            value=value,
+            position=(grid_x, grid_y),
         )
 
-    @abstractmethod
-    def library(self) -> str:
-        ...
+    def symbol(self) -> Symbol:
+        return self._symbol
 
-    @abstractmethod
+    def footprint(self) -> Footprint:
+        return self._footprint
+
+    def library(self) -> str:
+        return self.symbol().library()
+
     def component_id(self) -> str:
-        ...
+        return self.symbol().id()
 
 
 class JackSchematicComponent(SchematicComponent):
-
-    def library(self) -> str:
-        return "Connector_Audio"
-
-    def component_id(self) -> str:
-        return "AudioJack2"
+    def __init__(self):
+        super().__init__(Symbol("Connector_Audio", "AudioJack2"), UNKNOWN_FOOTPRINT)
 
 
 class PotSchematicComponent(SchematicComponent):
-
-    def library(self) -> str:
-        return "Device"
-
-    def component_id(self) -> str:
-        return "R_Potentiometer_MountingPin"
+    def __init__(self) -> None:
+        super().__init__(Symbol("Device", "R_Potentiometer_MountingPin"), UNKNOWN_FOOTPRINT)
 
 
 class ToggleSwitchSchematicComponent(SchematicComponent):
-    def library(self) -> str:
-        return "Switch"
-
-    def component_id(self) -> str:
-        return "SW_SPDT"
+    def __init__(self) -> None:
+        super().__init__(Symbol("Switch", "SW_SPDT"), UNKNOWN_FOOTPRINT)
 
 
 class LEDSchematicComponent(SchematicComponent):
-    def library(self) -> str:
-        return "Device"
-
-    def component_id(self) -> str:
-        return "LED"
+    def __init__(self) -> None:
+        super().__init__(Symbol("Device", "LED"), UNKNOWN_FOOTPRINT)
 
 
 _ROTARY_COMPONENT_ID: dict[tuple[int, int], str] = {
@@ -85,13 +114,8 @@ class RotarySwitchSchematicComponent(SchematicComponent):
                 f"poles={component.poles}, throws={component.throws}. "
                 f"Supported: {list(_ROTARY_COMPONENT_ID.keys())}"
             )
+        super().__init__(Symbol("Switch", component_id), UNKNOWN_FOOTPRINT)
         self._component_id = component_id
-
-    def library(self) -> str:
-        return "Switch"
-
-    def component_id(self) -> str:
-        return self._component_id
 
 
 # ── Factory ────────────────────────────────────────────────────────────────────
@@ -99,7 +123,7 @@ class RotarySwitchSchematicComponent(SchematicComponent):
 _Creators = dict[type[Component], Callable[[Component], SchematicComponent]]  # noqa: UP006
 
 
-class SchematicComponentFactory(ComponentFactory[SchematicComponent]):
+class SchematicComponentFactory(ComponentFactory):
     """Creates the appropriate :class:`SchematicComponent` for any DSL component."""
 
     _creators: _Creators = {

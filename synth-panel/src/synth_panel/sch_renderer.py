@@ -43,8 +43,7 @@ class SchematicRenderer(Renderer):
                     cache.discover_libraries([str(path)])
                 return
         raise RuntimeError(
-            "KiCad symbol libraries not found. "
-            "Set KICAD_SYMBOL_DIR or install KiCad."
+            "KiCad symbol libraries not found. Set KICAD_SYMBOL_DIR or install KiCad."
         )
 
     def _write_schematic(self, placed: list[PlacedComponent]) -> None:

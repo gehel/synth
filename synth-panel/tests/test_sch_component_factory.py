@@ -13,19 +13,24 @@ def factory() -> SchematicComponentFactory:
 
 # ── create() returns a SchematicComponent ─────────────────────────────────────
 
-@pytest.mark.parametrize("component", [
-    Jack(),
-    Pot(),
-    ToggleSwitch(),
-    LED(),
-    RotarySwitch(poles=1, throws=12),
-    RotarySwitch(poles=3, throws=4),
-])
+
+@pytest.mark.parametrize(
+    "component",
+    [
+        Jack(),
+        Pot(),
+        ToggleSwitch(),
+        LED(),
+        RotarySwitch(poles=1, throws=12),
+        RotarySwitch(poles=3, throws=4),
+    ],
+)
 def test_create_returns_schematic_component(factory, component):
     assert isinstance(factory.create(component), SchematicComponent)
 
 
 # ── RotarySwitch error on unsupported configuration ───────────────────────────
+
 
 def test_rotary_switch_unsupported_config_raises(factory):
     with pytest.raises(ValueError, match="No KiCad symbol"):

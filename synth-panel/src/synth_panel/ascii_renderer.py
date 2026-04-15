@@ -36,7 +36,6 @@ class ASCIIRenderer(Renderer):
 
         return "\n".join("".join(row) for row in grid)
 
-
     def _draw_border(self, grid: list[list[str]], total_rows: int, total_cols: int) -> None:
         for c in range(total_cols):
             grid[0][c] = "-"
@@ -48,7 +47,6 @@ class ASCIIRenderer(Renderer):
         grid[0][total_cols - 1] = "+"
         grid[total_rows - 1][0] = "+"
         grid[total_rows - 1][total_cols - 1] = "+"
-
 
     def _draw_component(
         self,

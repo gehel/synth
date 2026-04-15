@@ -75,29 +75,46 @@ def test_render_ascii_visual(capsys):
         name="Demo",
         width_hp=8,
         sections=[
-            Section(components=[
-                Section(direction=Direction.HORIZONTAL, components=[
-                    Pot(label="Coarse"),
-                    Pot(label="Fine"),
-                ]),
-                Section(direction=Direction.HORIZONTAL, components=[
-                    Pot(label="Pulse Width"),
-                    Section(direction=Direction.VERTICAL, components=[
-                        Jack(label="Triangle"),
-                        Jack(label="Sine"),
-                    ]),
-                ]),
-                Section(direction=Direction.HORIZONTAL, components=[
-                    Jack(label="PWM-CV"),
-                    Jack(label="Square"),
-                    Jack(label="Sawtooth"),
-                ]),
-                Section(direction=Direction.HORIZONTAL, components=[
-                    Jack(label="Frequency CV1"),
-                    Jack(label="Frequency CV2"),
-                    Jack(label="Ramp"),
-                ]),
-            ]),
+            Section(
+                components=[
+                    Section(
+                        direction=Direction.HORIZONTAL,
+                        components=[
+                            Pot(label="Coarse"),
+                            Pot(label="Fine"),
+                        ],
+                    ),
+                    Section(
+                        direction=Direction.HORIZONTAL,
+                        components=[
+                            Pot(label="Pulse Width"),
+                            Section(
+                                direction=Direction.VERTICAL,
+                                components=[
+                                    Jack(label="Triangle"),
+                                    Jack(label="Sine"),
+                                ],
+                            ),
+                        ],
+                    ),
+                    Section(
+                        direction=Direction.HORIZONTAL,
+                        components=[
+                            Jack(label="PWM-CV"),
+                            Jack(label="Square"),
+                            Jack(label="Sawtooth"),
+                        ],
+                    ),
+                    Section(
+                        direction=Direction.HORIZONTAL,
+                        components=[
+                            Jack(label="Frequency CV1"),
+                            Jack(label="Frequency CV2"),
+                            Jack(label="Ramp"),
+                        ],
+                    ),
+                ]
+            ),
         ],
     )
     print(ASCIIRenderer().render(panel))

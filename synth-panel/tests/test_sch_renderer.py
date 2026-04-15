@@ -41,6 +41,7 @@ def _sch_path(tmp_path, panel):
 
 # ── File creation ─────────────────────────────────────────────────────────────
 
+
 def test_render_schematic_creates_sch_file(tmp_path):
     panel = _panel()
     _renderer(tmp_path, panel).render(panel)
@@ -64,6 +65,7 @@ def test_render_schematic_creates_parent_dirs(tmp_path):
 
 
 # ── File content — symbols present ───────────────────────────────────────────
+
 
 def test_render_schematic_contains_jack_symbol(tmp_path):
     panel = _panel()
@@ -115,6 +117,7 @@ def test_render_schematic_all_component_types(tmp_path):
 
 # ── KiCad 9 format ───────────────────────────────────────────────────────────
 
+
 def test_render_schematic_kicad9_version(tmp_path):
     panel = _panel()
     _renderer(tmp_path, panel).render(panel)
@@ -129,7 +132,9 @@ def test_render_schematic_is_valid_kicad_sch(tmp_path):
     assert content.strip().startswith("(kicad_sch")
     assert content.strip().endswith(")")
 
+
 # ── Manual inspection ─────────────────────────────────────────────────────────
+
 
 def test_render_schematic_manual_inspection():
     """Write a representative panel to output/ for manual validation in KiCad.
