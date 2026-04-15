@@ -18,6 +18,29 @@ def test_component_cannot_be_instantiated():
         Component()
 
 
+# ── symbol() returns the correct KiCad reference ─────────────────────────────
+
+
+@pytest.mark.parametrize(
+    "component, expected_symbol",
+    [
+        (Jack(), "Connector_Audio:AudioJack2"),
+        (Pot(), "Device:R_Potentiometer_MountingPin"),
+        (ToggleSwitch(), "Switch:SW_SPDT"),
+        (LED(), "Device:LED"),
+        (RotarySwitch(poles=1, throws=12), "Switch:SW_Rotary_1x12"),
+        (RotarySwitch(poles=3, throws=4), "Switch:SW_Rotary_3x4"),
+    ],
+)
+def test_symbol(component, expected_symbol):
+    assert str(component.symbol()) == expected_symbol
+
+
+def test_rotary_switch_unsupported_config_raises():
+    with pytest.raises(ValueError, match="No KiCad symbol"):
+        RotarySwitch(poles=2, throws=6).symbol()
+
+
 def test_panel():
     Panel(
         name="VCF",

@@ -9,7 +9,6 @@ from synth_panel.dsl import Panel
 from synth_panel.kicad_project import KicadProject
 from synth_panel.layout import PlacedComponent, lay_out
 from synth_panel.renderer import Renderer
-from synth_panel.sch_component_factory import SchematicComponentFactory
 
 _KICAD_SYMBOL_DIRS: list[Path] = [
     Path("/snap/kicad/current/usr/share/kicad/symbols"),  # snap
@@ -52,12 +51,9 @@ class SchematicRenderer(Renderer):
         ksa.use_grid_units(True)
         sch = ksa.load_schematic(str(sch_path))
 
-        factory = SchematicComponentFactory()
         for pc in placed:
-            sch_component = factory.create(pc.component)
-            value = pc.component.label or type(pc.component).__name__
             grid_x = round(pc.x / _GRID_MM)
             grid_y = round(pc.y / _GRID_MM)
-            sch_component.add_to_schematic(sch, value, grid_x, grid_y)
+            pc.component.add_to_schematic(sch, grid_x, grid_y)
 
         sch.save(str(sch_path))

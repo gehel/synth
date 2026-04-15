@@ -1,8 +1,37 @@
 from __future__ import annotations
 
+from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Optional
+
+import kicad_sch_api as ksa
+
+
+class LibraryEntry:
+    def __init__(self, library: str, id: str) -> None:
+        self._library = library
+        self._id = id
+
+    def library(self) -> str:
+        return self._library
+
+    def id(self) -> str:
+        return self._id
+
+    def __str__(self) -> str:
+        return f"{self._library}:{self._id}"
+
+
+class Symbol(LibraryEntry):
+    pass
+
+
+class Footprint(LibraryEntry):
+    pass
+
+
+UNKNOWN_FOOTPRINT = Footprint("Unknown", "Unknown")
 
 
 class Direction(Enum):
@@ -11,28 +40,61 @@ class Direction(Enum):
 
 
 @dataclass
-class Component:
+class Component(ABC):
     label: Optional[str] = None
     value: Optional[str] = None
 
-    def __post_init__(self) -> None:
-        if type(self) is Component:
-            raise TypeError("Component cannot be instantiated directly")
+    @abstractmethod
+    def symbol(self) -> Symbol: ...
+
+    @abstractmethod
+    def footprint(self) -> Footprint: ...
+
+    def add_to_schematic(
+        self,
+        sch: ksa.Schematic,
+            grid_x: int,
+        grid_y: int,
+    ) -> None:
+        sch.components.add(
+            str(self.symbol()),
+            value=(self.label or type(self).__name__),
+            footprint=str(self.footprint()),
+            position=(grid_x, grid_y),
+        )
 
 
 @dataclass
 class Jack(Component):
-    pass
+    def symbol(self) -> Symbol:
+        return Symbol("Connector_Audio", "AudioJack2")
+
+    def footprint(self) -> Footprint:
+        return UNKNOWN_FOOTPRINT
 
 
 @dataclass
 class Pot(Component):
-    pass
+    def symbol(self) -> Symbol:
+        return Symbol("Device", "R_Potentiometer_MountingPin")
+
+    def footprint(self) -> Footprint:
+        return UNKNOWN_FOOTPRINT
 
 
 @dataclass
 class ToggleSwitch(Component):
-    pass
+    def symbol(self) -> Symbol:
+        return Symbol("Switch", "SW_SPDT")
+
+    def footprint(self) -> Footprint:
+        return UNKNOWN_FOOTPRINT
+
+
+_ROTARY_COMPONENT_ID: dict[tuple[int, int], str] = {
+    (1, 12): "SW_Rotary_1x12",
+    (3, 4): "SW_Rotary_3x4",
+}
 
 
 @dataclass
@@ -40,10 +102,28 @@ class RotarySwitch(Component):
     poles: int = 1
     throws: int = 12
 
+    def symbol(self) -> Symbol:
+        key = (self.poles, self.throws)
+        component_id = _ROTARY_COMPONENT_ID.get(key)
+        if component_id is None:
+            raise ValueError(
+                f"No KiCad symbol for RotarySwitch "
+                f"poles={self.poles}, throws={self.throws}. "
+                f"Supported: {list(_ROTARY_COMPONENT_ID.keys())}"
+            )
+        return Symbol("Switch", component_id)
+
+    def footprint(self) -> Footprint:
+        return UNKNOWN_FOOTPRINT
+
 
 @dataclass
 class LED(Component):
-    pass
+    def symbol(self) -> Symbol:
+        return Symbol("Device", "LED")
+
+    def footprint(self) -> Footprint:
+        return UNKNOWN_FOOTPRINT
 
 
 @dataclass
