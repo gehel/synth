@@ -18,6 +18,23 @@ def test_component_cannot_be_instantiated():
         Component()
 
 
+# ── reference_prefix() ───────────────────────────────────────────────────────
+
+
+@pytest.mark.parametrize(
+    "component, expected_prefix",
+    [
+        (Jack(), "J"),
+        (Pot(), "RV"),
+        (ToggleSwitch(), "SW"),
+        (RotarySwitch(), "SW"),
+        (LED(), "D"),
+    ],
+)
+def test_reference_prefix(component, expected_prefix):
+    assert component.reference_prefix() == expected_prefix
+
+
 # ── symbol() returns the correct KiCad reference ─────────────────────────────
 
 

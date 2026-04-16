@@ -1,6 +1,6 @@
 import pytest
 
-from synth_panel.dsl import Direction, Jack, Panel, Pot, Section
+from synth_panel.dsl import LED, Direction, Jack, Panel, Pot, RotarySwitch, Section, ToggleSwitch
 from synth_panel.layout import (
     COMPONENT_MARGIN,
     HP,
@@ -131,3 +131,35 @@ def test_lay_out_returns_placed_components():
     assert all(isinstance(p, PlacedComponent) for p in placed)
     assert placed[0].component.label == "CV"
     assert placed[1].component.label == "Cutoff"
+
+
+# ── reference assignment ──────────────────────────────────────────────────────
+
+
+def test_references_assigned():
+    panel = Panel(
+        name="Test",
+        width_hp=10,
+        sections=[
+            Section(components=[Jack(), Pot(), Jack(), ToggleSwitch(), RotarySwitch(), LED()])
+        ],
+    )
+    placed = lay_out(panel)
+
+    refs = [pc.reference for pc in placed]
+    assert refs == ["J1", "RV1", "J2", "SW1", "SW2", "D1"]
+
+
+def test_references_unique_across_sections():
+    panel = Panel(
+        name="Test",
+        width_hp=4,
+        sections=[
+            Section(components=[Jack()]),
+            Section(components=[Jack()]),
+        ],
+    )
+    placed = lay_out(panel)
+
+    assert placed[0].reference == "J1"
+    assert placed[1].reference == "J2"

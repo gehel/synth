@@ -50,14 +50,19 @@ class Component(ABC):
     @abstractmethod
     def footprint(self) -> Footprint: ...
 
+    @abstractmethod
+    def reference_prefix(self) -> str: ...
+
     def add_to_schematic(
         self,
         sch: ksa.Schematic,
-            grid_x: int,
+        reference: str,
+        grid_x: int,
         grid_y: int,
     ) -> None:
         sch.components.add(
             str(self.symbol()),
+            reference,
             value=(self.label or type(self).__name__),
             footprint=str(self.footprint()),
             position=(grid_x, grid_y),
@@ -72,6 +77,9 @@ class Jack(Component):
     def footprint(self) -> Footprint:
         return Footprint("Library", "Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-panel")
 
+    def reference_prefix(self) -> str:
+        return "J"
+
 
 @dataclass
 class Pot(Component):
@@ -81,6 +89,9 @@ class Pot(Component):
     def footprint(self) -> Footprint:
         return Footprint("Library", "Potentiometer_Bourns_PTV09A-1_Single_Vertical-panel")
 
+    def reference_prefix(self) -> str:
+        return "RV"
+
 
 @dataclass
 class ToggleSwitch(Component):
@@ -89,6 +100,9 @@ class ToggleSwitch(Component):
 
     def footprint(self) -> Footprint:
         return UNKNOWN_FOOTPRINT
+
+    def reference_prefix(self) -> str:
+        return "SW"
 
 
 _ROTARY_COMPONENT_ID: dict[tuple[int, int], str] = {
@@ -116,6 +130,9 @@ class RotarySwitch(Component):
     def footprint(self) -> Footprint:
         return UNKNOWN_FOOTPRINT
 
+    def reference_prefix(self) -> str:
+        return "SW"
+
 
 @dataclass
 class LED(Component):
@@ -124,6 +141,9 @@ class LED(Component):
 
     def footprint(self) -> Footprint:
         return UNKNOWN_FOOTPRINT
+
+    def reference_prefix(self) -> str:
+        return "D"
 
 
 @dataclass

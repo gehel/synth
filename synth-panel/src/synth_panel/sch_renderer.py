@@ -51,9 +51,12 @@ class SchematicRenderer(Renderer):
         ksa.use_grid_units(True)
         sch = ksa.load_schematic(str(sch_path))
 
+        existing_refs = {c.reference for c in sch.components.filter()}
         for pc in placed:
+            if pc.reference in existing_refs:
+                continue
             grid_x = round(pc.x / _GRID_MM)
             grid_y = round(pc.y / _GRID_MM)
-            pc.component.add_to_schematic(sch, grid_x, grid_y)
+            pc.component.add_to_schematic(sch, pc.reference, grid_x, grid_y)
 
         sch.save(str(sch_path))

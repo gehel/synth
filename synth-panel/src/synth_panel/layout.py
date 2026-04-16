@@ -35,6 +35,7 @@ class PlacedComponent:
     component: Component
     x: float  # center x in mm from left edge of panel
     y: float  # center y in mm from top edge of panel
+    reference: str = ""
 
 
 def lay_out(panel: Panel) -> list[PlacedComponent]:
@@ -50,7 +51,16 @@ def lay_out(panel: Panel) -> list[PlacedComponent]:
         if i < len(panel.sections) - 1:
             y += SECTION_MARGIN
 
+    _assign_references(placed)
     return placed
+
+
+def _assign_references(placed: list[PlacedComponent]) -> None:
+    counters: dict[str, int] = {}
+    for pc in placed:
+        prefix = pc.component.reference_prefix()
+        counters[prefix] = counters.get(prefix, 0) + 1
+        pc.reference = f"{prefix}{counters[prefix]}"
 
 
 def _section_height(section: Section) -> float:

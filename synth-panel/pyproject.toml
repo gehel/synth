@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "kicad-sch-api (>=0.5.6,<0.6.0)",
+    "kicad-python (>=0.6.0,<0.7.0)",
 ]
 
 [tool.poetry]
@@ -23,6 +24,12 @@ pytest = "^9.0.3"
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-m 'not manual'"
+markers = [
+    "manual: requires a running KiCad instance and human interaction; excluded from the standard suite",
+]
 
 [tool.ruff]
 line-length = 100

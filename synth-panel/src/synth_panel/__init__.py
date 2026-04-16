@@ -1,4 +1,5 @@
 from synth_panel.ascii_renderer import ASCIIRenderer
+from synth_panel.pcb_renderer import PcbRenderer
 from synth_panel.dsl import (
     LED,
     Component,
@@ -16,6 +17,7 @@ from synth_panel.sch_renderer import SchematicRenderer
 
 __all__ = [
     "ASCIIRenderer",
+    "PcbRenderer",
     "Component",
     "Direction",
     "Jack",
