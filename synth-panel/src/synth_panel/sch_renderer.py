@@ -7,7 +7,7 @@ import kicad_sch_api as ksa
 
 from synth_panel.dsl import Panel
 from synth_panel.kicad_project import KicadProject
-from synth_panel.layout import PlacedComponent, lay_out
+from synth_panel.layout import PlacedComponent, lay_out, mounting_hole_placements
 from synth_panel.renderer import Renderer
 
 _KICAD_SYMBOL_DIRS: list[Path] = [
@@ -27,7 +27,7 @@ class SchematicRenderer(Renderer):
         self._project = project
 
     def render(self, panel: Panel) -> None:
-        placed = lay_out(panel)
+        placed = lay_out(panel) + mounting_hole_placements(panel)
         self._configure_symbol_libraries()
         self._project.init_project()
         self._write_schematic(placed)

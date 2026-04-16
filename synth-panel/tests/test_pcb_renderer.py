@@ -37,8 +37,11 @@ from synth_panel import (
     Section,
     ToggleSwitch,
 )
-from synth_panel.layout import lay_out
+from synth_panel.layout import lay_out, mounting_hole_placements
 from synth_panel.pcb_renderer import PcbRenderer
+
+# Footprints not yet wired up (see TODO: "Wire up missing footprints").
+_KNOWN_MISSING = {"SW1", "SW2", "D1"}
 
 # Allow 1 nm of rounding error from the mm→nm integer conversion.
 TOLERANCE_NM = 1

@@ -7,6 +7,7 @@ from synth_panel.dsl import (
     Component,
     Direction,
     Jack,
+    MountingHole,
     Panel,
     Pot,
     RotarySwitch,
@@ -17,6 +18,8 @@ from synth_panel.dsl import (
 HP: float = 5.08  # mm per HP
 PANEL_HEIGHT: float = 128.5  # mm, Eurorack 3U
 PANEL_MARGIN: float = 3.0  # mm, top and bottom (clear of mounting holes)
+MOUNTING_HOLE_INSET: float = 7.5  # mm from left/right edge to hole centre
+MOUNTING_HOLE_Y: float = 3.0  # mm from top/bottom edge to hole centre
 SECTION_MARGIN: float = 5.0  # mm between sections (space for delineation line)
 SECTION_PADDING: float = 3.0  # mm inside a section, above first and below last child
 COMPONENT_MARGIN: float = 2.0  # mm between components within a section
@@ -118,3 +121,25 @@ def _place_section(
                 )
             else:
                 placed.append(PlacedComponent(child, child_x_center, y_center))
+
+
+def mounting_hole_placements(panel: Panel) -> list[PlacedComponent]:
+    """Return the four Eurorack mounting hole positions for a panel.
+
+    Holes are placed at the standard Eurorack inset (7.5 mm from each edge)
+    and 3 mm from the top and bottom edges.  References are H1–H4 in
+    top-left, top-right, bottom-left, bottom-right order.
+    """
+    width = panel.width_hp * HP
+    x_left = MOUNTING_HOLE_INSET
+    x_right = width - MOUNTING_HOLE_INSET
+    y_top = MOUNTING_HOLE_Y
+    y_bottom = PANEL_HEIGHT - MOUNTING_HOLE_Y
+
+    holes = [
+        PlacedComponent(MountingHole(), x_left, y_top, reference="H1"),
+        PlacedComponent(MountingHole(), x_right, y_top, reference="H2"),
+        PlacedComponent(MountingHole(), x_left, y_bottom, reference="H3"),
+        PlacedComponent(MountingHole(), x_right, y_bottom, reference="H4"),
+    ]
+    return holes

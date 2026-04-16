@@ -66,6 +66,7 @@ def _panel() -> Panel:
 
 def _find_kicad() -> str:
     candidates = [
+        "/home/gehel/Downloads/kicad-10.0.1-1-x86_64.AppImage",
         "kicad",
         "/snap/bin/kicad",
         "/usr/bin/kicad",

@@ -8,7 +8,7 @@ from kipy.geometry import Vector2, from_mm
 from kipy.kicad import KiCad
 
 from synth_panel.dsl import Panel
-from synth_panel.layout import HP, PANEL_HEIGHT, PlacedComponent, lay_out
+from synth_panel.layout import HP, PANEL_HEIGHT, PlacedComponent, lay_out, mounting_hole_placements
 from synth_panel.renderer import Renderer
 
 _OUTLINE_STROKE_MM = 0.05
@@ -35,7 +35,7 @@ class PcbRenderer(Renderer):
     """
 
     def render(self, panel: Panel) -> None:
-        placed = lay_out(panel)
+        placed = lay_out(panel) + mounting_hole_placements(panel)
         ref_map: dict[str, PlacedComponent] = {pc.reference: pc for pc in placed}
 
         kicad = KiCad()

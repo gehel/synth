@@ -45,6 +45,13 @@ currently fails because SW1, SW2, D1 are absent from the board (missing
 footprints, see above).  Once footprints are wired up, re-run the full
 manual workflow and verify the test passes.
 
+### Misc
+* [ ] add optional outline to sections
+* [ ] add optional titles to sections
+* [ ] add IDs to components and sections to ensure that we can update the
+boards / schematic after changes (store that ID in a custom field in Kicad)
+* [ ] 
+
 ### README
 Update `README.md` to document the two-project output (main PCB + front panel),
 the manual workflow steps, and the `manual` pytest marker.

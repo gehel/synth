@@ -147,6 +147,18 @@ class LED(Component):
 
 
 @dataclass
+class MountingHole(Component):
+    def symbol(self) -> Symbol:
+        return Symbol("Mechanical", "MountingHole")
+
+    def footprint(self) -> Footprint:
+        return Footprint("MountingHole", "MountingHole_3.2mm_M3")
+
+    def reference_prefix(self) -> str:
+        return "H"
+
+
+@dataclass
 class Section:
     label: Optional[str] = None
     direction: Direction = Direction.VERTICAL
