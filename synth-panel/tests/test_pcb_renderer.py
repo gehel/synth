@@ -40,9 +40,6 @@ from synth_panel import (
 from synth_panel.layout import lay_out
 from synth_panel.pcb_renderer import PcbRenderer
 
-ORIGIN_X_MM = 0.0
-ORIGIN_Y_MM = 0.0
-
 # Allow 1 nm of rounding error from the mm→nm integer conversion.
 TOLERANCE_NM = 1
 
@@ -69,15 +66,18 @@ def _panel() -> Panel:
 
 @pytest.mark.manual
 def test_pcb_renderer_places_footprints_at_computed_positions():
-    """PcbRenderer must move every footprint to the position returned by lay_out."""
+    """PcbRenderer must move every footprint to the position returned by lay_out,
+    centered on the sheet."""
     panel = _panel()
     expected = {pc.reference: pc for pc in lay_out(panel)}
 
-    PcbRenderer(origin_x_mm=ORIGIN_X_MM, origin_y_mm=ORIGIN_Y_MM).render(panel)
+    renderer = PcbRenderer()
+    renderer.render(panel)
 
     board = KiCad().get_board()
-    footprints = board.get_footprints()
+    origin_x, origin_y = renderer._centered_origin(board, panel)
 
+    footprints = board.get_footprints()
     board_refs = {fp.reference_field.text.value for fp in footprints}
     missing = set(expected) - board_refs
     assert not missing, f"Footprints not found on board: {missing}"
@@ -89,8 +89,8 @@ def test_pcb_renderer_places_footprints_at_computed_positions():
         if pc is None:
             continue
 
-        want_x = from_mm(ORIGIN_X_MM + pc.x)
-        want_y = from_mm(ORIGIN_Y_MM + pc.y)
+        want_x = from_mm(origin_x + pc.x)
+        want_y = from_mm(origin_y + pc.y)
         got_x = fp.position.x
         got_y = fp.position.y
 

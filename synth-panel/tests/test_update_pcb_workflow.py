@@ -43,11 +43,6 @@ from synth_panel.pcb_renderer import PcbRenderer
 OUTPUT_DIR = Path(__file__).parent.parent / "output"
 PANEL_NAME = "manual_pcb_workflow"
 
-# Position of the panel's top-left corner relative to the KiCad PCB origin
-# (adjust if your board outline is not at (0, 0)).
-ORIGIN_X_MM = 0.0
-ORIGIN_Y_MM = 0.0
-
 
 def _panel() -> Panel:
     return Panel(
@@ -117,7 +112,7 @@ def _wait_for_update_pcb() -> None:
 
 def _place_footprints(panel: Panel) -> None:
     print("Placing footprints on the open PCB …")
-    PcbRenderer(origin_x_mm=ORIGIN_X_MM, origin_y_mm=ORIGIN_Y_MM).render(panel)
+    PcbRenderer().render(panel)
     print("Done! Footprints have been placed.")
     print()
     print("You can now inspect the result in the KiCad PCB editor.")
