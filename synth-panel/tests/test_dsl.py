@@ -105,3 +105,43 @@ def test_panel():
             ),
         ],
     )
+
+
+# ── stable_id ────────────────────────────────────────────────────────────────
+
+
+def test_stable_id_auto_assigned():
+    j1 = Jack()
+    j2 = Jack()
+    assert j1.stable_id == "Jack_1"
+    assert j2.stable_id == "Jack_2"
+
+
+def test_stable_id_explicit_n():
+    assert Jack(n=42).stable_id == "Jack_42"
+
+
+def test_stable_id_per_class_counter():
+    assert Jack().stable_id == "Jack_1"
+    assert Pot().stable_id == "Pot_1"
+
+
+def test_stable_id_section():
+    assert Section().stable_id == "Section_1"
+
+
+def test_duplicate_n_raises():
+    Jack(n=1)
+    with pytest.raises(ValueError, match="already exists"):
+        Jack(n=1)
+
+
+def test_duplicate_n_different_classes_allowed():
+    Jack(n=1)
+    Pot(n=1)  # same n, different class — must not raise
+
+
+def test_duplicate_section_n_raises():
+    Section(n=1)
+    with pytest.raises(ValueError, match="already exists"):
+        Section(n=1)

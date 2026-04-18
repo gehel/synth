@@ -3,7 +3,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
+from typing import ClassVar, Optional
 
 import kicad_sch_api as ksa
 
@@ -41,8 +41,27 @@ class Direction(Enum):
 
 @dataclass
 class Component(ABC):
+    _used_ids: ClassVar[dict[type, set[int]]] = {}
+
+    n: Optional[int] = None
     label: Optional[str] = None
     value: Optional[str] = None
+
+    def __post_init__(self) -> None:
+        cls = type(self)
+        used = Component._used_ids.setdefault(cls, set())
+        if self.n is None:
+            self.n = find_next_id(used)
+        elif self.n in used:
+            raise ValueError(
+                f"{cls.__name__} with n={self.n} already exists; "
+                f"n must be unique per class"
+            )
+        used.add(self.n)
+
+    @property
+    def stable_id(self) -> str:
+        return f"{type(self).__name__}_{self.n}"
 
     @abstractmethod
     def symbol(self) -> Symbol: ...
@@ -160,10 +179,32 @@ class MountingHole(Component):
 
 @dataclass
 class Section:
+    _used_ids: ClassVar[set[int]] = set()
+
+    n: Optional[int] = None
     label: Optional[str] = None
     direction: Direction = Direction.VERTICAL
     components: list[Component | Section] = field(default_factory=list)
 
+    def __post_init__(self) -> None:
+        if self.n is None:
+            self.n = find_next_id(Section._used_ids)
+        elif self.n in Section._used_ids:
+            raise ValueError(
+                f"Section with n={self.n} already exists; "
+                f"n must be unique across all sections"
+            )
+        Section._used_ids.add(self.n)
+
+    @property
+    def stable_id(self) -> str:
+        return f"Section_{self.n}"
+
+def find_next_id(used_ids):
+    n = 1
+    while n in used_ids:
+        n += 1
+    return n
 
 @dataclass
 class Panel:
