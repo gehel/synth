@@ -50,7 +50,6 @@ manual workflow and verify the test passes.
 * [ ] add optional titles to sections
 * [ ] add IDs to components and sections to ensure that we can update the
 boards / schematic after changes (store that ID in a custom field in Kicad)
-* [ ] 
 
 ### README
 Update `README.md` to document the two-project output (main PCB + front panel),

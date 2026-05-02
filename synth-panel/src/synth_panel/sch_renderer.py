@@ -51,10 +51,35 @@ class SchematicRenderer(Renderer):
         ksa.use_grid_units(True)
         sch = ksa.load_schematic(str(sch_path))
 
-        existing_refs = {c.reference for c in sch.components.filter()}
-        for pc in placed:
-            if pc.reference in existing_refs:
-                continue
+        existing_by_synth_id = {
+            c.get_property("synth_panel_id")["value"]: c
+            for c in sch.components.filter()
+            if c.get_property("synth_panel_id") is not None
+        }
+
+        to_update = [
+            (existing_by_synth_id[pc.component.stable_id], pc)
+            for pc in placed
+            if pc.component.stable_id in existing_by_synth_id
+        ]
+        to_add = [pc for pc in placed if pc.component.stable_id not in existing_by_synth_id]
+
+        # Pass 1: rename changed references to temp names to avoid collision during swaps
+        for i, (existing, pc) in enumerate(to_update):
+            if existing.reference != pc.reference:
+                existing.reference = f"SYNTHTMP{i}"
+
+        # Pass 2: apply all property updates
+        for existing, pc in to_update:
+            grid_x = round(pc.x / _GRID_MM)
+            grid_y = round(pc.y / _GRID_MM)
+            existing.value = pc.component.label or type(pc.component).__name__
+            existing.footprint = str(pc.component.footprint())
+            existing.position = (grid_x, grid_y)
+            if existing.reference != pc.reference:
+                existing.reference = pc.reference
+
+        for pc in to_add:
             grid_x = round(pc.x / _GRID_MM)
             grid_y = round(pc.y / _GRID_MM)
             pc.component.add_to_schematic(sch, pc.reference, grid_x, grid_y)

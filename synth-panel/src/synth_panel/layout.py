@@ -15,6 +15,10 @@ from synth_panel.dsl import (
     ToggleSwitch,
 )
 
+
+def _is_structural(section: Section) -> bool:
+    return bool(section.components) and all(isinstance(c, MountingHole) for c in section.components)
+
 HP: float = 5.08  # mm per HP
 PANEL_HEIGHT: float = 128.5  # mm, Eurorack 3U
 PANEL_MARGIN: float = 3.0  # mm, top and bottom (clear of mounting holes)
@@ -46,12 +50,13 @@ def lay_out(panel: Panel) -> list[PlacedComponent]:
     x_center = panel_width / 2
     placed: list[PlacedComponent] = []
 
+    user_sections = [s for s in panel.sections if not _is_structural(s)]
     y = PANEL_MARGIN
-    for i, section in enumerate(panel.sections):
+    for i, section in enumerate(user_sections):
         h = _section_height(section)
         _place_section(section, x_center, y, panel_width, h, placed)
         y += h
-        if i < len(panel.sections) - 1:
+        if i < len(user_sections) - 1:
             y += SECTION_MARGIN
 
     _assign_references(placed)
@@ -136,10 +141,10 @@ def mounting_hole_placements(panel: Panel) -> list[PlacedComponent]:
     y_top = MOUNTING_HOLE_Y
     y_bottom = PANEL_HEIGHT - MOUNTING_HOLE_Y
 
-    holes = [
-        PlacedComponent(MountingHole(), x_left, y_top, reference="H1"),
-        PlacedComponent(MountingHole(), x_right, y_top, reference="H2"),
-        PlacedComponent(MountingHole(), x_left, y_bottom, reference="H3"),
-        PlacedComponent(MountingHole(), x_right, y_bottom, reference="H4"),
+    holes = panel.mounting_holes
+    return [
+        PlacedComponent(holes[0], x_left, y_top, reference="H1"),
+        PlacedComponent(holes[1], x_right, y_top, reference="H2"),
+        PlacedComponent(holes[2], x_left, y_bottom, reference="H3"),
+        PlacedComponent(holes[3], x_right, y_bottom, reference="H4"),
     ]
-    return holes

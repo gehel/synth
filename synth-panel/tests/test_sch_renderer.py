@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import kicad_sch_api as ksa
+
 from synth_panel import (
     LED,
     Jack,
@@ -25,6 +27,22 @@ def _panel() -> Panel:
                     Jack(label="IN"),
                     Pot(label="CUTOFF"),
                     Jack(label="OUT"),
+                ]
+            )
+        ],
+    )
+
+
+def _panel_modified() -> Panel:
+    return Panel(
+        name="test_vcf",
+        width_hp=6,
+        sections=[
+            Section(
+                components=[
+                    Pot(label="CUTOFF_MODIFIED", n=1),
+                    Jack(label="OUT_MODIFIED", n=2),
+                    Jack(label="IN_MODIFIED", n=1),
                 ]
             )
         ],
@@ -90,6 +108,35 @@ def test_render_schematic_contains_labels(tmp_path):
     assert "OUT" in content
 
 
+def test_render_schematic_contains_stable_ids(tmp_path):
+    panel = _panel()
+    _renderer(tmp_path, panel).render(panel)
+    content = _sch_path(tmp_path, panel).read_text()
+    assert "Jack_1" in content
+    assert "Pot_1" in content
+    assert "Jack_2" in content
+
+
+def test_synth_panel_id_property_retrievable_after_add(tmp_path):
+    panel = _panel()
+    _renderer(tmp_path, panel).render(panel)
+
+    ksa.use_grid_units(True)
+    sch = ksa.load_schematic(str(_sch_path(tmp_path, panel)))
+
+    props = [c.get_property("synth_panel_id") for c in sch.components.filter()]
+    assert all(p is not None for p in props)
+    assert all(p["name"] == "synth_panel_id" for p in props)
+
+    retrieved_ids = {p["value"] for p in props}
+    expected_ids = {
+        comp.stable_id
+        for section in panel.sections
+        for comp in section.components
+    }
+    assert expected_ids <= retrieved_ids
+
+
 def test_render_schematic_all_component_types(tmp_path):
     panel = Panel(
         name="all_types",
@@ -132,6 +179,24 @@ def test_render_schematic_is_valid_kicad_sch(tmp_path):
     assert content.strip().startswith("(kicad_sch")
     assert content.strip().endswith(")")
 
+
+def test_components_can_be_updated(tmp_path):
+    panel = _panel()
+    panel_modified = _panel_modified()
+    _renderer(tmp_path, panel).render(panel)
+    content = _sch_path(tmp_path, panel).read_text()
+    assert content.strip().startswith("(kicad_sch")
+
+    _renderer(tmp_path, panel_modified).render(panel_modified)
+    content = _sch_path(tmp_path, panel).read_text()
+    assert content.strip().startswith("(kicad_sch")
+    # Components updated, not duplicated: count instance lib_id lines only
+    assert content.count('(lib_id "Connector_Audio:AudioJack2")') == 2
+    assert content.count('(lib_id "Device:R_Potentiometer_MountingPin")') == 1
+    # Values reflect the modified panel
+    assert "CUTOFF_MODIFIED" in content
+    assert "OUT_MODIFIED" in content
+    assert "IN_MODIFIED" in content
 
 # ── Manual inspection ─────────────────────────────────────────────────────────
 
